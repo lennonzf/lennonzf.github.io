@@ -1,36 +1,46 @@
 @charset "utf-8";
 @import "normalize";
 
-.letter {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  border: 3px solid black;
+html {
+  font-size: 62.5%;
+  color: black;
+}
 
-  p {
-    font-size: 5em;
-    padding: 0;
-    margin: 0;
-    color: white;
-    text-align: center;
-  }
+.box {
+  font-family: "manteka", sans-serif;
+  position: absolute;
+  padding: 0.5em;
+  font-size: 6em; //size of the box based on the font-size
+  text-align: center;
+  color: #4dbdff;
+  background-color: #4dbdff;
+  margin-top: 20px;
+  border: 3px solid #4dbdff;
 
-  &::before {
-    content: ' ';
+  &::after {
+    content: 'Something'; //text needs to be identical with the text in div
+    padding: 0.5em;
     position: absolute;
-    width: 103px;
-    height: 103px;
-    background-color: #4dbdff;
-    left: 62px;
-    top: 62px;
-    z-index: -999;
+    color: black;
+    z-index: 999;
+    left: -1rem;
+    top: -1rem;
+    border: 3px solid black;
   }
 }
 
-.l-1 {
-  font-family: "Cornerstone", sans-serif;
+.screen-center {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
 
-.l-2 {
-  font-family: "Manteka", sans-serif;
+p {
+  width: 100%;
+  @extend .screen-center;
+  font-family: serif;
+  position: absolute;
+  font-size: 4em;
+  top: 60%;
+  text-align: center;
 }
