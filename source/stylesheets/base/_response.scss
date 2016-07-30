@@ -1,0 +1,23 @@
+/* Reponsive Mixin
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin r($name) {
+  .#{$name} { @content }
+  @include breakpoint(small)  { .sm-#{$name}.sm-#{$name} { @content } }
+  @include breakpoint(medium) { .md-#{$name}.md-#{$name}.md-#{$name} { @content } }
+  @include breakpoint(large)  { .lg-#{$name}.lg-#{$name}.lg-#{$name}.lg-#{$name} { @content } }
+}
+
+
+/* Breakpoint
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media screen and (min-width: $desktop) { @content }
+  }
+  @else if $point == medium {
+    @media screen and (min-width: $tablet) and (max-width: $desktop) { @content }
+  }
+  @else if $point == small {
+    @media screen and (min-width: $tablet) { @content }
+  }
+}

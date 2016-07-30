@@ -1,0 +1,50 @@
+/* Spacings
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+form {
+  margin-bottom: 2.5rem;
+}
+
+p,
+small {
+  margin-top: 0;
+}
+
+/* Spacings Helper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@for $i from 0 through 20 {
+  // Padding
+  @include r(p#{$i})  { padding: #{$i / 2}rem; }
+  @include r(py#{$i}) { padding-top: #{$i / 2}rem; padding-bottom: #{$i / 2}rem; }
+  @include r(px#{$i}) { padding-left: #{$i / 2}rem; padding-right: #{$i / 2}rem; }
+  @include r(pt#{$i}) { padding-top: #{$i / 2}rem; }
+  @include r(pb#{$i}) { padding-bottom: #{$i / 2}rem; }
+  @include r(pl#{$i}) { padding-left: #{$i / 2}rem; }
+  @include r(pr#{$i}) { padding-right: #{$i / 2}rem; }
+
+  // Margin
+  @include r(m#{$i})  { margin: #{$i / 2}rem; }
+  @include r(my#{$i}) { margin-top: #{$i / 2}rem; margin-bottom: #{$i / 2}rem; }
+  @include r(mx#{$i}) { margin-left: #{$i / 2}rem; margin-right: #{$i / 2}rem; }
+  @include r(mt#{$i}) { margin-top: #{$i / 2}rem; }
+  @include r(mb#{$i}) { margin-bottom: #{$i /2}rem; }
+  @include r(ml#{$i}) { margin-left: #{$i / 2}rem; }
+  @include r(mr#{$i}) { margin-right: #{$i / 2}rem; }
+}
+
+
+/* Margin auto
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m-auto { margin-left: auto; margin-right: auto; }

@@ -1,0 +1,22 @@
+/* Hide
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: $tablet) {
+  .xs-hide { display: none !important }
+}
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  .md-hide  { display: none !important; }
+}
+
+@media screen and (min-width: $desktop) {
+  .lg-hide  { display: none !important; }
+}

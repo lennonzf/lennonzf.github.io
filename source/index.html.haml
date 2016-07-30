@@ -1,11 +1,50 @@
----
-title: Good stuff is yet to be delivered
----
+/ Header
+%section.border-bottom-solid.border-grey-light.mb5.p2
+  .container.flex.flex-wrap.justify-between.mb5
+    %span.flex.flex-wrap.u-clearfix.pt3
+      = link_to 'L', '#',
+        class: 'box-l'
+    %span.flex.flex-wrap.items-center.pt4.items-center
+      = link_to 'WORK', '#'
+      = link_to 'ABOUT', '#',
+        class: 'ml6'
+      = link_to 'BLOG', '#',
+        class: 'ml6'
+      = link_to 'FIND ME', '#',
+        class: 'ml6 pt1 pb1 pl3 pr3 bg-blue text-white bg-black-hover text-white-hover'
 
-.box.screen-center
-  Something
+/ Content
+%section.container.flex.flex-wrap.flex-auto.p2
+  .flex.flex-auto.flex-column.max-w750px.self-center.ml4
+    / .flex.flex-wrap.box Lennon
+    .box Lennon
+    .font-larger.sm-font-large.pt20
+      I help understanding problems through
+      %u.text-grey visualisation
+      , and seek a better
+      %u.text-grey user experience
+      in product design.
+    = link_to 'VIEW MY WORK >', '#',
+      class: 'pt4'
 
-/ %p
-/   I craft interface and
-/   %br
-/   seek a better user experience.
+/ Footer
+%section.container.flex.flex-wrap.justify-between.content-center.p2.pt3.pb3
+  %span.flex.flex-wrap
+    = link_to 'INSTAGRAM',
+      'https://www.instagram.com/lennonzf/',
+      target: 'auto',
+      class: 'mr1'
+    %span.mr1.text-grey-light /
+    = link_to 'DRIBBBLE', '#',
+      class: 'mr1'
+    %span.mr1.text-grey-light /
+    = link_to 'LINKEDIN', '#',
+      class: 'mr1'
+    %span.mr1.text-grey-light /
+    = link_to 'GITHUB', '#',
+      class: 'mr1'
+  %span.flex.flex-wrap.text-grey
+    = link_to 'SOURCE CODE', '#',
+      class: 'mr1'
+    %span.mr1.text-grey-light /
+    2016 &copy; LENNON CHENG

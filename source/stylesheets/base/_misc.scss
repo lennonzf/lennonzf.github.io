@@ -1,0 +1,61 @@
+/* Miscellaneous
+/  - Border
+/  - Required Asterisk
+/  - Display Properties
+/  - Float
+/  - Position
+/  - Horizontal Line
+/  - Clearfix hack
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Border
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.rounded              { border-radius: $border-radius; }
+.border-full          { border: $border; }
+.border-bottom-solid  { border-bottom-width: 1px; border-bottom-style: solid; }
+
+/* Display Properties
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.block        { display: block; }
+.inline-block { display: inline-block; }
+
+/* Float
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-pull-right { float: right; }
+.u-pull-left  { float: left; }
+.u-pull-none  { float: none; }
+
+/* Position
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-fixed { position: fixed; }
+
+/* Horizontal Line
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  border-top: 1px solid $grey-light;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/* Clearfix hack
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-clearfix {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/* Selection
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+::selection {
+  color: $white;
+  background-color: $blue;
+}

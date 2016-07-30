@@ -1,0 +1,64 @@
+/* Color Collection
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color-collection:       ($white,
+                          $black,
+                          $grey-dark,
+                          $grey,
+                          $grey-light,
+                          $blue);
+
+$color-name-collection:  ('white',
+                          'black',
+                          'grey-dark',
+                          'grey',
+                          'grey-light',
+                          'blue');
+
+/* Color Helper Mixin
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin color-helper($attribute, $color) {
+  .#{$attribute}-#{$color} { @content }
+}
+
+@mixin color-helper-hover($attribute, $color) {
+  .#{$attribute}-#{$color}-hover:hover { @content }
+}
+
+
+/* Color Helper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@for $i from 0 to length($color-collection) {
+  $color-name: nth($color-name-collection, $i+1);
+  $color-value: nth($color-collection, $i+1);
+
+  // Text color
+  @include color-helper('text', $color-name) {
+    color: $color-value;
+  }
+
+  // Text hover color
+  @include color-helper-hover('text', $color-name) {
+    color: $color-value !important;
+  }
+
+  // Background color
+  @include color-helper('bg', $color-name) {
+    background-color: $color-value;
+  }
+
+  // Background hover color
+  @include color-helper-hover('bg', $color-name) {
+    background-color: $color-value;
+  }
+
+  // Border color
+  // $grey-light by default
+  @include color-helper('border', $color-name) {
+    border-color: $color-value !important;
+  }
+
+  // Border hover color
+  @include color-helper-hover('border', $color-name) {
+    border-color: $color-value !important;
+  }
+}

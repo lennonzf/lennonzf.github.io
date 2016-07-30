@@ -1,0 +1,23 @@
+/* Type Helpers
+/  - Font Weight
+/  - Font Style
+/  - Text Align
+/  - Text Transform
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+// Font Weight
+.light          { font-weight: 300; }
+.regular        { font-weight: 400; }
+.semi           { font-weight: 600; }
+.bold           { font-weight: 700; }
+
+// Font Style
+.italic         { font-style: italic; }
+
+// Text Align
+.right-align    { text-align: right; }
+.left-align     { text-align: left; }
+.center-align   { text-align: center; }
+
+// Text Transform
+.uppercase      { text-transform: uppercase; }
+.capitalize     { text-transform: capitalize; }

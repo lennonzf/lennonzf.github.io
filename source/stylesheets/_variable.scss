@@ -1,0 +1,46 @@
+/* Color Variable
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$white:             #FFFFFF;
+$black:             #1A1A1A;
+$grey-light:        #EFEFEF;
+$grey:              #BEBEBE;
+$grey-dark:         #CECECE;
+$blue:              #4DBDFF;
+
+/* Font Size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$font-base:               1.6rem; // 16px
+$font-small:              $font-base * 0.875;   // 14px
+$font-smaller:            $font-base * 0.75;    // 12px
+$font-large:              $font-base * 1.5;     // 24px
+$font-larger:             $font-base * 2.25;    // 36px
+$font-title:              $font-base * 3.375;   // 54px
+
+/* Line height
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$font-sans:               "San Francisco Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif:              Georgia, "Times New Roman", Times, serif;
+$font-mono:               Monaco, Courier, monospace;
+
+/* Line height
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$line-height-base:        1.5;
+$line-height-small:       1.375;
+$line-height-smaller:     1.25;
+$line-height-smallest:    1.125;
+$line-height-large:       1.75;
+
+/* Border Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$border:                  1px solid;
+$border-radius:           2px;
+
+/* Transition
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$text-transition:         color 0.15s ease-in-out 0s;
+$button-transition:       border 0.3s ease 0s;
+
+/* Breakpoint Size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$tablet:                  768px;
+$desktop:                 1024px;

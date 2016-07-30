@@ -1,0 +1,35 @@
+/* General stuff
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html,
+body {
+  height: 100%;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: $font-base;
+  font-family: $font-sans;
+  font-weight: 400;
+  line-height: $line-height-base;
+  color: $black;
+  box-sizing: border-box;
+  // Better text rendering
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}

@@ -1,46 +1,24 @@
 @charset "utf-8";
 @import "normalize";
+@import "variable";
 
-html {
-  font-size: 62.5%;
-  color: black;
-}
+@import "base/general";
+@import "base/response";
+@import "base/size";
+@import "base/spacing";
+@import "base/box";
+@import "base/flex";
+@import "base/color";
+@import "base/heading";
+@import "base/misc";
+@import "base/hide";
+@import "base/link";
+@import "base/type_helper";
+@import "base/font_size";
 
-.box {
-  font-family: "manteka", sans-serif;
-  position: absolute;
-  padding: 0.5em;
-  font-size: 6em; //size of the box based on the font-size
-  text-align: center;
-  color: #4dbdff;
-  background-color: #4dbdff;
-  margin-top: 20px;
-  border: 3px solid #4dbdff;
-
-  &::after {
-    content: 'Something'; //text needs to be identical with the text in div
-    padding: 0.5em;
-    position: absolute;
-    color: black;
-    z-index: 999;
-    left: -1rem;
-    top: -1rem;
-    border: 3px solid black;
-  }
-}
 
 .screen-center {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -100%);
-}
-
-p {
-  width: 100%;
-  @extend .screen-center;
-  font-family: serif;
-  position: absolute;
-  font-size: 4em;
-  top: 60%;
-  text-align: center;
 }
