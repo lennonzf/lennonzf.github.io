@@ -1,7 +1,12 @@
 @charset "utf-8";
+
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import "normalize";
 @import "variable";
 
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import "base/general";
 @import "base/response";
 @import "base/size";
@@ -15,10 +20,3 @@
 @import "base/link";
 @import "base/type_helper";
 @import "base/font_size";
-
-
-.screen-center {
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -100%);
-}
