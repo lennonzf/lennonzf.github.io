@@ -9,4 +9,8 @@
     = stylesheet_link_tag "site"
 
 %body.flex.flex-column.min-h100vh.relative.sm-flex-column
+  = partial 'partials/header'
+
   = yield
+
+  = partial 'partials/footer'
