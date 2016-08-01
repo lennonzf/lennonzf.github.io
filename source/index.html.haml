@@ -1,17 +1,4 @@
-/ Header
-%section.border-bottom-solid.border-grey-light.mb5.p2.w100
-  .container.flex.flex-wrap.justify-between.mb5
-    %span.flex.flex-wrap.u-clearfix.pt3
-      = link_to 'L', '#',
-        class: 'box-l noselect'
-    %span.flex.flex-wrap.items-center.pt4.items-center
-      = link_to 'WORK', '#'
-      = link_to 'ABOUT', '#',
-        class: 'ml6 xs-hide'
-      = link_to 'BLOG', '#',
-        class: 'ml6 xs-hide'
-      = link_to 'FIND ME', '#',
-        class: 'ml6 pt1 pb1 pl3 pr3 bg-blue text-white bg-black-hover text-white-hover'
+= partial 'partials/header'
 
 / Content
 %section.container.flex.flex-wrap.flex-auto.p2.w100
@@ -27,27 +14,4 @@
     = link_to 'VIEW MY WORK >', '#',
       class: 'pt4'
 
-/ Footer
-%section.container.flex.flex-wrap.justify-between.content-center.p2.pt3.pb3.w100
-  %span.flex.flex-wrap.xs-hide
-    = link_to 'INSTAGRAM',
-      'https://www.instagram.com/lennonzf/',
-      target: 'auto',
-      class: 'mr1'
-    %span.mr1.text-grey-light /
-    = link_to 'LINKEDIN',
-      'https://au.linkedin.com/in/lennonzf',
-      target: 'auto',
-      class: 'mr1'
-    %span.mr1.text-grey-light /
-    = link_to 'GITHUB',
-      'https://github.com/lennonzf',
-      target: 'auto',
-      class: 'mr1'
-  %span.flex.flex-wrap.text-grey
-    = link_to 'SOURCE CODE',
-      'https://github.com/lennonzf/lennonzf.github.io',
-      target: 'auto',
-      class: 'mr1'
-    %span.mr1.text-grey-light /
-    2016 &copy; LENNON CHENG
+= partial 'partials/footer'
