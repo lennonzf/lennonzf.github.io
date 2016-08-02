@@ -9,7 +9,6 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import "base/general";
 @import "base/response";
-@import "base/size";
 @import "base/spacing";
 @import "base/box";
 @import "base/flex";
@@ -20,3 +19,8 @@
 @import "base/link";
 @import "base/type_helper";
 @import "base/font_size";
+
+/* Module
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import "module/size";
+@import "module/background_image";

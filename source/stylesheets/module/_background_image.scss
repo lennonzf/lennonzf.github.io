@@ -1,0 +1,20 @@
+.bg-image-base {
+  background-size: cover;
+  transition: background-image 0.2s ease;
+}
+
+.bg-image-smart-clinics {
+  @extend .bg-image-base;
+  background-position: right 0;
+  background-image: url("images/smartclinics-grey.jpg");
+
+  &:hover {
+    background-image: url("images/smartclinics-blue.jpg");
+  }
+}
+
+.bg-image-pt-hub-online {
+  @extend .bg-image-base;
+  background-position: center 0;
+  background-image: url("images/pt-hub-online-grey.jpg");
+}
