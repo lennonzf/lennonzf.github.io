@@ -27,7 +27,9 @@
 
 /* Position
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-fixed { position: fixed; }
+.u-fixed      { position: fixed; }
+.u-relative   { position: relative; }
+.u-absolute   { position: absolute; }
 
 /* Horizontal Line
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -70,3 +72,16 @@ u {
   text-decoration: none;
   border-bottom: 2px solid $grey-light;
 }
+
+/* Z Index
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+
+/* Opacity
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.o6 { opacity: 0.6; }
+
+/* trasition
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bg-transition { transition: background-color 0.3s ease; }
