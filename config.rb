@@ -53,3 +53,12 @@ activate :deploy do |deploy|
   deploy.build_before   = true
   deploy.commit_message = 'Deploying to master'
 end
+
+# Helper Methods
+helpers do
+  def active_link_to(text, path, options)
+    # Define selected style
+    active_css_class = "text-black" if current_page.url.delete('/') == path.delete('/')
+    link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
+  end
+end

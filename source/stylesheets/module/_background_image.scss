@@ -1,0 +1,21 @@
+.bg-image-base {
+  background-size: cover;
+  transition: background-image 0.2s ease;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-image-smart-clinics {
+  @extend .bg-image-base;
+  background-position: right 0;
+  background-image: image-url("projects/smart-clinics.jpg");
+}
+
+.bg-image-pt-hub-online {
+  @extend .bg-image-base;
+  background-position: center 0;
+  background-image: image-url("projects/pt-hub-online.jpg");
+}

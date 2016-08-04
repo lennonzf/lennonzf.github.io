@@ -2,13 +2,13 @@
 %section.border-grey-light.mb5.p2.w100
   .container.flex.flex-wrap.justify-between.mb5
     %span.flex.flex-wrap.u-clearfix.pt3
-      = link_to 'L', '/index.html',
+      = link_to 'L', 'index.html',
         class: 'box-l noselect'
-    %span.flex.flex-wrap.items-center.pt4.items-center
-      = link_to 'WORK', '/work.html'
-      = link_to 'ABOUT', '#',
+    %span.flex.flex-wrap.pt4.items-center
+      = active_link_to 'WORK', 'work.html', class: 'regular'
+      = active_link_to 'ABOUT', '#',
         class: 'ml6 xs-hide'
-      = link_to 'BLOG', '#',
+      = active_link_to 'BLOG', '#',
         class: 'ml6 xs-hide'
       = link_to 'FIND ME', '#',
         class: 'ml6 pt1 pb1 pl3 pr3 bg-blue text-white bg-black-hover text-white-hover'
