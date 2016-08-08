@@ -3,9 +3,10 @@
   .container.flex.flex-wrap.justify-between.mb5
     %span.flex.flex-wrap.u-clearfix.pt3
       = link_to 'L', 'index.html',
-        class: 'box-l noselect'
+        class: 'box-l no-select no-transition'
     %span.flex.flex-wrap.pt4.items-center
-      = active_link_to 'WORK', 'work.html', class: 'regular'
+      = active_link_to 'WORK', 'work.html',
+        class: 'regular'
       = active_link_to 'ABOUT', '#',
         class: 'ml6 xs-hide'
       = active_link_to 'BLOG', '#',

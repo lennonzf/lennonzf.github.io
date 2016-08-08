@@ -58,7 +58,7 @@ hr {
 /* Selection
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ::selection { color: $white; background-color: $blue; }
-.noselect   {
+.no-select   {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
@@ -84,4 +84,5 @@ u {
 
 /* trasition
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.bg-transition { transition: background-color 0.3s ease; }
+.no-transition { transition: none; }
+.all-transition { transition: $all-transition; }

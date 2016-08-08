@@ -3,6 +3,7 @@
 a {
   color: $grey;
   text-decoration: none;
+  transition: $all-transition;
 
   &:link,
   &:hover,
