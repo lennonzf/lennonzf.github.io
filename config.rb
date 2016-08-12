@@ -1,4 +1,11 @@
 ###
+# Asset directories
+###
+config[:js_dir]     = 'assets/javascripts'
+config[:css_dir]    = 'assets/stylesheets'
+config[:images_dir] = 'assets/images'
+
+###
 # Page options, layouts, aliases and proxies
 ###
 
