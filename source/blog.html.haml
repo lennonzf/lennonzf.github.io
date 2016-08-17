@@ -2,17 +2,17 @@
 title: Blog | Lennon Cheng - UX Designer
 ---
 
-%section.container.flex-auto.p2.max-w600px
+%section.container.flex-auto.p2.sm-p4.max-w600px
   - blog.articles.each do |article|
     %section.border-bottom-solid.border-grey-light.py4
       = link_to article.title, article.url,
-        class: 'font-larger text-black text-blue-hover mb0'
+        class: 'font-larger text-black text-blue-hover mb0 light'
       .flex.flex-wrap.mt1
-        %p.mb0.uppercase.font-small.mr3= article.date.strftime('%e %b %Y')
+        %p.mb0.uppercase.font-small.sm-font-smaller.mr3.light= article.date.strftime('%e %b %Y')
         %p.mb0.uppercase.font-small.flex
           - article.tags.each do |tag|
-            .text-blue.font-small.uppercase= tag
-            %span.text-grey-light.font-small.mx1 /
-      %p.mt1.mb0.font-large.text-grey= Nokogiri::HTML(article.summary).text
+            .text-blue.font-small.sm-font-smaller.uppercase.light= tag
+            %span.text-grey-light.font-small.sm-font-smaller.mx1.light /
+      %p.mt0.mb0.font-large.sm-font-base.text-grey.light= Nokogiri::HTML(article.summary).text
 
 
