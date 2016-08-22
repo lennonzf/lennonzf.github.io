@@ -1,0 +1,24 @@
+/* Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  padding: 0.75rem 2rem;
+  background-color: $blue;
+  border: none;
+  color: $white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: $all-transition;
+  font-weight: 300;
+
+  &:hover,
+  &:focus {
+    background-color: $black;
+    outline: 0;
+  }
+}

@@ -1,0 +1,74 @@
+/* Inputs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  padding: 0.5rem 1rem;
+  border: $border;
+  border-color: $grey-light;
+  outline: 0;
+  border-radius: 0;
+
+  &:focus {
+    border-color: $blue;
+    transition: border-color 0.2s;
+
+    ~ label {
+      color: $black;
+    }
+  }
+
+  &:disabled {
+    background-color: $grey-light;
+  }
+}
+
+input[type="submit"] {
+  border: 0;
+  background-color: initial;
+  border-width: 1px;
+  border-style: solid;
+}
+
+input[type="file"],
+select,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+select,
+textarea {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: $border;
+  border-color: $grey-light;
+  cursor: pointer;
+  background-color: $white;
+  background-repeat: no-repeat;
+  background-position: top 0.75em right 1em;
+  background-size: 1.5rem;
+  width: 100%;
+  outline: none;
+
+  &:focus {
+    border-color: $blue;
+    transition: border-color 0.2s;
+
+    ~ label {
+      color: $black;
+    }
+  }
+}
+
+textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
