@@ -34,14 +34,6 @@
   }
 }
 
-.box-thankyou {
-  @extend .box;
-
-  &::after {
-    content: 'Thank you';
-  }
-}
-
 .box-l {
   @extend .box-base;
   font-size: 2.5rem; //size of the box based on the font-size
