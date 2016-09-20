@@ -2,6 +2,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 
+.roboto { font-family: $font-sans; }
+
 /* Manteka
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
@@ -12,3 +14,5 @@
        url("../fonts/manteka-webfont.svg") format("svg"),
        url("../fonts/manteka.ttf") format("truetype");
 }
+
+.manteka { font-family: $font-manteka; }

@@ -9,10 +9,6 @@ h6 {
   margin-bottom: 0.75em;
   margin-top: 0;
   letter-spacing: 0;
-
-  @media screen and (min-width: $tablet) {
-    margin-bottom: 1.5em;
-  }
 }
 
 h1,
@@ -24,6 +20,5 @@ h3 {
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
   line-height: $line-height-smaller;
 }

@@ -1,0 +1,22 @@
+.card {
+  @extend .mb2;
+  @extend .flex;
+  @extend .flex-column;
+  @extend .border-full;
+  @extend .border-grey-xxlight;
+  @extend .center-align;
+  @extend .h100;
+
+  .card-header {
+    @extend .p1;
+    @extend .bg-grey-xxlight;
+    @extend .text-grey-dark;
+  }
+
+  .card-footer {
+    @extend .p1;
+    @extend .text-blue;
+    @extend .border-top-solid;
+    @extend .border-grey-xxlight;
+  }
+}

@@ -12,11 +12,11 @@
 .box {
   @extend .box-base;
   font-size: 2em; //size of the box based on the font-size
-  color: #4dbdff;
-  background-color: #4dbdff;
+  color: $blue;
+  background-color: $blue;
   margin-left: 1rem;
   margin-top: 1rem;
-  border: 4px solid #4dbdff;
+  border: 4px solid $blue;
 
   &::after {
     content: 'Lennon'; //text needs to be identical with the text in div
@@ -37,20 +37,20 @@
 .box-l {
   @extend .box-base;
   font-size: 2.5rem; //size of the box based on the font-size
-  color: $grey-light;
-  background-color: $grey-light;
+  color: $grey-xlight;
+  background-color: $grey-xlight;
   margin-left: 0.75rem;
-  border: 3px solid $grey-light;
+  border: 3px solid $grey-xlight;
 
   &::after {
     content: 'L'; //text needs to be identical with the text in div
     padding: 0.3em;
     position: absolute;
-    color: $grey-dark;
+    color: $grey;
     z-index: 999;
     left: -0.75rem;
     top: -0.75rem;
-    border: 3px solid $grey-dark;
+    border: 3px solid $grey;
   }
 
   &:hover {
