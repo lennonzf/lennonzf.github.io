@@ -4,7 +4,7 @@ title: Style Guide | Lennon Cheng - UX Designer
 
 .container.max-w450px
   %h1.light.center-align Style Guide
-  %p This is a style guide as a general template for any future web project to adapt and to reference.
+  %p.mb10 During development of various projects, a major problem I am facing with is keeping the style and use of classes consistent.
 
   // Typography
   %h3.light.text-blue Typography
@@ -20,7 +20,7 @@ title: Style Guide | Lennon Cheng - UX Designer
         .p4.font-large Roboto
         .card-footer .roboto
 
-  // Font Weight
+  // Font
   %h3.light.text-blue Font
   .mb10
     .flex.flex-wrap.justify-between
@@ -44,7 +44,39 @@ title: Style Guide | Lennon Cheng - UX Designer
         .p4.font-large.italic Italic
         .card-footer .italic
 
+  // Size
+  %h3.light.text-blue Size
+  .mb10
+    .flex.flex-wrap.justify-between
+      .w49.card
+        .card-header 12px
+        .p4.font-smaller.light Smaller
+        .card-footer .font-smaller
 
+      .w49.card
+        .card-header 14px
+        .p4.font-small.light Small
+        .card-footer .font-small
+
+      .w49.card
+        .card-header 16px
+        .p4.font-base.light Base
+        .card-footer .font-base
+
+      .w49.card
+        .card-header 24px
+        .p4.font-large.light Large
+        .card-footer .font-large
+
+      .w49.card
+        .card-header 36px
+        .p4.font-larger.light Larger
+        .card-footer .font-larger
+
+      .w49.card
+        .card-header 54px
+        .p4.font-title.light Title
+        .card-footer .font-title
 
   // Heading
   %h3.light.text-blue Headings
@@ -52,11 +84,11 @@ title: Style Guide | Lennon Cheng - UX Designer
     .flex.flex-wrap
       .w100.card
         %h1.mb0.p4.light Main heading
-        .card-footer h3.light
+        .card-footer h1.light
 
       .w100.card
         %h2.mb0.p4.light Subpage heading
-        .card-footer h3.light
+        .card-footer h2.light
 
       .w100.card
         %h3.mb0.p4.light Section Heading
