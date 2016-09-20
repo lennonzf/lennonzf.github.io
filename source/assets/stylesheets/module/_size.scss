@@ -11,6 +11,10 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: $tablet) {
+    padding: 1rem;
+  }
 }
 
 /* Max Width
