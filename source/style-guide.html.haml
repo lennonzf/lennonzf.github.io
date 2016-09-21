@@ -2,96 +2,171 @@
 title: Style Guide | Lennon Cheng - UX Designer
 ---
 
-.container.max-w450px
+.container.max-w750px
   %h1.light.center-align Style Guide
-  %p.mb10 During development of various projects, a major problem I am facing with is keeping the style and use of classes consistent.
-
-  // Typography
-  %h3.light.text-blue Typography
   .mb10
-    .flex.flex-wrap.justify-between
-      .w49.card
-        .card-header Logo
-        .p4.font-large.manteka Mentenka
-        .card-footer .menteka
+  .flex.justify-between
+    .container.max-w150px
+      %ul.mt0
+        %li Intro
+        %li Font
+        %ul
+          %li Typography
+          %li Size
+          %li Helper
+          %li Heading
+        %li Color
 
-      .w49.card
-        .card-header Content
-        .p4.font-large Roboto
-        .card-footer .roboto
+    .container.max-w450px
+      %h2.light.text-blue Intro
+      .mb10
+        %p During development of various projects, a major problem I am facing is to keep the style and use of classes consistent. This also causes a huge headache when I jump back and forth.
+        %p As a practice, I am developing this style guide to help me manage the visual style of the website and to provide a template for any future projects I will be working on.
+        %p This site utilizes SASS with SCSS syntax and adopted principal from functional CSS.
 
-  // Font
-  %h3.light.text-blue Font
-  .mb10
-    .flex.flex-wrap.justify-between
-      .w49.card
-        .p4.font-large.light Light
-        .card-footer .light
+      // Font
+      %h2.light.text-blue Font
+      %h3.light.text-grey-dark Typography
+      .mb10
+        .mb6
+          .flex.flex-wrap.justify-between
+            .w49.card
+              .card-header Logo
+              .p4.font-large.manteka Mentenka
+              .card-footer .menteka
 
-      .w49.card
-        .p4.font-large.regular Regular
-        .card-footer .regular
+            .w49.card
+              .card-header Content
+              .p4.font-large Roboto
+              .card-footer .roboto
 
-      .w49.card
-        .p4.font-large.semi Semi
-        .card-footer .semi
+        // Size
+        %h3.light.text-grey-dark Size
+        .mb6
+          .flex.flex-wrap.justify-between
+            .w32.card
+              .card-header 12px
+              .p4.font-smaller.light Smaller
+              .card-footer .font-smaller
 
-      .w49.card
-        .p4.font-large.bold Bold
-        .card-footer .bold
+            .w32.card
+              .card-header 14px
+              .p4.font-small.light Small
+              .card-footer .font-small
 
-      .w49.card
-        .p4.font-large.italic Italic
-        .card-footer .italic
+            .w32.card
+              .card-header 16px
+              .p4.font-base.light Base
+              .card-footer .font-base
 
-  // Size
-  %h3.light.text-blue Size
-  .mb10
-    .flex.flex-wrap.justify-between
-      .w49.card
-        .card-header 12px
-        .p4.font-smaller.light Smaller
-        .card-footer .font-smaller
+            .w32.card
+              .card-header 24px
+              .p4.font-large.light Large
+              .card-footer .font-large
 
-      .w49.card
-        .card-header 14px
-        .p4.font-small.light Small
-        .card-footer .font-small
+            .w32.card
+              .card-header 36px
+              .p4.font-larger.light Larger
+              .card-footer .font-larger
 
-      .w49.card
-        .card-header 16px
-        .p4.font-base.light Base
-        .card-footer .font-base
+            .w32.card
+              .card-header 54px
+              .p4.font-title.light Title
+              .card-footer .font-title
 
-      .w49.card
-        .card-header 24px
-        .p4.font-large.light Large
-        .card-footer .font-large
+        // Font
+        %h3.light.text-grey-dark Helper
+        .mb6
+          .flex.flex-wrap.justify-between
+            .w32.card
+              .p4.font-large.light Light
+              .card-footer .light
 
-      .w49.card
-        .card-header 36px
-        .p4.font-larger.light Larger
-        .card-footer .font-larger
+            .w32.card
+              .p4.font-large.regular Regular
+              .card-footer .regular
 
-      .w49.card
-        .card-header 54px
-        .p4.font-title.light Title
-        .card-footer .font-title
+            .w32.card
+              .p4.font-large.semi Semi
+              .card-footer .semi
 
-  // Heading
-  %h3.light.text-blue Headings
-  .mb10
-    .flex.flex-wrap
-      .w100.card
-        %h1.mb0.p4.light Main heading
-        .card-footer h1.light
+            .w32.card
+              .p4.font-large.bold Bold
+              .card-footer .bold
 
-      .w100.card
-        %h2.mb0.p4.light Subpage heading
-        .card-footer h2.light
+            .w32.card
+              .p4.font-large.italic Italic
+              .card-footer .italic
 
-      .w100.card
-        %h3.mb0.p4.light Section Heading
-        .card-footer h3.light
+            .w32
+
+        // Heading
+        %h3.light.text-grey-dark Heading
+        .mb6
+          .flex.flex-wrap
+            .w100.card
+              %h1.mb0.p4.light Main heading
+              .card-footer h1.light
+
+            .w100.card
+              %h2.mb0.p4.light.text-blue Section heading
+              .card-footer h2.light.text-blue
+
+            .w100.card
+              %h3.mb0.p4.light.text-grey-dark Sub-section Heading
+              .card-footer h3.light.text-grey-dark
+
+            .w100.card
+              %h4.mb0.p4 Content
+              .card-footer h4
+
+        // Color
+        %h2.light.text-blue Color
+        .mb6
+          .flex.flex-wrap.justify-between
+            .w32.card
+              .card-header #FFFFFF
+              .p8.bg-white
+              .card-footer $white
+
+            .w32.card
+              .card-header #4DBDFF
+              .p8.bg-blue
+              .card-footer $blue
+
+            .w32.card
+              .card-header #1A1A1A
+              .p8.bg-black
+              .card-footer $black
+
+            .w32.card
+              .card-header #F2F2F2
+              .p8.bg-grey-xxlight
+              .card-footer $grey-xxlight
+
+            .w32.card
+              .card-header #EAEAEA
+              .p8.bg-grey-xlight
+              .card-footer $grey-xlight
+
+            .w32.card
+              .card-header #DEDEDE
+              .p8.bg-grey-light
+              .card-footer $grey-light
+
+            .w32.card
+              .card-header #BEBEBE
+              .p8.bg-grey
+              .card-footer $grey
+
+            .w32.card
+              .card-header #9B9B9B
+              .p8.bg-grey-dark
+              .card-footer $grey-dark
+
+            .w32.card
+              .card-header #444444
+              .p8.bg-grey-xdark
+              .card-footer $grey-xdark
 
 
