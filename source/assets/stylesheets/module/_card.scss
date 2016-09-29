@@ -12,6 +12,7 @@
   @extend .p1;
   @extend .bg-grey-xxlight;
   @extend .text-grey;
+  @extend .font-small;
 }
 
 .card-footer {
@@ -19,4 +20,5 @@
   @extend .text-blue;
   @extend .border-top-solid;
   @extend .border-grey-xxlight;
+  @extend .font-small;
 }

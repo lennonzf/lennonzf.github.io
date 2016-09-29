@@ -1,0 +1,32 @@
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.c1in1 { width: 100%; }
+.c2in3 { width: 66%; }
+.c1in2 { width: 49%; }
+.c1in3 { width: 32%; }
+
+
+
+// lg
+@media screen and (min-width: $desktop) {
+  .lg-c1in1 { width: 100%; }
+  .lg-c2in3 { width: 66%; }
+  .lg-c1in2 { width: 49%; }
+  .lg-c1in3 { width: 32%; }
+}
+
+// md
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  .md-c1in1.md-c1in1 { width: 100%; }
+  .md-c2in3.md-c2in3 { width: 66%; }
+  .md-c1in2.md-c1in2 { width: 49%; }
+  .md-c1in3.md-c1in3 { width: 32%; }
+}
+
+// sm
+@media screen and (max-width: $tablet) {
+  .sm-c1in1.sm-c1in1.sm-c1in1 { width: 100%; }
+  .sm-c2in3.sm-c2in3.sm-c2in3 { width: 66%; }
+  .sm-c1in2.sm-c1in2.sm-c1in2 { width: 49%; }
+  .sm-c1in3.sm-c1in3.sm-c1in3 { width: 32%; }
+}

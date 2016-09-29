@@ -3,19 +3,42 @@
 
 // 54px
 h1,
-.font-title   { font-size: $font-title; }
+.font-title   {
+  font-size: $font-title;
+
+  // 36px
+  @media screen and (max-width: $tablet) {
+    font-size: $font-larger;
+  }
+}
 
 // 36px
 h2,
-.font-larger  { font-size: $font-larger; }
+.font-larger  {
+  font-size: $font-larger;
+
+  // 24px
+  @media screen and (max-width: $tablet) {
+    font-size: $font-large;
+  }
+}
 
 // 24px
 h3,
-.font-large   { font-size: $font-large; }
+.font-large   {
+  font-size: $font-large;
+
+  // 20px
+  @media screen and (max-width: $tablet) {
+    font-size: $font-base * 1.25;
+  }
+}
 
 // 16px
 h4,
-.font-base    { font-size: $font-base; }
+.font-base    {
+  font-size: $font-base;
+}
 
 // 14px
 h5,

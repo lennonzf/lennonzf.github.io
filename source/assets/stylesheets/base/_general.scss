@@ -8,6 +8,11 @@ body {
 html {
   margin: 0;
   font-size: 62.5%; // 1rem = 10px
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
