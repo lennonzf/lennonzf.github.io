@@ -6,19 +6,52 @@ title: Style Guide | Lennon Cheng - UX Designer
   %h1.light.center-align Style Guide
 
   .flex.justify-between.sm-flex-column
-    .container.max-w150px
-      %ul.mt0
-        %li Intro
-        %li Screen
-        %li Grid
-        %li Font
-        %ul
-          %li Typography
-          %li Size
-          %li Helper
-          %li Heading
-        %li Color
-        %li Article
+    .container.max-w150px.sm-hide
+      .u-fixed
+        %ul.mt0
+          %li
+            %a{'data-scroll': 'true', href: '#intro'} Intro
+          %li
+            %a{'data-scroll': 'true', href: '#screen'} Screen
+          %ul
+            %li
+              %a{'data-scroll': 'true', href: '#break-point'} Break Point
+            %li
+              %a{'data-scroll': 'true', href: '#hide'} Hide
+          %li
+            %a{'data-scroll': 'true', href: '#grid'} Grid
+          %ul
+            %li
+              %a{'data-scroll': 'true', href: '#one-column'} One Column
+            %li
+              %a{'data-scroll': 'true', href: '#two-columns'} Two Columns
+            %li
+              %a{'data-scroll': 'true', href: '#three-columns'} Three Columns
+            %li
+              %a{'data-scroll': 'true', href: '#mix'} Mix
+          %li
+            %a{'data-scroll': 'true', href: '#font'} Font
+          %ul
+            %li
+              %a{'data-scroll': 'true', href: '#typography'} Typography
+            %li
+              %a{'data-scroll': 'true', href: '#size'} Size
+            %li
+              %a{'data-scroll': 'true', href: '#helper'} Helper
+
+          %li
+            %a{'data-scroll': 'true', href: '#color'} Color
+          %li
+            %a{'data-scroll': 'true', href: '#article'} Article
+          %ul
+            %li
+              %a{'data-scroll': 'true', href: '#heading'} Heading
+            %li
+              %a{'data-scroll': 'true', href: '#paragraph'} Paragraph
+            %li
+              %a{'data-scroll': 'true', href: '#link'} Link
+            %li
+              %a{'data-scroll': 'true', href: '#list'} List
 
     .container.max-w600px
       = partial 'partials/style-guide/intro'
