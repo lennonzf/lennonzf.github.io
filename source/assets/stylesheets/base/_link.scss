@@ -1,9 +1,13 @@
 /* Hyperlink
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $grey;
+  color: $blue;
   text-decoration: none;
   transition: $all-transition;
+
+  &.nav {
+    color: $grey;
+  }
 
   &:link,
   &:hover,

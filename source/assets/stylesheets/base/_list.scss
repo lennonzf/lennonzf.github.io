@@ -1,0 +1,38 @@
+/* List
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.75em;
+
+  li {
+    padding-left: 1rem;
+
+    &:before {
+      content: '•';
+      font-size: $font-base;
+      padding-right: 1.5rem;
+      color: $grey;
+    }
+  }
+
+  > ul {
+    padding-left: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+ol {
+  margin: 0;
+  margin-bottom: 0.75em;
+
+  li {
+    padding-left: 0.75rem;
+  }
+
+  > ol {
+    padding-left: 2rem;
+    margin-bottom: 0;
+  }
+}
