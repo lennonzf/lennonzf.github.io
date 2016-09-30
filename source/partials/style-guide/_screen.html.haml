@@ -17,7 +17,34 @@
       .card-header < 768px
       .card-footer .sm-
 
+  // Hidden
+  %h3.light.text-grey-dark Hide
+  .mb6
+    .flex.flex-wrap.justify-between
+      .c1in2.card
+        .card-header No Hide
+        .card-footer none
 
+      .c1in2.card
+        .lg-hide
+          .card-header Hide Desktop
+          .card-footer .lg-hide
 
+        .md-hide.sm-hide
+          .p3.font-small.text-grey-light .lg-hide disappeared
 
+      .c1in2.card
+        .md-hide
+          .card-header Hide Tablet
+          .card-footer .md-hide
 
+        .lg-hide.sm-hide
+          .p3.font-small.text-grey-light .md-hide disappeared
+
+      .c1in2.card
+        .sm-hide
+          .card-header Hide Mobile
+          .card-footer .sm-hide
+
+        .lg-hide.md-hide
+          .p3.font-small.text-grey-light .sm-hide disappeared

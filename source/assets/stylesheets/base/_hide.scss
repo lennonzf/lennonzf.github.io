@@ -1,6 +1,5 @@
 /* Hide
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .hide {
   position: absolute !important;
   height: 1px;
@@ -10,7 +9,7 @@
 }
 
 @media (max-width: $tablet) {
-  .xs-hide { display: none !important }
+  .sm-hide { display: none !important }
 }
 
 @media screen and (min-width: $tablet) and (max-width: $desktop) {
