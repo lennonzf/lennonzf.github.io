@@ -7,51 +7,64 @@ title: Style Guide | Lennon Cheng - UX Designer
 
   .flex.justify-between.sm-flex-column
     .container.max-w150px.sm-hide
-      .u-fixed
-        %ul.mt0
+      .pt5
+        %ol.side-nav
+
           %li
             %a{'data-scroll': 'true', href: '#intro'} Intro
+
           %li
             %a{'data-scroll': 'true', href: '#screen'} Screen
-          %ul
-            %li
-              %a{'data-scroll': 'true', href: '#break-point'} Break Point
-            %li
-              %a{'data-scroll': 'true', href: '#hide'} Hide
+            %input.mb0#nav-screen{type: 'checkbox'}
+              %label{for: 'nav-screen'}
+            %ol
+              %li
+                %a{'data-scroll': 'true', href: '#break-point'} Break Point
+              %li
+                %a{'data-scroll': 'true', href: '#hide'} Hide
+
           %li
             %a{'data-scroll': 'true', href: '#grid'} Grid
-          %ul
-            %li
-              %a{'data-scroll': 'true', href: '#one-column'} One Column
-            %li
-              %a{'data-scroll': 'true', href: '#two-columns'} Two Columns
-            %li
-              %a{'data-scroll': 'true', href: '#three-columns'} Three Columns
-            %li
-              %a{'data-scroll': 'true', href: '#mix'} Mix
+            %input.mb0#nav-grid{type: 'checkbox'}
+              %label{for: 'nav-grid'}
+            %ol
+              %li
+                %a{'data-scroll': 'true', href: '#one-column'} One Column
+              %li
+                %a{'data-scroll': 'true', href: '#two-columns'} Two Columns
+              %li
+                %a{'data-scroll': 'true', href: '#three-columns'} Three Columns
+              %li
+                %a{'data-scroll': 'true', href: '#mix'} Mix
+
           %li
             %a{'data-scroll': 'true', href: '#font'} Font
-          %ul
-            %li
-              %a{'data-scroll': 'true', href: '#typography'} Typography
-            %li
-              %a{'data-scroll': 'true', href: '#size'} Size
-            %li
-              %a{'data-scroll': 'true', href: '#helper'} Helper
+            %input.mb0#nav-font{type: 'checkbox'}
+              %label{for: 'nav-font'}
+            %ol
+              %li
+                %a{'data-scroll': 'true', href: '#typography'} Typography
+              %li
+                %a{'data-scroll': 'true', href: '#size'} Size
+              %li
+                %a{'data-scroll': 'true', href: '#helper'} Helper
 
           %li
             %a{'data-scroll': 'true', href: '#color'} Color
+
           %li
             %a{'data-scroll': 'true', href: '#article'} Article
-          %ul
-            %li
-              %a{'data-scroll': 'true', href: '#heading'} Heading
-            %li
-              %a{'data-scroll': 'true', href: '#paragraph'} Paragraph
-            %li
-              %a{'data-scroll': 'true', href: '#link'} Link
-            %li
-              %a{'data-scroll': 'true', href: '#list'} List
+            %input.mb0#nav-article{type: 'checkbox'}
+              %label{for: 'nav-article'}
+            %ol
+              %li
+                %a{'data-scroll': 'true', href: '#heading'} Heading
+              %li
+                %a{'data-scroll': 'true', href: '#paragraph'} Paragraph
+              %li
+                %a{'data-scroll': 'true', href: '#link'} Link
+              %li
+                %a{'data-scroll': 'true', href: '#list'} List
 
     .container.max-w600px
       = partial 'partials/style-guide/intro'

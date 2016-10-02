@@ -1,0 +1,53 @@
+/* Side Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ol.side-nav {
+  width: 150px;
+  padding-left: 0;
+
+  li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem 0.5rem;
+
+    // secondary ol
+    > ol {
+      padding-left: 0;
+      display: none;
+      margin-top: 1rem;
+    }
+
+    // secondary ol li
+    > ol > li {
+      // background-color: $grey-xxlight;
+      margin-left: 0.5rem;
+    }
+
+    label {
+      color: $grey;
+    }
+
+    label:before {
+      content: '+';
+      margin-left: 0.5rem;
+      padding: 0 0.45rem;
+      background-color: $grey-xxlight;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked ~ ol {
+      display: block;
+    }
+
+    input:checked ~ label:before {
+      content: '-';
+      padding: 0 0.5rem;
+      color: white;
+      background-color: $blue;
+      font-weight: bold;
+    }
+  }
+}
