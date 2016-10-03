@@ -39,9 +39,20 @@
     .c1in1.card
       %p.p2.left-align
         Lorem ipsum dolor sit amet,
-        =link_to 'go back to top of article', '#article'
+        %a{'data-scroll': 'true', href: '#article'} go to the article section
         adipiscing elit.
       .card-footer a
+
+  // Underline
+  .pb3#underline
+  %h3.light.text-grey-dark Underline
+  .mb3
+    .c1in1.card
+      %p.p2.left-align
+        Lorem ipsum dolor sit amet,
+        %u this is important
+        adipiscing elit.
+      .card-footer u
 
   // List
   .pb3#list
@@ -71,3 +82,29 @@
               %li Item 2.2
             %li Item 3
         .card-footer ol
+
+  // Code
+  .pb3#code
+  %h3.light.text-grey-dark Code
+  .mb3
+    %p
+      Code snippet uses
+      %a{href: 'http://prismjs.com/index.html', target: 'auto'} Prism
+      , a lightweight and extensible syntax highlighter.
+    .c1in1.card
+      .p4.left-align
+        %pre
+          %code.language-scss
+            :preserve
+              // 54px
+              h1,
+              .font-title   {
+                font-size: $font-title;
+
+                // 36px
+                @media screen and (max-width: $tablet) {
+                  font-size: $font-larger;
+                }
+              }
+
+      .card-footer code

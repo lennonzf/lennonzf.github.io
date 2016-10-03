@@ -1,10 +1,12 @@
 /* Button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
+a.button,
 button,
 input[type='button'],
 input[type='reset'],
-input[type='submit'] {
+input[type='submit'],
+{
   padding: 0.75rem 2rem;
   background-color: $blue;
   border: none;

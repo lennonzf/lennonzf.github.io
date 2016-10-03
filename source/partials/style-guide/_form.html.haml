@@ -1,0 +1,25 @@
+// Form
+.pb5#form
+%h2.light.text-blue Form
+.mb5
+  // Heading
+  .pb3#button
+  %h3.light.text-grey-dark Button
+  .mb3
+    .flex.flex-wrap
+      .w100.card
+        .p4
+          %button Button
+        .card-footer button
+
+  // Input
+  .pb3#input
+  %h3.light.text-grey-dark Input
+  .mb3
+    .flex.flex-wrap
+      .w100.card
+        .py4.px10.left-align
+          .flex.flex-column
+            %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
+            %label.order1{ for: 'name' } This is a label
+        .card-footer label / input

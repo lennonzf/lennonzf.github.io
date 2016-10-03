@@ -2,26 +2,26 @@
 title: Find Me | Lennon Cheng - UX Designer
 ---
 
-%section.container.flex-auto.p2.sm-p4.max-w450px
+.container.flex-auto.p2.sm-p4.max-w450px
   %form.flex-column{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
-    %section.flex.justify-between.items-center
-      .font-larger.text-black.mb0.light Find Me
+    .flex.justify-between.items-center
+      %h1.light.w100.center-align Find Me
       / for social media icon
-      / %section.flex
+      / .flex
       /   %span i
       /   %span l
       /   %span g
     .font-base.light.text-grey-xdark Got a question for me or have an interesting project? Shoot me a message :)
-    %section.mt3.flex.flex-column
+    .mt3.flex.flex-column
       %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
-      %label.font-small.light.text-grey-dark.order1{ for: 'name' } YOUR AWESOME NAME
-    %section.mt1.flex.flex-column
+      %label.order1{ for: 'name' } YOUR AWESOME NAME
+    .mt1.flex.flex-column
       %input.w100.mt1.order2{ type: 'email', name: 'email', required: 'true' }
-      %label.font-small.light.text-grey-dark.order1{ for: 'email' } YOUR EMAIL
-    %section.mt1.flex.flex-column
+      %label.order1{ for: 'email' } YOUR EMAIL
+    .mt1.flex.flex-column
       %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
-      %label.font-small.light.text-grey-dark.order1{ for: 'message' } MESSAGE
-    %section.mt2
+      %label.order1{ for: 'message' } MESSAGE
+    .mt2
       %button{ type: "submit", value: "Send" } SEND
 
     %input{ name: "_subject", type: "hidden", value: "Email from lennonzf.com" }
