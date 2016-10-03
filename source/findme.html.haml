@@ -3,16 +3,16 @@ title: Find Me | Lennon Cheng - UX Designer
 ---
 
 .container.flex-auto.p2.sm-p4.max-w450px
+  .flex.justify-between.items-center
+    %h1.light.w100.center-align Find Me
+    / for social media icon
+    / .flex
+    /   %span i
+    /   %span l
+    /   %span g
+  %p Got a question for me or have an interesting project? Shoot me a message :)
   %form.flex-column{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
-    .flex.justify-between.items-center
-      %h1.light.w100.center-align Find Me
-      / for social media icon
-      / .flex
-      /   %span i
-      /   %span l
-      /   %span g
-    .font-base.light.text-grey-xdark Got a question for me or have an interesting project? Shoot me a message :)
-    .mt3.flex.flex-column
+    .flex.flex-column
       %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
       %label.order1{ for: 'name' } YOUR AWESOME NAME
     .mt1.flex.flex-column
@@ -28,4 +28,3 @@ title: Find Me | Lennon Cheng - UX Designer
     %input{ name: "_format", type: "hidden", value: "plain" }
     %input{ name: "_next", type: "hidden", value: "/thankyou" }
     %input{ type: 'text', name: '_gotcha', style: 'display:none' }
-
