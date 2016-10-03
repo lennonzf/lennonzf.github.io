@@ -1,11 +1,11 @@
 # Portfolio Site
-Hey there, Thank you for stopping by and taking a look at my portfolio site.
+Hey there, thank you for stopping by and taking a look at my portfolio site.
 
 ## The Site
 **GP Pages Link**: [https://lennonzf.github.io/](https://lennonzf.github.io/)
 
 ##### Site in Development
-My site is still in **development mode** and is temporarily hosted by Github Pages.
+My site is still under **development** and is temporarily hosted by Github Pages.
 
 ##### Motivation
 This is the second iteration for my personal portfolio site. Back in time, when I was building my first site (still hosting at [here](http://lennonzf.com/) at the moment), I haven't quite mastered all the skills required to build a site. Therefore, my first site was built based on a Bootstrap template named [Freelancer](https://startbootstrap.com/template-overviews/freelancer/).
@@ -23,7 +23,8 @@ By designing and coding up the site, I am aiming for these goals:
 - Learn and use Middleman
 - Learn and use Github and Github Pages
 - Learn and use Flexbox
-- Practice SASS and functional CSS
+- Practice SASS with SCSS syntax and functional CSS
+- Develop a style guide
 
 #####Special Thanks
 Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
@@ -36,9 +37,14 @@ Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encoura
 - [Sublime Text 3](https://www.sublimetext.com/) - coding
 
 ## Stylesheet
-The stylesheets of this site follows the spirit of [SMACSS](https://smacss.com/) (Scalable and Modular Architecture of CSS). By using the structure, the lines of CSS can be kept at a minimal number. The ability to reuse the classes increase the flexibility as well as maintainability.
+The stylesheets of this site follows the spirit of [SMACSS](https://smacss.com/) (Scalable and Modular Architecture of CSS). By using the structure, lines of CSS can be kept at a minimal number. The ability to reuse the classes increase the flexibility as well as maintainability.
 
 The stylesheets in this project is created collaboratively by **[Felix Lee](http://felixlee.io/)** and myself.
 
+## Plugin & Resource
+- [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll) - better internal link scrolling experience
+- [Prism](http://prismjs.com/index.html) - code snippet and syntax highlighting
+
 ## Inspiration
-[Harryhon](http://www.harryhon.com/) - Idea of the new identity
+- [Harryhon](http://www.harryhon.com/) - Idea of the new identity
+- [Mailchimp Patterns Library](http://ux.mailchimp.com/patterns) - Style Guide
