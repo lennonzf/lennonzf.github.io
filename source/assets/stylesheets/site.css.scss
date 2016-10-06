@@ -7,31 +7,32 @@
 
 /* Base
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import "base/font";
-@import "base/general";
-@import "base/response";
-@import "base/spacing";
-@import "base/box";
-@import "base/flex";
-@import "base/grid";
 @import "base/color";
-@import "base/heading";
-@import "base/misc";
-@import "base/hide";
-@import "base/link";
-@import "base/type_helper";
+@import "base/flex";
+@import "base/font";
 @import "base/font_size";
+@import "base/general";
+@import "base/grid";
+@import "base/heading";
+@import "base/hide";
 @import "base/input";
-@import "base/button";
+@import "base/link";
 @import "base/list";
+@import "base/misc";
+@import "base/response";
+@import "base/size";
+@import "base/spacing";
+@import "base/type_helper";
+
+@import "base/button"; // need to override base/link
 
 /* Module
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import "module/size";
 @import "module/background_image";
+@import "module/box";
 @import "module/card";
 @import "module/side_navigation";
 
 /* Extra
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import "prism";
+@import "extra/prism";
