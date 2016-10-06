@@ -23,3 +23,35 @@
             %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
             %label.order1{ for: 'name' } This is a label
         .card-footer label / input
+
+  // Example
+  .pb3#form-example
+  %h3.light.text-grey-dark Example
+  .mb3
+    %h4.semi.text-grey-dark Form Group
+    .c1in1.card
+      .py4.px10.left-align
+        %form
+          .mt1.flex.flex-column
+            %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
+            %label.order1{ for: 'name' } Label 1
+          .mt1.flex.flex-column
+            %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
+            %label.order1{ for: 'message' } Label 2
+          .mt2
+            %button{ type: "submit", value: "Send" } button
+      .card-footer form
+
+    .c1in1
+      %pre.line-numbers
+        %code.language-haml
+          :preserve
+            %form
+              .mt1.flex.flex-column
+                %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
+                %label.order1{ for: 'name' } Label 1
+              .mt1.flex.flex-column
+                %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
+                %label.order1{ for: 'message' } Label 2
+              .mt2
+                %button{ type: "submit", value: "Send" } button

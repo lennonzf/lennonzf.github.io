@@ -42,11 +42,15 @@
         .card-header 32%
         .card-footer .c1in3
 
-  // mix
-  .pb3#mix
-  %h3.light.text-grey-dark Mix
+  // example
+  .pb3#grid-example
+  %h3.light.text-grey-dark Example
   .mb3
     .flex.flex-wrap.justify-between
+      .c1in1.card
+        .card-header 100%
+        .card-footer .c1in1
+
       .c1in3.card
         .card-header 32%
         .card-footer .c1in3
@@ -54,3 +58,20 @@
       .c2in3.card
         .card-header 66%
         .card-footer .c2in3
+
+
+    %pre.line-numbers
+      %code.language-haml
+        :preserve
+          .flex.flex-wrap.justify-between
+            .c1in1.card
+              .card-header 100%
+              .card-footer .c1in1
+
+            .c1in3.card
+              .card-header 32%
+              .card-footer .c1in3
+
+            .c2in3.card
+              .card-header 66%
+              .card-footer .c2in3

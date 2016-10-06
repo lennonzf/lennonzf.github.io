@@ -24,3 +24,9 @@ input[type='submit'],
     outline: 0;
   }
 }
+
+.button,
+a.button,
+button {
+  text-transform: uppercase;
+}

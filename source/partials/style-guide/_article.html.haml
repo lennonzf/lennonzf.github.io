@@ -20,8 +20,8 @@
         .card-footer h3.light.text-grey-dark
 
       .w100.card
-        %h4.semi.p4 Smallest Heading
-        .card-footer h4.semi
+        %h4.semi.text-grey-dark.p4 Smallest Heading
+        .card-footer h4.semi.text-grey-dark
 
   // Paragraph
   .pb3#paragraph
@@ -36,12 +36,26 @@
   .pb3#link
   %h3.light.text-grey-dark Link
   .mb3
-    .c1in1.card
-      %p.p2.left-align
-        Lorem ipsum dolor sit amet,
-        %a{'data-scroll': 'true', href: '#article'} go to the article section
-        adipiscing elit.
-      .card-footer a
+    %p
+      Internal links uses
+      %a.external{href: 'http://github.com/cferdinandi/smooth-scroll'} Smooth Scroll
+      to provide a better scrolling experience when navigating within the same page.
+    .flex.flex-wrap.justify-between
+      .c1in2.sm-c1in1.card
+        .card-header Interal Link
+        %p.p2.left-align
+          Lorem ipsum,
+          %a{'data-scroll': 'true', href: '#article'} go to the article section smoothly
+          adipiscing elit.
+        .card-footer a{ 'data-scroll': 'true' }
+
+      .c1in2.sm-c1in1.card
+        .card-header External Link
+        %p.p2.left-align
+          Lorem ipsum dolor sit amet,
+          %a.external{href: 'https://www.instagram.com/lennonzf/', target: 'auto'} go to my instagram
+          adipiscing elit.
+        .card-footer a.external
 
   // Underline
   .pb3#underline
@@ -89,22 +103,21 @@
   .mb3
     %p
       Code snippet uses
-      %a{href: 'http://prismjs.com/index.html', target: 'auto'} Prism
-      , a lightweight and extensible syntax highlighter.
+      %a.external{href: 'http://prismjs.com/index.html', target: 'auto'} Prism
+      , a lightweight and extensible syntax highlighter,
+      and its
+      %a.external{href: 'http://prismjs.com/plugins/line-numbers/', target: 'auto'} line numbers
+      plugin.
+
     .c1in1.card
       .p4.left-align
-        %pre
-          %code.language-scss
+        %pre.line-numbers
+          %code.language-haml
             :preserve
-              // 54px
-              h1,
-              .font-title   {
-                font-size: $font-title;
+              %pre.line-numbers
+                %code.language-haml
+                  :preserve
+                    // Here goes the code in the code snippet
 
-                // 36px
-                @media screen and (max-width: $tablet) {
-                  font-size: $font-larger;
-                }
-              }
-
-      .card-footer code
+      .card-footer
+        pre.line-numbers / code.language-haml

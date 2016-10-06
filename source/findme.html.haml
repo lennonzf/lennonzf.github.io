@@ -11,8 +11,8 @@ title: Find Me | Lennon Cheng - UX Designer
     /   %span l
     /   %span g
   %p Got a question for me or have an interesting project? Shoot me a message :)
-  %form.flex-column{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
-    .flex.flex-column
+  %form{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
+    .mt1.flex.flex-column
       %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
       %label.order1{ for: 'name' } YOUR AWESOME NAME
     .mt1.flex.flex-column
@@ -22,7 +22,7 @@ title: Find Me | Lennon Cheng - UX Designer
       %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
       %label.order1{ for: 'message' } MESSAGE
     .mt2
-      %button{ type: "submit", value: "Send" } SEND
+      %button{ type: "submit", value: "Send" } send
 
     %input{ name: "_subject", type: "hidden", value: "Email from lennonzf.com" }
     %input{ name: "_format", type: "hidden", value: "plain" }
