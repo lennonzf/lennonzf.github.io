@@ -15,4 +15,6 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-deploy', github: "middleman-contrib/middleman-deploy", branch: "master"
 gem 'middleman-autoprefixer'
 gem 'middleman-blog'
+gem "middleman-sprockets", github: "middleman/middleman-sprockets", branch: "master"
+gem 'middleman-syntax'
 gem 'nokogiri'
