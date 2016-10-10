@@ -1,2 +1,5 @@
 jshint:
   enabled: false
+
+coffeescript:
+  enabled: false
