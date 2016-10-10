@@ -25,6 +25,7 @@ By designing and coding up the site, I am aiming for these goals:
 - Learn and use Flexbox
 - Practice SASS with SCSS syntax and functional CSS
 - Develop a style guide
+- ~~Add an automated testing tool~~ Use [hound](https://houndci.com/) for pull requests and pass the tests
 
 #####Special Thanks
 Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
@@ -35,6 +36,7 @@ Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encoura
 - [SASS](http://sass-lang.com/) and SCSS Syntax - stylesheet preprocessor
 - [Sketch](https://www.sketchapp.com/) - design
 - [Sublime Text 3](https://www.sublimetext.com/) - coding
+- [Hound](https://houndci.com/) - automated pull request review tool maintained by [Thoughtbot](https://thoughtbot.com/)
 
 ## Stylesheet
 The stylesheets of this site follows the spirit of [SMACSS](https://smacss.com/) (Scalable and Modular Architecture of CSS). By using the structure, lines of CSS can be kept at a minimal number. The ability to reuse the classes increase the flexibility as well as maintainability.
