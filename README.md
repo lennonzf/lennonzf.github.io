@@ -25,7 +25,7 @@ By designing and coding up the site, I am aiming for these goals:
 - Learn and use Flexbox
 - Practice SASS with SCSS syntax and functional CSS
 - Develop a style guide
-- ~~Add an automated testing tool~~ Use [hound](https://houndci.com/) for pull requests and pass the tests
+- ~~Add an automated testing tool~~ Use [hound](https://houndci.com/) for reviewing pull requests (mainly HAML and SCSS) and act on the comments
 
 #####Special Thanks
 Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
