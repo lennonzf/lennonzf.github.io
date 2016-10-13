@@ -2,18 +2,18 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .box-base,
 a.box-base {
-  @extend .no-select;
   $box-padding: 0.6rem;
-  transition: none;
+  @extend .no-select;
 
   background-color: $blue;
-  display: inline-table;
-  padding: $box-padding;
-  color: $blue;
-  border-width: 0.3rem;
-  border-style: solid;
   border-color: $blue;
+  border-style: solid;
+  border-width: 0.3rem;
+  color: $blue;
+  display: inline-table;
   margin-left: 1rem;
+  padding: $box-padding;
+  transition: none;
 
   &:hover {
     color: $blue;
@@ -23,15 +23,15 @@ a.box-base {
     color: $blue;
   }
 
-  &::before{
-    position: absolute;
-    color: $black;
-    border-width: 0.4rem;
-    border-style: solid;
+  &::before {
     border-color: $black;
-    padding: $box-padding;
+    border-style: solid;
+    border-width: 0.4rem;
+    color: $black;
     margin-left: -1.5rem;
     margin-top: -1.5rem;
+    padding: $box-padding;
+    position: absolute;
   }
 }
 
@@ -45,21 +45,21 @@ a.box-base {
   border-color: $grey-xlight;
 
   &:hover {
-    color: $blue;
     background-color: $blue;
     border-color: $blue;
+    color: $blue;
 
     &::before {
-      color: $black;
       border-color: $black;
+      color: $black;
     }
   }
 
   &::before {
-    content: 'L';
-    color: $grey;
-    border-width: 0.3rem;
     border-color: $grey;
+    border-width: 0.3rem;
+    color: $grey;
+    content: "L";
     margin-left: -1.2rem;
     margin-top: -1.2rem;
   }
@@ -70,6 +70,6 @@ a.box-base {
   @extend .box-base;
 
   &::before {
-    content: 'Lennon';
+    content: "Lennon";
   }
 }

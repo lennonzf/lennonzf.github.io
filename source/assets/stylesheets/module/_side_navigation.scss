@@ -29,11 +29,11 @@ ol.side-nav {
     }
 
     label:before {
-      content: '-';
-      padding: 0 0.5rem;
-      color: white;
       background-color: $grey-xxlight;
+      color: $white;
+      content: "-";
       font-weight: bold;
+      padding: 0 0.5rem;
     }
 
     input {
@@ -45,10 +45,10 @@ ol.side-nav {
     }
 
     input:checked ~ label:before {
-      content: '+';
+      background-color: $blue;
+      content: "+";
       margin-left: 0.5rem;
       padding: 0 0.45rem;
-      background-color: $blue;
     }
   }
 }
