@@ -73,3 +73,12 @@ a.box-base {
     content: "Lennon";
   }
 }
+
+// thanks
+.box-thanks {
+  @extend .box-base;
+
+  &::before {
+    content: "Thanks";
+  }
+}
