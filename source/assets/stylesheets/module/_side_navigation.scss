@@ -3,6 +3,7 @@
 ol.side-nav {
   width: 150px;
   padding-left: 0;
+  padding-bottom: 7em;
 
   li {
     position: relative;
@@ -13,7 +14,7 @@ ol.side-nav {
     // secondary ol
     > ol {
       padding-left: 0;
-      display: none;
+      display: block;
       margin-top: 1rem;
     }
 
@@ -28,10 +29,11 @@ ol.side-nav {
     }
 
     label:before {
-      content: '+';
-      margin-left: 0.5rem;
-      padding: 0 0.45rem;
       background-color: $grey-xxlight;
+      color: $white;
+      content: "-";
+      font-weight: bold;
+      padding: 0 0.5rem;
     }
 
     input {
@@ -39,15 +41,14 @@ ol.side-nav {
     }
 
     input:checked ~ ol {
-      display: block;
+      display: none;
     }
 
     input:checked ~ label:before {
-      content: '-';
-      padding: 0 0.5rem;
-      color: white;
       background-color: $blue;
-      font-weight: bold;
+      content: "+";
+      margin-left: 0.5rem;
+      padding: 0 0.45rem;
     }
   }
 }

@@ -1,66 +1,75 @@
-.box-base {
-  font-family: $font-manteka;
-  position: absolute;
-  padding: 0.3em;
-  text-align: center;
+/* Box
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.box-base,
+a.box-base {
+  $box-padding: 0.6rem;
+  @extend .no-select;
+
+  background-color: $blue;
+  border-color: $blue;
+  border-style: solid;
+  border-width: 0.3rem;
+  color: $blue;
+  display: inline-table;
+  margin-left: 1rem;
+  padding: $box-padding;
+  transition: none;
+
+  &:hover {
+    color: $blue;
+  }
 
   &::selection {
     color: $blue;
   }
-}
 
-.box {
-  @extend .box-base;
-  font-size: 2em; //size of the box based on the font-size
-  color: $blue;
-  background-color: $blue;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  border: 4px solid $blue;
-
-  &::after {
-    content: 'Lennon'; //text needs to be identical with the text in div
-    padding: 0.3em;
+  &::before {
+    border-color: $black;
+    border-style: solid;
+    border-width: 0.4rem;
+    color: $black;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    padding: $box-padding;
     position: absolute;
-    color: black;
-    z-index: 999;
-    left: -1rem;
-    top: -1rem;
-    border: 4px solid black;
-  }
-
-  @media screen and (max-width: $desktop) {
-    font-size: 2em;
   }
 }
 
-.box-l {
-  @extend .box-base;
-  font-size: 2.5rem; //size of the box based on the font-size
+// logo
+.box-logo {
+  @extend a.box-base;
+
   color: $grey-xlight;
   background-color: $grey-xlight;
-  margin-left: 0.75rem;
-  border: 3px solid $grey-xlight;
-
-  &::after {
-    content: 'L'; //text needs to be identical with the text in div
-    padding: 0.3em;
-    position: absolute;
-    color: $grey;
-    z-index: 999;
-    left: -0.75rem;
-    top: -0.75rem;
-    border: 3px solid $grey;
-  }
+  border-width: 0.2rem;
+  border-color: $grey-xlight;
 
   &:hover {
     background-color: $blue;
     border-color: $blue;
     color: $blue;
 
-    &::after {
-      color: $black;
+    &::before {
       border-color: $black;
+      color: $black;
     }
+  }
+
+  &::before {
+    border-color: $grey;
+    border-width: 0.3rem;
+    color: $grey;
+    content: "L";
+    margin-left: -1.2rem;
+    margin-top: -1.2rem;
+  }
+}
+
+// lennon
+.box-lennon {
+  @extend .box-base;
+
+  &::before {
+    content: "Lennon";
   }
 }

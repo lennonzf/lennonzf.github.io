@@ -1,0 +1,15 @@
+{
+  "name": "netengine-com-au",
+  "description": "NetEngine Website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "sticky-kit": "*"
+  }
+}

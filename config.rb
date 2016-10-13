@@ -1,9 +1,9 @@
 ###
 # Asset directories
 ###
-config[:js_dir]     = 'assets/javascripts'
-config[:css_dir]    = 'assets/stylesheets'
-config[:images_dir] = 'assets/images'
+set :css_dir,    'assets/stylesheets'
+set :js_dir,     'assets/javascripts'
+set :images_dir, 'assets/images'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -11,6 +11,17 @@ config[:images_dir] = 'assets/images'
 
 set :index_file, "index.html"
 activate :directory_indexes
+activate :autoprefixer
+activate :syntax
+
+activate :sprockets do |c|
+  c.expose_middleman_helpers = true
+end
+
+###
+# Connet with Bower
+###
+sprockets.append_path File.join(root, 'bower_components')
 
 # Per-page layout changes:
 #
