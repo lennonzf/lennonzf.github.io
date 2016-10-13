@@ -14,7 +14,7 @@ ol.side-nav {
     // secondary ol
     > ol {
       padding-left: 0;
-      display: none;
+      display: block;
       margin-top: 1rem;
     }
 
@@ -29,10 +29,11 @@ ol.side-nav {
     }
 
     label:before {
-      content: '+';
-      margin-left: 0.5rem;
-      padding: 0 0.45rem;
+      content: '-';
+      padding: 0 0.5rem;
+      color: white;
       background-color: $grey-xxlight;
+      font-weight: bold;
     }
 
     input {
@@ -40,15 +41,14 @@ ol.side-nav {
     }
 
     input:checked ~ ol {
-      display: block;
+      display: none;
     }
 
     input:checked ~ label:before {
-      content: '-';
-      padding: 0 0.5rem;
-      color: white;
+      content: '+';
+      margin-left: 0.5rem;
+      padding: 0 0.45rem;
       background-color: $blue;
-      font-weight: bold;
     }
   }
 }
