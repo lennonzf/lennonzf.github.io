@@ -46,6 +46,7 @@ The stylesheets of this site follows the spirit of [SMACSS](https://smacss.com/)
 The stylesheets in this project is created collaboratively by **[Felix Lee](http://felixlee.io/)** and myself.
 
 ## Plugin & Resource
+- [Formspree](https://formspree.io/) - contact form
 - [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll) - better internal link scrolling experience
 - [Prism](http://prismjs.com/index.html) - code snippet and syntax highlighting
 - [Sticky-kit](https://github.com/leafo/sticky-kit) - make sticky elements
