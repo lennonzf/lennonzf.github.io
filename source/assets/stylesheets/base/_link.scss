@@ -37,3 +37,11 @@ a[href*="//"] {
     margin-top: 6px;
   }
 }
+
+a.no-external {
+  padding-right: 0;
+
+  &::after {
+    content: none;
+  }
+}
