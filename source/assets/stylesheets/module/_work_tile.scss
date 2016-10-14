@@ -1,0 +1,35 @@
+/* Work Tile
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-tile {
+  @extend .h200px;
+  @extend .flex;
+  @extend .flex-column;
+  @extend .u-relative;
+  @extend .bg-grey-xdark;
+}
+
+.work-tile-tag {
+  @extend .font-smaller;
+  @extend .mt2;
+  @extend .flex;
+  @extend .flex-wrap;
+  @extend .self-center;
+  @extend .px2;
+  @extend .py1;
+  @extend .text-white;
+}
+
+.work-tile-title {
+  @extend .font-larger;
+  @extend .mb0;
+  @extend .center-align;
+  @extend .text-white;
+}
+
+.work-tile-description {
+  @extend .center-align;
+  @extend .mb0;
+  @extend .px2;
+  @extend .text-white;
+  @extend .light;
+}

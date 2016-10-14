@@ -23,11 +23,11 @@ a {
 }
 
 // external link
-a.external[href^="http"] {
+a[href*="//"] {
   padding-right: 12px;
 
-  &:after {
-    content: '';
+  &::after {
+    content: "";
     position: absolute;
     width: 8px;
     height: 8px;
