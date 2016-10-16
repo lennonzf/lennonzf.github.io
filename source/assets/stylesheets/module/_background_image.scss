@@ -13,11 +13,17 @@
 .bg-image-smart-clinics {
   @extend .bg-image-base;
   background-position: right 0;
-  background-image: image-url("projects/smart-clinics.jpg");
+  background-image: image-url("projects/smartclinics/hero.jpg");
 }
 
 .bg-image-pt-hub-online {
   @extend .bg-image-base;
   background-position: center 0;
   background-image: image-url("projects/pt-hub-online.jpg");
+}
+
+.bg-image-design-process {
+  @extend .bg-image-base;
+  background-position: center 0;
+  background-image: image-url("projects/designprocess/hero.jpg");
 }
