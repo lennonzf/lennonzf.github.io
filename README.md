@@ -53,5 +53,6 @@ The stylesheets in this project is created collaboratively by **[Felix Lee](http
 - [Unsplash](https://unsplash.com/) - stock image with great quality
 
 ## Inspiration
-- [Harryhon](http://www.harryhon.com/) - Idea of the new identity
-- [Mailchimp Patterns Library](http://ux.mailchimp.com/patterns) - Style Guide
+- [Harryhon](http://www.harryhon.com/) - idea of the new identity
+- [Mailchimp Patterns Library](http://ux.mailchimp.com/patterns) - style guide
+- [TINGYU LI](http://tingyu.li/) - case study story telling
