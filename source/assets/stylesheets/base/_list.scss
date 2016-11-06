@@ -7,13 +7,17 @@ ul {
   margin-bottom: 0.75em;
 
   li {
-    padding-left: 1rem;
+    padding-left: 2rem;
+    display: block;
+    position: relative;
 
     &:before {
       content: '•';
       font-size: $font-base;
-      padding-right: 1.5rem;
       color: $grey;
+      position: absolute;
+      left: 0.5rem;
+      line-height: 1.65em;
     }
   }
 
