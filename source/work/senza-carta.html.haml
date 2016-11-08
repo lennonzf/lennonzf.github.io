@@ -47,7 +47,7 @@ title: Work - Senza Carta | Lennon Cheng - UX Designer
       %p As my team at NetEngine was reaching to the delivery point of the MVP product for a ruby on rails application named Senza Carta, I was involved in designing and developing a landing page for the product.
 
       %h3 Client
-      %p Senza Carta aims to bring a new digital employee experience for Human Resources in business and individual job seekers.
+      %p Senza Carta, means “paperless”, aims to bring a new digital employee experience for Human Resources in business and individual job seekers.
 
       %h3 Challenge
       %p I was asked to continue iterating the design based on my team member’s initial work. My client also wants to see some illustrations on the site.
@@ -59,7 +59,7 @@ title: Work - Senza Carta | Lennon Cheng - UX Designer
 
   .container.max-w900px
     .flex.sm-flex-column.justify-between.items-center
-      .c1in2.sm-c1in1.lg-p8.md-p8
+      .c1in2.sm-c1in1.lg-p8.md-p8.sm-p4
         = image_tag '/assets/images/projects/senza-carta/logo.png'
       .c1in2.sm-c1in1.lg-p2.md-p2.sm-mt4
         %p 
@@ -73,13 +73,13 @@ title: Work - Senza Carta | Lennon Cheng - UX Designer
           The team was only provided with a logo and some content from client’s pitch deck.
 
   .container.max-w600px
-    %p Here’s the initial design:
+    %p Here’s the initial design presented by my team:
 
   .container.max-w900px
     = image_tag '/assets/images/projects/senza-carta/design_v1.png'
 
   .container.max-w600px
-    %p The client made some comments:
+    %p With a tangible page to look at, the client started to realize her vision of the landing page, so we get some very constructive feedback:
     %ul
       %li Not fond of the liberty we took with changing the logo
       %li More distinctive color to separate different sections of the page (the current grey color is too light)
@@ -89,9 +89,63 @@ title: Work - Senza Carta | Lennon Cheng - UX Designer
       %li 
         New example: 
         = link_to "deputy’s feature page", "//www.deputy.com/features", target: "auto"
-  
 
+    .mt9
+      %h3 Iteration 1
+      %p 
+        I picked up the work from this point. During the feedback meeting, the client expressed her interests in seeing some illustrations on the page for individual users (job seekers) to deliver the message that 
+        %span.bold Senza Carta is for everyone.
+
+      %p First idea jumped into my head was bags. No matter what’s your job, you will always need a bag. So I created a bunch of them.
+
+  .container.max-w900px.p4
+    = image_tag '/assets/images/projects/senza-carta/bags.svg'
+  .container.max-w600px
+    .mt6
+      %p 
+        Following the spirit of the new example picked by the client, I created some on-brand device containers for the screenshots of the actual web application and searched for some nice stock images from 
+        = link_to 'unsplash', '//unsplash.com', target: 'auto'
+        \.
+
+      %p I presented the new version of the individual page at the end of this iteration and client was pretty happy about the illustration and the usage of stock images.
+
+  .container.max-w900px
+    = image_tag '/assets/images/projects/senza-carta/design_v2.png'
+  .container.max-w600px
+    .mt6
+      %h3 Iteration 2
+      %p I was doing just fine to hit the budget by finish the design of the business page. However, the more I am working on the business page, the more I feel that the elements on the current individual page, stock images and product mockups, belong to the business page. It would be way cooler if I had the chance to create more illustrations for the individual pages.
+
+      %p.bold So I asked, and the client said yes!
+
+  .container.max-w900px.p4
+    = image_tag '/assets/images/projects/senza-carta/illustration.svg'
+
+  .container.max-w600px
+    .mt6
+      %p Here’s the final version approved by the client:
+
+  .container.max-w900px
+    .flex.justify-between
+      .c1in1
+        = image_tag '/assets/images/projects/senza-carta/design_v3_2.png'
+      .c1in1
+        = image_tag '/assets/images/projects/senza-carta/design_v3_1.png'
+
+  .container.max-w600px
+    .mt6
+      %h3 Development
+      %p 
+        With the client’s consent, the actual Senza Carta web app requires a relatively low level of browser support. Therefore, I also got to use 
+        = link_to 'flexbox', '//caniuse.com/#search=flex', target: 'auto' 
+        to implement the landing page.
+
+      %p Last but not least, I decided to add some extra spice to the page by doing some SVG animation.
 
 
     .mt12
-      = link_to "< Back to Work", '/work', class: 'button'
+      .flex.justify-center
+        = link_to "Check this site", '//senzacarta.com.au', class: 'button', target: 'auto'
+
+    .mt12
+      = link_to "< Back to Work", '/work', class: 'text-grey light'

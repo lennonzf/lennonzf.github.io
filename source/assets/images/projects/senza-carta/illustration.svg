@@ -1,0 +1,441 @@
+<svg width="875" height="159" viewBox="0 0 875 159" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        Group 16
+    </title>
+    <defs>
+        <rect id="a" width="58.115" height="69.093" rx="3.36"/>
+        <mask id="E" x="0" y="0" width="58.115" height="69.093" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <rect id="b" width="58.115" height="69.093" rx="3.36"/>
+        <mask id="F" x="0" y="0" width="58.115" height="69.093" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <rect id="c" width="46.267" height="55.05" rx="3.36"/>
+        <mask id="G" x="0" y="0" width="46.267" height="55.05" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <rect id="d" width="46.267" height="55.05" rx="3.36"/>
+        <mask id="H" x="0" y="0" width="46.267" height="55.05" fill="#fff">
+            <use xlink:href="#d"/>
+        </mask>
+        <rect id="e" width="47.395" height="56.173" rx="3.36"/>
+        <mask id="I" x="0" y="0" width="47.395" height="56.173" fill="#fff">
+            <use xlink:href="#e"/>
+        </mask>
+        <rect id="f" width="47.959" height="56.735" rx="3.36"/>
+        <mask id="J" x="0" y="0" width="47.959" height="56.735" fill="#fff">
+            <use xlink:href="#f"/>
+        </mask>
+        <rect id="g" width="32.725" height="38.76" rx="3.36"/>
+        <mask id="K" x="0" y="0" width="32.725" height="38.76" fill="#fff">
+            <use xlink:href="#g"/>
+        </mask>
+        <rect id="h" width="58.115" height="69.093" rx="3.36"/>
+        <mask id="L" x="0" y="0" width="58.115" height="69.093" fill="#fff">
+            <use xlink:href="#h"/>
+        </mask>
+        <rect id="i" y="1.65" width="26.357" height="31.357" rx="2.24"/>
+        <mask id="M" x="0" y="0" width="26.357" height="31.357" fill="#fff">
+            <use xlink:href="#i"/>
+        </mask>
+        <rect id="j" x=".067" y=".413" width="22.357" height="36.042" rx="2.24"/>
+        <mask id="N" x="0" y="0" width="22.357" height="36.042" fill="#fff">
+            <use xlink:href="#j"/>
+        </mask>
+        <path id="k" d="M2.746 7.152h16.768v21.815H2.746z"/>
+        <mask id="O" x="0" y="0" width="16.768" height="21.815" fill="#fff">
+            <use xlink:href="#k"/>
+        </mask>
+        <rect id="l" x="5.1" y="2.979" width="26.14" height="34.43" rx="2.24"/>
+        <mask id="P" x="0" y="0" width="26.14" height="34.43" fill="#fff">
+            <use xlink:href="#l"/>
+        </mask>
+        <path id="m" d="M7.434 8.365H28.69v22.018H7.434z"/>
+        <mask id="Q" x="0" y="0" width="21.256" height="22.018" fill="#fff">
+            <use xlink:href="#m"/>
+        </mask>
+        <rect id="n" x="5.48" y=".476" width="42.291" height="29.499" rx="2.24"/>
+        <mask id="R" x="0" y="0" width="42.291" height="29.499" fill="#fff">
+            <use xlink:href="#n"/>
+        </mask>
+        <path id="S" d="M87.22 8.521h94.64v139.613H87.22z"/>
+        <path id="U" d="M0 2.622h84.597v150.756H0z"/>
+        <rect id="o" width="67.546" height="80.622" rx="3.36"/>
+        <mask id="W" x="0" y="0" width="67.546" height="80.622" fill="#fff">
+            <use xlink:href="#o"/>
+        </mask>
+        <rect id="p" width="67.546" height="80.622" rx="3.36"/>
+        <mask id="X" x="0" y="0" width="67.546" height="80.622" fill="#fff">
+            <use xlink:href="#p"/>
+        </mask>
+        <rect id="q" width="67.546" height="80.622" rx="3.36"/>
+        <mask id="Y" x="0" y="0" width="67.546" height="80.622" fill="#fff">
+            <use xlink:href="#q"/>
+        </mask>
+        <path d="M0 3.358A3.36 3.36 0 0 1 3.361 0h60.824a3.36 3.36 0 0 1 3.361 3.362V77.26a3.36 3.36 0 0 1-3.35 3.362H12.317L0 67.708V3.358z" id="r"/>
+        <mask id="Z" x="0" y="0" width="67.546" height="80.622" fill="#fff">
+            <use xlink:href="#r"/>
+        </mask>
+        <path d="M0 3.358A3.36 3.36 0 0 1 3.361 0h60.824a3.36 3.36 0 0 1 3.361 3.362V77.26a3.36 3.36 0 0 1-3.35 3.362H12.317v-11.79c0-.621-.498-1.124-1.114-1.124H0V3.358z" id="s"/>
+        <mask id="aa" x="0" y="0" width="67.546" height="80.622" fill="#fff">
+            <use xlink:href="#s"/>
+        </mask>
+        <path d="M39.31 54.982h48.87a2.237 2.237 0 0 0 2.234-2.241v-50.5C90.414 1 89.414 0 88.18 0H2.235A2.237 2.237 0 0 0 0 2.24v50.501c0 1.24 1 2.24 2.235 2.24h24.674l5.442 5.754c.43.456 1.119.452 1.545 0l5.414-5.753z" id="t"/>
+        <mask id="ab" x="0" y="0" width="90.414" height="61.091" fill="#fff">
+            <use xlink:href="#t"/>
+        </mask>
+        <path d="M39.31 54.982h48.87a2.237 2.237 0 0 0 2.234-2.241v-50.5C90.414 1 89.414 0 88.18 0H2.235A2.237 2.237 0 0 0 0 2.24v50.501c0 1.24 1 2.24 2.235 2.24h24.674l5.442 5.754c.43.456 1.119.452 1.545 0l5.414-5.753z" id="u"/>
+        <mask id="ac" x="0" y="0" width="90.414" height="61.091" fill="#fff">
+            <use xlink:href="#u"/>
+        </mask>
+        <rect id="v" x="1.253" width="11.696" height="21.953" rx="5.848"/>
+        <mask id="ad" x="0" y="0" width="11.696" height="21.953" fill="#fff">
+            <use xlink:href="#v"/>
+        </mask>
+        <rect id="w" x="1.253" width="11.696" height="21.953" rx="5.848"/>
+        <mask id="ae" x="0" y="0" width="11.696" height="21.953" fill="#fff">
+            <use xlink:href="#w"/>
+        </mask>
+        <rect id="x" x=".835" y="9.579" width="12.531" height="1.996" rx=".998"/>
+        <mask id="af" x="0" y="0" width="12.531" height="1.996" fill="#fff">
+            <use xlink:href="#x"/>
+        </mask>
+        <path id="y" d="M.862.095H2.94V8.68H.862z"/>
+        <mask id="ag" x="0" y="0" width="2.078" height="8.585" fill="#fff">
+            <use xlink:href="#y"/>
+        </mask>
+        <path id="z" d="M.178 8.05h3.117v1.515H.178z"/>
+        <mask id="ah" x="0" y="0" width="3.117" height="1.515" fill="#fff">
+            <use xlink:href="#z"/>
+        </mask>
+        <path d="M7.23 2.981l9.14-1.88c.604-.125 1.095.28 1.095.902v11.529c0 .623-.494 1.01-1.096.865L7.23 12.2V2.98z" id="A"/>
+        <mask id="ai" x="0" y="0" width="10.235" height="13.351" fill="#fff">
+            <use xlink:href="#A"/>
+        </mask>
+        <rect id="B" x="16.624" width="2.598" height="15.15" rx="1.12"/>
+        <mask id="aj" x="0" y="0" width="2.598" height="15.15" fill="#fff">
+            <use xlink:href="#B"/>
+        </mask>
+        <rect id="C" x="1.149" y="3.03" width="6.438" height="9.09" rx="1.12"/>
+        <mask id="ak" x="0" y="0" width="6.438" height="9.09" fill="#fff">
+            <use xlink:href="#C"/>
+        </mask>
+        <rect id="D" x="1.149" y="3.03" width="6.438" height="9.09" rx="1.12"/>
+        <mask id="al" x="0" y="0" width="6.438" height="9.09" fill="#fff">
+            <use xlink:href="#D"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g opacity=".05" transform="translate(59.975 25.74)">
+                <use stroke="#FFA300" mask="url(#E)" stroke-width="2.24" fill="#FFF" xlink:href="#a"/>
+                <rect fill="#FFEDCC" x="3.95" y="3.932" width="53.037" height="64.037" rx="2.24"/>
+                <rect fill="#FFD790" x="10.156" y="16.852" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="25.278" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFCE7C" x="10.156" y="34.266" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="42.692" width="33.854" height="4.494" rx="2.247"/>
+            </g>
+            <g opacity=".1" transform="translate(59.975 12.87)">
+                <use stroke="#FFA300" mask="url(#F)" stroke-width="2.24" fill="#FFF" xlink:href="#b"/>
+                <rect fill="#FFEDCC" x="3.95" y="3.932" width="53.037" height="64.037" rx="2.24"/>
+                <rect fill="#FFD790" x="10.156" y="16.852" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="25.278" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFCE7C" x="10.156" y="34.266" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="42.692" width="33.854" height="4.494" rx="2.247"/>
+            </g>
+            <g opacity=".4" transform="translate(0 52.241)">
+                <use stroke="#FFDA9A" mask="url(#G)" stroke-width="2.24" fill="#FFF" xlink:href="#c"/>
+                <rect fill="#FFF5E5" x="3.144" y="3.133" width="42.224" height="51.022" rx="2.24"/>
+                <rect fill="#FFE5B8" x="8.085" y="13.427" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFE5B8" x="8.085" y="20.14" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFDCA0" x="8.085" y="27.301" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFE5B8" x="8.085" y="34.014" width="26.951" height="3.58" rx="1.79"/>
+            </g>
+            <g opacity=".3" transform="translate(129.208 28.087)">
+                <use stroke="#FFDA9A" mask="url(#H)" stroke-width="2.24" fill="#FFF" xlink:href="#d"/>
+                <rect fill="#FFF5E5" x="3.144" y="3.133" width="42.224" height="51.022" rx="2.24"/>
+                <rect fill="#FFE5B8" x="8.085" y="13.427" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFE5B8" x="8.085" y="20.14" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFDCA0" x="8.085" y="27.301" width="26.951" height="3.58" rx="1.79"/>
+                <rect fill="#FFE5B8" x="8.085" y="34.014" width="26.951" height="3.58" rx="1.79"/>
+            </g>
+            <g opacity=".9" transform="translate(23.133 84.26)">
+                <use stroke="#FFDA9A" mask="url(#I)" stroke-width="2.24" fill="#FFF" xlink:href="#e"/>
+                <rect fill="#FFF5E5" x="3.221" y="3.197" width="43.254" height="52.063" rx="2.24"/>
+                <rect fill="#FFE5B8" x="8.283" y="13.701" width="27.609" height="3.654" rx="1.827"/>
+                <rect fill="#FFE5B8" x="8.283" y="20.551" width="27.609" height="3.654" rx="1.827"/>
+                <rect fill="#FFDCA0" x="8.283" y="27.858" width="27.609" height="3.654" rx="1.827"/>
+                <rect fill="#FFE5B8" x="8.283" y="34.709" width="27.609" height="3.654" rx="1.827"/>
+            </g>
+            <g transform="translate(112.281 75.272)">
+                <use stroke="#FFDA9A" mask="url(#J)" stroke-width="2.24" fill="#FFF" xlink:href="#f"/>
+                <rect fill="#FFF5E5" x="2.695" y="2.667" width="43.769" height="52.584" rx="1.68"/>
+                <rect fill="#FFE5B8" x="8.381" y="13.838" width="27.937" height="3.69" rx="1.845"/>
+                <rect fill="#FFE5B8" x="8.381" y="20.757" width="27.937" height="3.69" rx="1.845"/>
+                <rect fill="#FFDCA0" x="8.381" y="28.137" width="27.937" height="3.69" rx="1.845"/>
+                <rect fill="#FFE5B8" x="8.381" y="35.056" width="27.937" height="3.69" rx="1.845"/>
+            </g>
+            <g transform="translate(90.276 115.717)">
+                <use stroke="#FFDA9A" mask="url(#K)" stroke-width="2.24" fill="#FFF" xlink:href="#g"/>
+                <rect fill="#FFF5E5" x="3.352" y="3.329" width="28.211" height="34.266" rx="1.68"/>
+                <rect fill="#FFE5B8" x="5.719" y="9.454" width="19.063" height="2.521" rx="1.26"/>
+                <rect fill="#FFE5B8" x="5.719" y="14.18" width="19.063" height="2.521" rx="1.26"/>
+                <rect fill="#FFDCA0" x="5.719" y="19.222" width="19.063" height="2.521" rx="1.26"/>
+                <rect fill="#FFE5B8" x="5.719" y="23.949" width="19.063" height="2.521" rx="1.26"/>
+            </g>
+            <g transform="translate(59.975)">
+                <use stroke="#FFA300" mask="url(#L)" stroke-width="2.24" fill="#FFF" xlink:href="#h"/>
+                <rect fill="#FFEDCC" x="3.95" y="3.932" width="53.037" height="64.037" rx="2.24"/>
+                <rect fill="#FFD790" x="10.156" y="16.852" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="25.278" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFCE7C" x="10.156" y="34.266" width="33.854" height="4.494" rx="2.247"/>
+                <rect fill="#FFD790" x="10.156" y="42.692" width="33.854" height="4.494" rx="2.247"/>
+            </g>
+            <g transform="translate(78.471 72.744)">
+                <rect fill="#FFA105" x="9.556" y="10.393" width="2.257" height="25.84" rx="1.128"/>
+                <rect fill="#FFCD7D" x="18.583" y=".282" width="2.257" height="16.852" rx="1.128"/>
+                <rect fill="#FFCD7D" x=".528" y="2.528" width="2.257" height="19.661" rx="1.128"/>
+                <rect fill="#FCB45B" x="18.583" y="19.38" width="2.257" height="8.426" rx="1.128"/>
+                <rect fill="#FCB45B" x=".528" y="24.436" width="2.257" height="5.617" rx="1.128"/>
+                <rect fill="#FFCD7D" x="9.556" y="3.652" width="2.257" height="4.494" rx="1.128"/>
+            </g>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="43.163" cy="10.954" rx="1.975" ry="1.966"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="36.393" cy="19.941" rx="1.411" ry="1.404"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="36.957" cy="38.479" rx="1.975" ry="1.966"/>
+            <ellipse fill="#FFE3C1" cx="152.059" cy="9.269" rx="1.975" ry="1.966"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="132.875" cy="14.324" rx="1.411" ry="1.404"/>
+            <ellipse fill="#FFD080" cx="146.981" cy="22.188" rx=".846" ry=".843"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="122.719" cy="24.997" rx=".846" ry=".843"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="45.42" cy="45.219" rx=".846" ry=".843"/>
+            <ellipse fill="#FEC684" cx="133.158" cy="49.432" rx="1.693" ry="1.685"/>
+            <ellipse fill="#FEC684" cx="150.649" cy="41.568" rx="1.128" ry="1.123"/>
+            <ellipse fill-opacity=".5" fill="#FFA300" cx="51.063" cy="29.491" rx="1.411" ry="1.404"/>
+            <ellipse fill-opacity=".5" fill="#FFA300" cx="22.851" cy="35.67" rx=".846" ry=".843"/>
+        </g>
+        <g transform="translate(218 17)">
+            <path d="M187.572 101.111c2.788-6.235-18.073-21.872-49.952-38.586-9.732-5.103-20.492-10.306-31.919-15.372A579.136 579.136 0 0 0 92.3 41.409C71.336 32.74 52.197 26.315 37.701 22.861c-15.246-3.632-25.355-3.978-27.048-.193-1.563 3.496 4.309 9.947 15.388 17.887C40.755 51.1 64.654 64.27 92.524 76.626c48.855 21.662 91.41 32.624 95.048 24.485z" stroke-opacity=".5" stroke="#FFCD7D" stroke-width="1.12" stroke-linecap="round" stroke-dasharray="2.24"/>
+            <path d="M8.457 25.969c-.713 1.594.12 3.804 2.29 6.49 2.587 3.201 7.072 7.079 13.097 11.397" stroke-opacity=".6" stroke="#F9F0E3" stroke-width="1.12" stroke-linecap="round"/>
+            <path d="M187.572 22.668c2.788 6.235-18.073 21.872-49.952 38.586-9.732 5.103-20.492 10.306-31.919 15.372A579.136 579.136 0 0 1 92.3 82.37c-43.01 17.787-78.344 26.126-81.646 18.741-3.638-8.138 33.016-32.297 81.871-53.958 48.855-21.662 91.41-32.624 95.048-24.485z" stroke-opacity=".5" stroke="#FFCD7D" stroke-width="1.12" stroke-linecap="round" stroke-dasharray="2.24"/>
+            <path d="M177.49 42.05c-6.38 5.117-15.453 11.073-26.476 17.38" stroke="#FCF6EE" stroke-width="1.12" stroke-linecap="round"/>
+            <g transform="translate(0 64.915)">
+                <path fill="#FEFBF7" d="M0 0h29.102v36.309H0z"/>
+                <use stroke="#FFA300" mask="url(#M)" stroke-width="1.12" fill="#FFF" xlink:href="#i"/>
+                <path fill="#FFF5E5" d="M2.24 4.502h23.566v28.113H2.24z"/>
+                <rect fill="#FFE5B8" x="4.606" y="9.299" width="15.354" height="2.04" rx="1.02"/>
+                <rect fill="#FFE5B8" x="4.606" y="13.123" width="15.354" height="2.04" rx="1.02"/>
+                <rect fill="#FFDCA0" x="4.606" y="17.202" width="15.354" height="2.04" rx="1.02"/>
+                <rect fill="#FFE5B8" x="4.606" y="21.026" width="15.354" height="2.04" rx="1.02"/>
+            </g>
+            <path d="M130.2 59.13l-.977-.143-.217-.965c-2.637-11.817-13.344-20.095-25.42-19.632a25.11 25.11 0 0 0-20.412 11.845l-.596.957-1.07-.35a18.67 18.67 0 0 0-6.496-.911c-10.306.377-18.387 9.084-18.01 19.41a18.631 18.631 0 0 0 5.957 13.042 18.608 18.608 0 0 0 13.418 5.002 18.545 18.545 0 0 0 10.889-4.007l.886-.702.888.697a25.11 25.11 0 0 0 16.376 5.32 24.925 24.925 0 0 0 14.268-5.108l.785-.598.839.52a13.205 13.205 0 0 0 7.427 1.966 13.124 13.124 0 0 0 9.202-4.22 13.174 13.174 0 0 0 3.53-9.503c-.232-6.38-4.97-11.687-11.267-12.62" stroke="#FFA300" stroke-width="1.12" fill="#FFF"/>
+            <path d="M129.353 59.006l-.13-.019-.18-.804c-3.872-9.733-13.517-16.216-24.242-15.805A25.11 25.11 0 0 0 84.39 54.224l-.595.957-1.07-.351a18.67 18.67 0 0 0-6.497-.911c-10.305.377-18.386 9.084-18.01 19.41.035.946.138 1.878.308 2.79a18.69 18.69 0 0 0 4.434 6.264 18.608 18.608 0 0 0 13.418 5.002 18.545 18.545 0 0 0 10.889-4.007l.886-.702.888.697a25.11 25.11 0 0 0 16.376 5.32 24.925 24.925 0 0 0 14.268-5.108l.785-.598.839.52a13.205 13.205 0 0 0 7.427 1.966 13.124 13.124 0 0 0 9.202-4.22 13.174 13.174 0 0 0 3.53-9.503 13.364 13.364 0 0 0-.118-1.348 13.208 13.208 0 0 0-9.934-7.283l-.977-.144-.217-.965a25.24 25.24 0 0 0-.868-3.004z" fill="#FFEDCC"/>
+            <path d="M130.2 59.13l-.977-.143-.217-.965c-2.637-11.817-13.344-20.095-25.42-19.632a25.11 25.11 0 0 0-20.412 11.845l-.596.957-1.07-.35a18.67 18.67 0 0 0-6.496-.911c-10.306.377-18.387 9.084-18.01 19.41a18.631 18.631 0 0 0 5.957 13.042 18.608 18.608 0 0 0 13.418 5.002 18.545 18.545 0 0 0 10.889-4.007l.886-.702.888.697a25.11 25.11 0 0 0 16.376 5.32 24.925 24.925 0 0 0 14.268-5.108l.785-.598.839.52a13.205 13.205 0 0 0 7.427 1.966 13.124 13.124 0 0 0 9.202-4.22 13.174 13.174 0 0 0 3.53-9.503c-.232-6.38-4.97-11.687-11.267-12.62" stroke="#FFA300" stroke-width="1.12"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="91.425" cy="27.231" rx="1.922" ry="1.925"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="131.235" cy="17.604" rx="1.098" ry="1.1"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="137.55" cy="43.185" rx=".824" ry=".825"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="168.574" cy="62.715" rx="1.098" ry="1.1"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="188.067" cy="48.686" rx=".824" ry=".825"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="67.814" cy="44.285" rx="1.922" ry="1.925"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="66.167" cy="7.977" rx="1.922" ry="1.925"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="112.291" cy="18.979" rx=".824" ry=".825"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="29.926" cy="59.139" rx=".824" ry=".825"/>
+            <ellipse fill-opacity=".3" fill="#F5A231" cx="48.046" cy="43.735" rx=".824" ry=".825"/>
+            <path d="M58.968 60.392c10.158 5.377 21.485 10.882 33.556 16.234a564.358 564.358 0 0 0 23.089 9.642" stroke-opacity=".5" stroke="#FFCD7D" stroke-width="1.12" stroke-linecap="round" stroke-dasharray="2.24"/>
+            <path d="M136.53 61.824c-9.444 4.92-19.827 9.924-30.829 14.802a579.135 579.135 0 0 1-16.45 6.994" stroke-opacity=".5" stroke="#FFCD7D" stroke-width="1.12" stroke-linecap="round" stroke-dasharray="2.24"/>
+            <g transform="translate(29.102)">
+                <path fill="#FEFBF7" d="M0 .55h25.259v37.409H0z"/>
+                <use stroke="#FFA300" mask="url(#N)" stroke-width="1.12" fill="#FFF" xlink:href="#j"/>
+                <use stroke-opacity=".4" stroke="#F5A231" mask="url(#O)" stroke-width="1.12" xlink:href="#k"/>
+                <path fill-opacity=".2" fill="#FFA300" d="M4.393 8.802h14.551v19.585H4.393z"/>
+                <rect fill="#FFEDCC" x="6.174" y="3.478" width="10.247" height=".948" rx=".474"/>
+                <ellipse fill="#FFEDCC" cx="11.518" cy="32.595" rx="1.527" ry="1.533"/>
+            </g>
+            <g transform="translate(164.252 83.07)">
+                <path fill="#FEFBF7" d="M0 0h31.24v37.409H0z"/>
+                <use stroke="#FFA300" mask="url(#P)" stroke-width="1.12" fill="#FFF" xlink:href="#l"/>
+                <use stroke-opacity=".4" stroke="#F5A231" mask="url(#Q)" stroke-width="1.12" xlink:href="#m"/>
+                <path fill-opacity=".2" fill="#FFA300" d="M8.71 9.77h19.343v19.913H8.71z"/>
+                <rect fill="#FFEDCC" x="17.852" y="5.789" width="1.275" height="1.405" rx=".638"/>
+                <ellipse fill="#FFEDCC" cx="18.489" cy="33.896" rx="1.275" ry="1.405"/>
+            </g>
+            <g transform="translate(143.315 8.252)">
+                <path fill="#FEFBF7" d="M0 0h47.772v32.458H0z"/>
+                <use stroke="#FFA300" mask="url(#R)" stroke-width="1.12" fill="#FFF" xlink:href="#n"/>
+                <path fill="#FFEDCC" d="M7.381 7.137h39.915v22.362H7.381z"/>
+                <path d="M6.193 4.996H47.06" stroke="#FEDAAE" stroke-width=".56" stroke-linecap="square"/>
+                <ellipse fill-opacity=".6" fill="#F5A231" cx="7.856" cy="2.855" rx=".475" ry=".476"/>
+                <ellipse fill-opacity=".6" fill="#F5A231" cx="9.757" cy="2.855" rx=".475" ry=".476"/>
+                <ellipse fill-opacity=".6" fill="#F5A231" cx="11.658" cy="2.855" rx=".475" ry=".476"/>
+            </g>
+        </g>
+        <g transform="translate(693)">
+            <rect fill-opacity=".4" fill="#FFA300" x="84.597" width="2.623" height="156" rx="1.312"/>
+            <mask id="T" fill="#fff">
+                <use xlink:href="#S"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#S"/>
+            <g mask="url(#T)">
+                <path d="M159.105 132.525c0 2.588-1.354 4.466-3.739 4.466H27.526c-2.385 0-4.504-1.878-4.504-4.466V50.98c0-2.588 2.119-4.687 4.504-4.687h127.84c2.385 0 3.74 2.099 3.74 4.687v81.546z" fill="#FFF"/>
+                <path d="M159.105 132.525c0 2.588-1.354 4.466-3.739 4.466H27.526c-2.385 0-4.504-1.878-4.504-4.466V50.98c0-2.588 2.119-4.687 4.504-4.687h127.84c2.385 0 3.74 2.099 3.74 4.687v81.546z" stroke="#FFA300" stroke-width="1.12"/>
+                <path stroke="#FFD791" stroke-width="1.12" d="M27.848 129.105h126.431V53.193H27.848z"/>
+                <g opacity=".3">
+                    <path d="M111.749 88.542l-.647-.094-.144-.63c-1.747-7.713-8.841-13.116-16.843-12.814-5.533.199-10.588 3.09-13.524 7.732l-.395.624-.709-.229a12.543 12.543 0 0 0-4.304-.594c-6.828.246-12.182 5.93-11.933 12.67.121 3.264 1.522 6.288 3.947 8.512a12.437 12.437 0 0 0 8.89 3.265 12.4 12.4 0 0 0 7.215-2.616l.587-.458.589.455a16.805 16.805 0 0 0 10.85 3.473 16.67 16.67 0 0 0 9.453-3.334l.52-.39.556.34a8.85 8.85 0 0 0 4.921 1.282 8.752 8.752 0 0 0 6.097-2.755 8.526 8.526 0 0 0 2.34-6.202c-.154-4.164-3.294-7.629-7.466-8.237" stroke="#FFA300" stroke-width="1.12" fill="#FFF"/>
+                    <path d="M111.188 88.46l-.086-.012-.12-.525c-2.565-6.353-8.956-10.584-16.061-10.316-5.533.2-10.59 3.09-13.525 7.732l-.394.625-.71-.23a12.543 12.543 0 0 0-4.303-.594c-6.829.246-12.183 5.93-11.933 12.67.022.617.091 1.225.204 1.82a12.202 12.202 0 0 0 2.937 4.09 12.437 12.437 0 0 0 8.89 3.264 12.4 12.4 0 0 0 7.215-2.616l.587-.458.589.455a16.805 16.805 0 0 0 10.85 3.473 16.67 16.67 0 0 0 9.453-3.334l.52-.39.556.34a8.85 8.85 0 0 0 4.921 1.282 8.752 8.752 0 0 0 6.097-2.755 8.526 8.526 0 0 0 2.261-7.082 8.741 8.741 0 0 0-6.582-4.754l-.647-.093-.144-.63a16.288 16.288 0 0 0-.575-1.961z" fill="#FFEDCC"/>
+                    <path d="M111.749 88.542l-.647-.094-.144-.63c-1.747-7.713-8.841-13.116-16.843-12.814-5.533.199-10.588 3.09-13.524 7.732l-.395.624-.709-.229a12.543 12.543 0 0 0-4.304-.594c-6.828.246-12.182 5.93-11.933 12.67.121 3.264 1.522 6.288 3.947 8.512a12.437 12.437 0 0 0 8.89 3.265 12.4 12.4 0 0 0 7.215-2.616l.587-.458.589.455a16.805 16.805 0 0 0 10.85 3.473 16.67 16.67 0 0 0 9.453-3.334l.52-.39.556.34a8.85 8.85 0 0 0 4.921 1.282 8.752 8.752 0 0 0 6.097-2.755 8.526 8.526 0 0 0 2.34-6.202c-.154-4.164-3.294-7.629-7.466-8.237" stroke="#FFA300" stroke-width="1.12"/>
+                </g>
+                <path fill-opacity=".05" fill="#FFA300" d="M154.28 129.598H27.364V53.686h29.311l68.48 75.419z"/>
+                <path fill="#FFF" d="M17.231 134.034h14.477v-1.972H17.231z"/>
+                <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M17.231 134.034h14.477v-1.972H17.231z"/>
+                <path fill="#FFF" d="M33.639 134.034h14.477v-1.972H33.639z"/>
+                <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M33.639 134.034h14.477v-1.972H33.639z"/>
+                <path fill="#FFF" d="M50.046 134.034h14.477v-1.972H50.046z"/>
+                <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M50.046 134.034h14.477v-1.972H50.046z"/>
+                <path fill="#FFF" d="M112.779 134.034h14.477v-1.972h-14.477z"/>
+                <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M112.779 134.034h14.477v-1.972h-14.477z"/>
+                <path fill="#FFF" d="M129.186 134.034h14.477v-1.972h-14.477z"/>
+                <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M129.186 134.034h14.477v-1.972h-14.477z"/>
+                <g>
+                    <path fill="#FFF" d="M145.593 134.034h14.477v-1.972h-14.477z"/>
+                    <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M145.593 134.034h14.477v-1.972h-14.477z"/>
+                </g>
+                <g>
+                    <path fill="#FFF" d="M66.453 134.034h44.396v-1.972H66.453z"/>
+                    <path stroke-opacity=".6" stroke="#FFA300" stroke-width=".56" d="M66.453 134.034h44.396v-1.972H66.453z"/>
+                </g>
+                <path d="M167.791 137.977c0 1.09-.864 1.972-1.93 1.972H15.301c-1.066 0-1.93-.882-1.93-1.972v-1.971c0-1.09.864-1.972 1.93-1.972h150.56c1.066 0 1.93.882 1.93 1.972v1.971z" stroke="#FFA300" stroke-width="1.12" fill="#FFF"/>
+                <path d="M13.854 136.499v.493c0 1.089-.884 2.464.183 2.464h152.79c1.066 0 1.447-1.375 1.447-2.464v-.493H13.854z" fill-opacity=".2" fill="#FFA300"/>
+            </g>
+            <path d="M166.2 59.406l13.635 12.107" stroke-opacity=".3" stroke="#F5A231" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12" mask="url(#T)"/>
+            <path d="M170.833 105.857l-4.59 9.177M134.471 74.223l5.54 6.727" stroke="#FFE3C1" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12" mask="url(#T)"/>
+            <ellipse fill="#FEC684" mask="url(#T)" cx="166.198" cy="59.268" rx="2.251" ry="2.243"/>
+            <ellipse fill="#FEC684" mask="url(#T)" cx="179.661" cy="71.416" rx="1.286" ry="1.281"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" mask="url(#T)" cx="119.984" cy="119.92" rx="1.286" ry="1.281"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" mask="url(#T)" cx="98.999" cy="62.895" rx="1.286" ry="1.281"/>
+            <ellipse fill="#FFA300" mask="url(#T)" cx="134.411" cy="74.038" rx="1.286" ry="1.281"/>
+            <ellipse fill="#FFE3C1" mask="url(#T)" cx="139.992" cy="80.927" rx=".965" ry=".961"/>
+            <ellipse fill="#FFE3C1" mask="url(#T)" cx="166.223" cy="115.011" rx=".965" ry=".961"/>
+            <ellipse fill="#FFE3C1" mask="url(#T)" cx="170.505" cy="106.179" rx="1.967" ry="1.96"/>
+            <g opacity=".3" mask="url(#T)">
+                <g transform="rotate(-90 60.332 -24.605)">
+                    <rect fill="#FFA105" x="8.525" y="14.181" width="2.085" height="34.465" rx="1.042"/>
+                    <rect fill="#FFCD7D" x="17.165" y=".375" width="2.085" height="22.477" rx="1.042"/>
+                    <rect fill="#FFCD7D" x=".488" y="3.372" width="2.085" height="26.223" rx="1.042"/>
+                    <rect fill="#FCB45B" x="17.165" y="25.85" width="2.085" height="11.239" rx="1.042"/>
+                    <rect fill="#FCB45B" x=".488" y="32.593" width="2.085" height="7.492" rx="1.042"/>
+                    <rect fill="#FFCD7D" x="8.525" width="2.085" height="11.345" rx="1.042"/>
+                </g>
+            </g>
+            <mask id="V" fill="#fff">
+                <use xlink:href="#U"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#U"/>
+            <g mask="url(#V)">
+                <g opacity=".3" transform="translate(2.623 15.731)">
+                    <use stroke="#FFA300" mask="url(#W)" stroke-width="2.24" fill="#FFF" xlink:href="#o"/>
+                    <rect fill="#FFEDCC" x="4.591" y="4.588" width="61.644" height="74.723" rx="2.24"/>
+                    <rect fill="#FFD790" x="11.804" y="19.664" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="29.496" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFCE7C" x="11.804" y="39.983" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="49.815" width="39.347" height="5.244" rx="2.622"/>
+                </g>
+                <g opacity=".4" transform="translate(12.46 30.151)">
+                    <use stroke="#FFA300" mask="url(#X)" stroke-width="2.24" fill="#FFF" xlink:href="#p"/>
+                    <rect fill="#FFEDCC" x="4.591" y="4.588" width="61.644" height="74.723" rx="2.24"/>
+                    <rect fill="#FFD790" x="11.804" y="19.664" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="29.496" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFCE7C" x="11.804" y="39.983" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="49.815" width="39.347" height="5.244" rx="2.622"/>
+                </g>
+                <g opacity=".6" transform="translate(22.953 45.227)">
+                    <use stroke="#FFA300" mask="url(#Y)" stroke-width="2.24" fill="#FFF" xlink:href="#q"/>
+                    <rect fill="#FFEDCC" x="4.591" y="4.588" width="61.644" height="74.723" rx="2.24"/>
+                    <rect fill="#FFD790" x="11.804" y="19.664" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="29.496" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFCE7C" x="11.804" y="39.983" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="49.815" width="39.347" height="5.244" rx="2.622"/>
+                </g>
+                <g opacity=".9" transform="translate(36.724 59.647)">
+                    <use stroke="#FFA300" mask="url(#Z)" stroke-width="2.24" fill="#FFF" xlink:href="#r"/>
+                    <use stroke="#FFA300" mask="url(#aa)" stroke-width="2.24" fill="#FFFEFE" xlink:href="#s"/>
+                    <rect fill="#FFD790" x="11.804" y="19.664" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="29.496" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFCE7C" x="11.804" y="39.983" width="39.347" height="5.244" rx="2.622"/>
+                    <rect fill="#FFD790" x="11.804" y="49.815" width="39.347" height="5.244" rx="2.622"/>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(455 -11)">
+            <g opacity=".5" transform="rotate(45 62.372 152.82)" fill="#F8F0E2">
+                <rect x=".066" y="9.939" width="32.502" height="140.719" rx="16.251"/>
+                <rect x="29.252" y="24.993" width="32.502" height="115.726" rx="16.251"/>
+                <rect x="56.271" y=".159" width="32.502" height="159.735" rx="16.251"/>
+            </g>
+            <ellipse fill="#FFCE7B" cx="65.13" cy="30.467" rx="1.826" ry="1.821"/>
+            <ellipse fill="#FFCE7B" cx="73.652" cy="41.459" rx="1.217" ry="1.214"/>
+            <ellipse fill-opacity=".4" fill="#FFA300" cx="138.174" cy="24.976" rx="1.217" ry="1.214"/>
+            <ellipse fill-opacity=".6" fill="#F5A231" cx="192.957" cy="100.058" rx="3.043" ry="3.035"/>
+            <ellipse fill="#FFA300" cx="41.391" cy="90.911" rx="1.217" ry="1.214"/>
+            <ellipse fill="#FFE3C1" cx="13.831" cy="89.521" rx="1.048" ry="1.046"/>
+            <ellipse fill="#FFE3C1" cx="136.957" cy="147.685" rx="1.826" ry="1.821"/>
+            <g opacity=".6" transform="translate(44.753 50.999)">
+                <use stroke="#FFA300" mask="url(#ab)" stroke-width="2.24" fill="#FFEDCC" xlink:href="#t"/>
+                <rect fill="#FFF" x="1.424" y="1.428" width="87.566" height="4.284" rx="1.12"/>
+                <rect fill="#FFF" transform="rotate(-90 3.56 27.49)" x="-22.426" y="25.349" width="51.97" height="4.284" rx="1.12"/>
+            </g>
+            <g transform="rotate(48 -27.738 61.21)">
+                <path d="M1.903 1.996l6.022 7.318" stroke="#FFDAAC" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12"/>
+                <ellipse fill="#FFA300" cx="1.838" cy="1.794" rx="1.398" ry="1.394"/>
+                <ellipse fill="#FFE3C1" cx="7.904" cy="9.29" rx="1.048" ry="1.046"/>
+            </g>
+            <g transform="rotate(24 -33.46 357.631)">
+                <path d="M2.841 3.007l10.915 13.265" stroke="#FFDAAC" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12"/>
+                <ellipse fill="#FFCE7B" cx="2.723" cy="2.642" rx="2.534" ry="2.527"/>
+                <ellipse fill="#FFE3C1" cx="13.718" cy="16.228" rx="1.9" ry="1.895"/>
+            </g>
+            <g transform="matrix(-1 0 0 1 180.73 71.706)">
+                <use stroke="#FFA300" mask="url(#ac)" stroke-width="2.24" fill="#FFEDCC" xlink:href="#u"/>
+                <rect fill="#FFF" x="1.424" y="1.428" width="87.566" height="4.284" rx="1.12"/>
+                <rect fill="#FFF" transform="scale(-1 1) rotate(-90 0 114.345)" x="60.869" y="25.349" width="51.97" height="4.284" rx="1.12"/>
+            </g>
+            <g transform="rotate(-28 152.51 -317.822)">
+                <path d="M14.202 7.204v9.162c0 3.747-3.187 6.784-7.101 6.784C3.179 23.15 0 19.976 0 16.366l14.202-9.162z" stroke-opacity=".5" stroke="#FFA300" stroke-width=".56" stroke-linecap="round" stroke-dasharray="1.12" fill-opacity=".2" fill="#FFA300"/>
+                <use stroke="#FFA300" mask="url(#ad)" stroke-width="1.12" fill="#FFF" xlink:href="#v"/>
+                <path d="M12.258 3.094c.44.823.69 1.763.69 2.76v10.244a5.855 5.855 0 0 1-5.847 5.855 5.82 5.82 0 0 1-3.904-1.498 5.828 5.828 0 0 1-.69-2.76V7.451a5.855 5.855 0 0 1 5.847-5.854c1.5 0 2.869.566 3.904 1.497z" fill="#FFEDCC"/>
+                <use stroke="#FFA300" mask="url(#ae)" stroke-width="1.68" xlink:href="#w"/>
+                <use stroke-opacity=".8" stroke="#F5A231" mask="url(#af)" stroke-width="1.12" fill-opacity=".3" fill="#F5A231" xlink:href="#x"/>
+                <rect fill="#FFA300" x="6.683" y="21.553" width="1.253" height="7.184" rx=".627"/>
+                <rect fill="#FFA300" x="2.506" y="27.94" width="9.607" height=".798" rx=".399"/>
+            </g>
+            <g opacity=".8">
+                <path d="M24.736 71.877l-.296-.103-.011-.305c-.129-3.732-2.982-6.884-6.777-7.476-2.623-.415-5.264.462-7.065 2.343l-.241.253-.314-.17a6.11 6.11 0 0 0-1.973-.67c-3.237-.511-6.27 1.631-6.76 4.776a5.663 5.663 0 0 0 1.093 4.304 6.024 6.024 0 0 0 3.892 2.326 6.009 6.009 0 0 0 3.633-.551l.317-.159.236.265a8.151 8.151 0 0 0 4.797 2.601 8.08 8.08 0 0 0 4.751-.679l.28-.133.232.209a4.3 4.3 0 0 0 2.201 1.044 4.23 4.23 0 0 0 3.119-.718 3.986 3.986 0 0 0 1.66-2.659c.302-1.942-.864-3.834-2.774-4.498" stroke="#FFA300" stroke-width=".84" fill="#FFF"/>
+                <path d="M24.526 72.01l-.039-.014-.009-.248c-.621-3.105-3.19-5.591-6.483-6.106-2.563-.404-5.143.452-6.903 2.29l-.236.248-.306-.167a5.97 5.97 0 0 0-1.928-.654c-3.164-.5-6.128 1.594-6.606 4.667a5.56 5.56 0 0 0-.066.842 5.63 5.63 0 0 0 .992 2.113 5.887 5.887 0 0 0 3.803 2.273 5.872 5.872 0 0 0 3.55-.539l.31-.154.231.258a7.966 7.966 0 0 0 4.687 2.542 7.897 7.897 0 0 0 4.643-.663l.274-.13.226.203c.6.54 1.344.89 2.151 1.02a4.133 4.133 0 0 0 3.048-.7 3.895 3.895 0 0 0 1.664-3.004 4.093 4.093 0 0 0-2.61-2.74l-.29-.1-.011-.298a7.417 7.417 0 0 0-.092-.94z" fill="#FFEDCC"/>
+                <path d="M24.736 71.877l-.296-.103-.011-.305c-.129-3.732-2.982-6.884-6.777-7.476-2.623-.415-5.264.462-7.065 2.343l-.241.253-.314-.17a6.11 6.11 0 0 0-1.973-.67c-3.237-.511-6.27 1.631-6.76 4.776a5.663 5.663 0 0 0 1.093 4.304 6.024 6.024 0 0 0 3.892 2.326 6.009 6.009 0 0 0 3.633-.551l.317-.159.236.265a8.151 8.151 0 0 0 4.797 2.601 8.08 8.08 0 0 0 4.751-.679l.28-.133.232.209a4.3 4.3 0 0 0 2.201 1.044 4.23 4.23 0 0 0 3.119-.718 3.986 3.986 0 0 0 1.66-2.659c.302-1.942-.864-3.834-2.774-4.498" stroke="#FFA300" stroke-width=".84"/>
+            </g>
+            <g transform="rotate(-13 536.409 -15.089)">
+                <g transform="rotate(20 -21.445 14.94)" stroke="#FFAA4B" stroke-width="1.12" fill="#FFEDCC">
+                    <use mask="url(#ag)" xlink:href="#y"/>
+                    <use mask="url(#ah)" xlink:href="#z"/>
+                </g>
+                <use stroke="#FFAA4B" mask="url(#ai)" stroke-width="1.12" fill="#FFF" xlink:href="#A"/>
+                <use stroke="#FFA300" mask="url(#aj)" stroke-width="1.12" fill="#FFEDCC" xlink:href="#B"/>
+                <use stroke-opacity=".6" stroke="#F5A231" mask="url(#ak)" stroke-width="1.12" fill="#FFEDCC" xlink:href="#C"/>
+                <path fill="#FFF" d="M1.559 3.535h5.715v.505H1.559z"/>
+                <path fill="#FFF" d="M2.037 3.545v8.3h-.505v-8.3z"/>
+                <use stroke="#FCAC4A" mask="url(#al)" stroke-width="1.12" xlink:href="#D"/>
+            </g>
+            <g transform="translate(161.304 135.485)">
+                <path d="M2.094 2.135l10.652 9.467" stroke="#FFDAAC" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12"/>
+                <ellipse fill="#FEC684" cx="2.092" cy="2.026" rx="1.758" ry="1.754"/>
+                <ellipse fill="#FEC684" cx="12.61" cy="11.526" rx="1.005" ry="1.002"/>
+            </g>
+            <path d="M100.778 146.592l4.62 15.538" stroke="#FFDAAC" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12"/>
+            <ellipse fill="#FFA300" cx="105.364" cy="162.206" rx="1.758" ry="1.754"/>
+            <ellipse fill="#FEC684" cx="100.724" cy="146.7" rx="1.005" ry="1.002"/>
+            <g transform="rotate(-37 222.689 -14.476)">
+                <path d="M2.094 2.135l10.652 9.467" stroke="#FFDAAC" stroke-width=".5" stroke-linecap="square" stroke-dasharray="1.12"/>
+                <ellipse fill="#FEC684" cx="2.092" cy="2.026" rx="1.758" ry="1.754"/>
+                <ellipse fill="#FFE3C1" cx="12.61" cy="11.526" rx="1.005" ry="1.002"/>
+            </g>
+        </g>
+    </g>
+</svg>
