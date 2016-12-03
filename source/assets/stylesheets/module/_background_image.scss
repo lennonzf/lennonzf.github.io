@@ -27,3 +27,9 @@
   background-position: center bottom;
   background-image: image-url("projects/senza-carta/hero.jpg");
 }
+
+.bg-image-mda-mentoring {
+  @extend .bg-image-base;
+  background-position: center 40%;
+  background-image: image-url("projects/mda-mentoring/hero.jpg");
+}
