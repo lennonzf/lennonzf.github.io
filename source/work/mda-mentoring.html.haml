@@ -17,6 +17,7 @@ title: Work - MDA Mentoring | Lennon Cheng - UX Designer
       .bg-image-base.z2
 
   .container.max-w600px
+    /info board
     .c1in1.card.p4.flex.flex-column.text-grey-dark
       .flex.sm-flex-column.left-align.mb2
         .flex1
@@ -47,4 +48,70 @@ title: Work - MDA Mentoring | Lennon Cheng - UX Designer
           .text-blue Result
         .flex3.sm-flex1
           First Prize of RHOK Brisbane 2016
+
+    .mt12
+      %h2 Intro
+      %p 
+        Over the last weekend of November, I had my first hackathon at the brand new NetEngine office for the 2016 RHOK (
+        = link_to 'Random Hack of Kindness ', 'http://rhokbrisbane.org/', target: "auto"
+        ). I was fortunate enough to lead a team of exceptional coders and problem solvers to work on Mentoring, a project inspired by our client Anna from MDA. Meanwhile, I had a lot of fun going through a design process at a rapid pace.
+
+      %h3 Client
+      %p 
+        = link_to 'MDA', 'https://mdaltd.org.au', target: "auto"
+        has initiated a new program, currently named “Human Library”, which matches a young refugee with a well-trained life mentor to help the new arrival with inevitable challenges down the road. Anna, representing MDA in this year’s RHOK, works to help to match and maintain every pair of mentor and mentee.
+
+      %h3 Challenge
+      %p After a group brainstorming, we managed to define the problem using one sentence, “Connecting well-prepared mentors and mentees to establish an ongoing journey/relationship where all parties benefit in a safe environment”. Of course, the other greatest challenge was to finish the MVP product with the two-day time restriction.
+
+      %h3 Idea
+      %p Making connections with the local community is always a pain point for any new arrivals entering an entirely different culture. The idea I proposed and later be adopted came up by remembering my fear of going to any social event when I first arrived in Brisbane as an international student. Having a mentor being there for me is a perfect way to build my confidence so that I can socialise more and make connections.
+
+      %p Then I realised using an event such as meet ups as an incentive to both mentors and mentees might not only helping the mentees to be exposed in a local environment and expand connections but also maintaining an ongoing relationship between a pair.
+
+      %p From the client’s pitch, the core of any solutions we might come up with can not escape from having a profile system of both mentors and mentees. Therefore, we landed on the rough idea of having a system with the ability for mentors and mentees to go to events together and a profile system as its base.
           
+    .mt12
+      %h2 Plan
+      %p There were a couple of times that the team had to change the plan caused by different reasons, including the unexpected merging of groups due to overlapping of functionalities and disagreement around the technology stack and approach. However, the team managed to pull off a round of design and development cycle.
+
+    .mt12
+      %h2 Design Process
+
+      %h3 Define user groups
+      %p There were initially three user groups, including facilitator (for example, Anna), mentor and mentee. Anna told us that she was more interested in setting up the relationship between a pair of mentor or mentee instead of standing in between all the time. Therefore, although the monitoring from facilitator is crucial to the program, we decided to take facilitator out of the equation for MVP after confirming with the client.
+
+    .mt12
+      %h2 Tech Stack
+      %p Here’s a list of technology we used to create the web application:
+      %ul
+        %li Python with Django - Back-end and framework
+        %li HTML, SASS and Javascript - Front-end
+        %li Github - Repository
+        %li Firebase and AWS - File Storage and database
+
+    .mt12
+      %h2 Results
+
+    .mt12
+      %h2 Reflection
+      %ul
+        %li Don’t be afraid to disagree with others. Be confident about what you do but also be respectful to others.
+        %li Have a plan.
+        %li Follow the design process even if the time is pressing. We need to know what we are building before actually start doing it.
+        %li Jump out of my comfort zone. I realised that I was getting too used to working in a Ruby and Rails environment with HAML and SASS by my side. It took me a while to adjust myself to the original HTML markup syntax.
+        %li It is wise to reuse parts of some previous project if necessary to reduce the time for an event like this. I borrowed the basic layout from a personal project. It saved me tonnes of time as I have thought through the user experience of the interface and resolved the responsiveness in the code.
+        %li Further on the previous point, be aware of you and your client’s IP.
+        %li Prioritise the tasks, finish what is essential first and then polish.
+
+    .mt12
+      %h2 Publication
+      %h4 Brisbane Times
+      %p= link_to "RHOK attracts industry enthusiasts to help charities", "//www.brisbanetimes.com.au/queensland/random-hacks-of-kindness-attracts-industry-enthusiasts-to-help-charities-20161126-gsy6pm.html", target: 'auto'
+
+    .mt12
+      .flex.justify-center
+        = link_to "Check the repository", '//github.com/rhokbrisbane/mda', class: 'button', target: 'auto'
+
+    .mt12
+      = link_to "< Back to Work", '/work', class: 'text-grey light'
