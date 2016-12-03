@@ -53,7 +53,7 @@ title: Work - MDA Mentoring | Lennon Cheng - UX Designer
       %h2 Intro
       %p 
         Over the last weekend of November, I had my first hackathon at the brand new NetEngine office for the 2016 RHOK (
-        = link_to 'Random Hack of Kindness ', 'http://rhokbrisbane.org/', target: "auto"
+        = link_to 'Random Hack of Kindness', 'http://rhokbrisbane.org/', target: "auto"
         ). I was fortunate enough to lead a team of exceptional coders and problem solvers to work on Mentoring, a project inspired by our client Anna from MDA. Meanwhile, I had a lot of fun going through a design process at a rapid pace.
 
       %h3 Client
@@ -77,33 +77,71 @@ title: Work - MDA Mentoring | Lennon Cheng - UX Designer
           
     .mt12
       %h2 Plan
-      %p There were a couple of times that the team had to change the plan caused by different reasons, including the unexpected merging of groups due to overlapping of functionalities and disagreement around the technology stack and approach. However, the team managed to pull off a round of design and development cycle.
+      %p There were a couple of times that the team had to change the plan caused by different reasons, including the unexpected merging of groups due to overlapping of functionalities and disagreement around the technology stack and approach. However, the team managed to pull off a full round of design and development cycle.
 
+      %p Here’s the actual schedule of how we delivered the MVP:
+
+
+      .mt6
+        = image_tag '/assets/images/projects/mda-mentoring/schedule.png'
+
+  .container.max-w600px
     .mt12
       %h2 Design Process
 
       .mt0
         %h3 Define user groups
-        %p There were initially three user groups, including facilitator (for example, Anna), mentor and mentee. Anna told us that she was more interested in setting up the relationship between a pair of mentor or mentee instead of standing in between all the time. Therefore, although the monitoring from facilitator is crucial to the program, we decided to take facilitator out of the equation for MVP after confirming with the client.
-
-
-      .mt6
-        %h3 Module mapping and define user stories
-        .mt6
-          = image_tag '/assets/images/projects/mda-mentoring/rhok_2.jpg'
-
-
-      .mt12
-        %h3 Workflow mapping and detailed screen mapping
 
   .container.max-w900px
-    .flex.justify-between.sm-flex-column.my6
+    .flex.justify-between.sm-flex-column
+      .c1in2.sm-c1in1
+        = image_tag '/assets/images/projects/mda-mentoring/user_groups.png'
+      .c1in2.sm-c1in1.sm-mt6
+        %p.sm-mb0 There were initially three user groups, including facilitator (for example, Anna), mentor and mentee. Anna told us that she was more interested in setting up the relationship between a pair of mentor or mentee instead of standing in between all the time. Therefore, although the monitoring from facilitator is crucial to the program, we decided to take facilitator out of the equation for MVP after confirming with the client.
+      
+  .container.max-w600px
+    .mt6
+      %h3 Module mapping and define user stories
+      .mt6
+        = image_tag '/assets/images/projects/mda-mentoring/rhok_2.jpg'
+
+    .mt12.sm-mt6
+      %h3 Workflow mapping and detailed screen mapping
+
+  .container.max-w900px
+    .flex.justify-between.sm-flex-column.my6.sm-my0
       .c1in2.sm-c1in1
         = image_tag '/assets/images/projects/mda-mentoring/rhok_3.jpg'
       .c1in2.sm-c1in1.sm-mt4
         = image_tag '/assets/images/projects/mda-mentoring/rhok_4.jpg'
 
   .container.max-w600px
+    .mt12.sm-mt6
+      %h2 Style
+
+      .mt0
+        %h3 Typography
+        .c1in1.card
+          .card-header Font
+          .p4.font-large.pt-sans PT Sans
+      .mt6
+        %h3 Color Scheme
+        .flex.flex-wrap.justify-between
+          .c1in3.card
+            .card-header #009FDA
+            .p8.bg-mda-brand
+            .card-footer $brand
+          .c1in3.card
+            .card-header #19495A
+            .p8.bg-mda-brand-tint
+            .card-footer $brand-tint
+          .c1in3.card
+            .card-header #F99D1C
+            .p8.bg-mda-brand-highlight
+            .card-footer $brand-highlight
+
+
+
     .mt12
       %h2 Tech Stack
       %p Here’s a list of technology we used to create the web application:
