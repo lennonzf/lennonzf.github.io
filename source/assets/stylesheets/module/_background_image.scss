@@ -39,3 +39,21 @@
   background-position: center 40%;
   background-image: image-url("projects/the-nick-team/hero.jpg");
 }
+
+.bg-image-netengine-new-office{
+  @extend .bg-image-base;
+  background-position: center 50%;
+  background-image: image-url("projects/netengine-new-office/hero.png");
+}
+
+.bg-image-tedxuq-2014{
+  @extend .bg-image-base;
+  background-position: center 0%;
+  background-image: image-url("projects/tedxuq-2014/hero.jpg");
+}
+
+.bg-image-ninja-robbers{
+  @extend .bg-image-base;
+  background-position: center 0%;
+  background-image: image-url("projects/ninja-robbers/hero.jpg");
+}

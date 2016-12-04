@@ -93,10 +93,10 @@ a.box-base {
 }
 
 // case study
-.box-illustration {
+.box-creation {
   @extend .box-base;
 
   &::before {
-    content: "Illustration";
+    content: "Creation";
   }
 }
