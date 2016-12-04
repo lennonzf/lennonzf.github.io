@@ -82,3 +82,21 @@ a.box-base {
     content: "Thanks";
   }
 }
+
+// case study
+.box-case-study {
+  @extend .box-base;
+
+  &::before {
+    content: "Case Study";
+  }
+}
+
+// case study
+.box-illustration {
+  @extend .box-base;
+
+  &::before {
+    content: "Illustration";
+  }
+}

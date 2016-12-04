@@ -33,3 +33,9 @@
   background-position: center 40%;
   background-image: image-url("projects/mda-mentoring/hero.jpg");
 }
+
+.bg-image-the-nick-team {
+  @extend .bg-image-base;
+  background-position: center 40%;
+  background-image: image-url("projects/the-nick-team/hero.jpg");
+}
