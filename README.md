@@ -27,6 +27,7 @@ By designing and coding up the site, I am aiming for these goals:
 - Develop a style guide
 - ~~Add an automated testing tool~~ Use hound for reviewing pull requests (mainly HAML and SCSS) and act on the comments
 - Use Bower for managing the front-end plugins
+- Add proper social media metadata to enhance the SEO of the site
 
 #####Special Thanks
 Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
