@@ -1,0 +1,10 @@
+
+@media screen and (min-width: $desktop) {
+  .content:after {
+    content: image-url("asset.svg");
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+  }
+}

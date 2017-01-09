@@ -27,6 +27,7 @@ By designing and coding up the site, I am aiming for these goals:
 - Develop a style guide
 - ~~Add an automated testing tool~~ Use hound for reviewing pull requests (mainly HAML and SCSS) and act on the comments
 - Use Bower for managing the front-end plugins
+- Add proper social media metadata to enhance the SEO of the site
 
 #####Special Thanks
 Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
@@ -50,7 +51,9 @@ The stylesheets in this project is created collaboratively by **[Felix Lee](http
 - [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll) - better internal link scrolling experience
 - [Prism](http://prismjs.com/index.html) - code snippet and syntax highlighting
 - [Sticky-kit](https://github.com/leafo/sticky-kit) - make sticky elements
+- [Unsplash](https://unsplash.com/) - stock image with great quality
 
 ## Inspiration
-- [Harryhon](http://www.harryhon.com/) - Idea of the new identity
-- [Mailchimp Patterns Library](http://ux.mailchimp.com/patterns) - Style Guide
+- [Harryhon](http://www.harryhon.com/) - idea of the new identity
+- [Mailchimp Patterns Library](http://ux.mailchimp.com/patterns) - style guide
+- [TINGYU LI](http://tingyu.li/) - case study story telling

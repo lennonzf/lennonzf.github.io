@@ -1,0 +1,225 @@
+---
+title: Work - MDA Mentoring | Lennon Cheng - UI/UX Designer, Front-end Developer
+---
+
+.flex-auto.mb12
+  /header
+  .c1in1
+    .work-tile.mb9
+      / project title & description
+      .flex.flex-wrap.flex-auto.text-white.z1
+        .flex.flex-column.flex-auto.justify-center
+          .work-tile-title MDA Mentoring
+          .work-tile-description Help young refugees transit into their new life in Australia
+      / background color hover
+      .bg-image-mda-mentoring.o4
+      / wrapper for anchor link
+      .bg-image-base.z2
+
+  .container.max-w600px
+    /info board
+    .c1in1.card.p4.flex.flex-column.text-grey-dark
+      .flex.sm-flex-column.left-align.mb2
+        .flex1
+          .text-blue Role
+        .flex3.sm-flex1
+          Project Lead / App Designer / Front-end Developer
+
+      .flex.sm-flex-column.left-align.mb2
+        .flex1
+          .text-blue Skill
+        .flex3.sm-flex1
+          Requirement Mapping / UI Design / Front-end Development / Project Management
+
+      .flex.sm-flex-column.left-align.mb2
+        .flex1
+          .text-blue Tool
+        .flex3.sm-flex1
+          Pen & Paper / Sticky notes / Sketchapp / HTML / SASS / Github
+
+      .flex.sm-flex-column.left-align.mb2
+        .flex1
+          .text-blue Repository
+        .flex3.sm-flex1
+          = link_to "MDA Mentoring", '//github.com/rhokbrisbane/mda', target: "auto"
+
+      .flex.sm-flex-column.left-align
+        .flex1
+          .text-blue Result
+        .flex3.sm-flex1
+          First Place of RHOK Brisbane 2016
+
+    .mt12
+      %h2 Intro
+      %p 
+        Over the last weekend of November, I had my first hackathon at the brand new NetEngine office for the 2016 RHOK (
+        = link_to 'Random Hack of Kindness', 'http://rhokbrisbane.org/', target: "auto"
+        ). I was fortunate enough to lead a team of exceptional coders and problem solvers to work on Mentoring, a project inspired by our client Anna from MDA. Meanwhile, I had a lot of fun going through a design process at a rapid pace.
+
+      %h3 Client
+      %p 
+        = link_to 'MDA', 'https://mdaltd.org.au', target: "auto"
+        has initiated a new program, currently named “Human Library”, which matches a young refugee with a well-trained life mentor to help the new arrival with inevitable challenges down the road. Anna, representing MDA in this year’s RHOK, works to help to match and maintain every pair of mentor and mentee.
+
+      %h3 Challenge
+      %p After a group brainstorming, we managed to define the problem using one sentence, “Connecting well-prepared mentors and mentees to establish an ongoing journey/relationship where all parties benefit in a safe environment”. Of course, the other greatest challenge was to finish the MVP product with the two-day time restriction.
+
+    .mt6
+      = image_tag '/assets/images/projects/mda-mentoring/rhok_1.jpg'
+
+    .mt6
+      %h3 Idea
+      %p Making connections with the local community is always a pain point for any new arrivals entering an entirely different culture. The idea I proposed and later we adopted came about by remembering my fear of going to any social event when I first arrived in Brisbane as an international student. Having a mentor being there for me would have been a perfect way to build my confidence so that I could socialise more and make connections.
+
+      %p Then I realised using an event such as meet ups as an incentive to both mentors and mentees might not only help the mentees to be exposed in a local environment and expand connections but also maintain an ongoing relationship between the pair.
+
+      %p From the client’s pitch, the core of any solutions we might come up with could not escape having a profile system of both mentors and mentees. Therefore, we landed on the rough idea of having a system with the ability for mentors and mentees to go to events together and a profile system as its base.
+          
+    .mt12
+      %h2 Plan
+      %p There were a couple of times that the team had to change the plan caused by different reasons, including the unexpected merging of groups due to overlapping of functionalities and disagreement around the technology stack and approach. However, the team managed to pull off a full round of design and development cycle.
+
+      %p Here’s the actual schedule of how we delivered the MVP:
+
+
+      .mt6
+        = image_tag '/assets/images/projects/mda-mentoring/schedule.png'
+
+  .container.max-w600px
+    .mt12
+      %h2 Design Process
+
+      .mt0
+        %h3 Define user groups
+
+  .container.max-w900px
+    .flex.justify-between.sm-flex-column
+      .c1in2.sm-c1in1
+        = image_tag '/assets/images/projects/mda-mentoring/user_groups.png'
+      .c1in2.sm-c1in1.sm-mt6
+        %p.sm-mb0 There were initially three user groups, including facilitator (for example, Anna), mentor and mentee. Anna told us it would be appropriate for her to connect the pair and then step away. Therefore, although the monitoring from facilitator is crucial to the program, we decided to take the facilitator out of the equation for MVP after confirming with the client.
+      
+  .container.max-w600px
+    .mt6
+      %h3 Module mapping and define user stories
+      .mt6
+        = image_tag '/assets/images/projects/mda-mentoring/rhok_2.jpg'
+
+    .mt12.sm-mt6
+      %h3 Workflow mapping and detailed screen mapping
+
+  .container.max-w900px
+    .flex.justify-between.sm-flex-column.my6.sm-my0
+      .c1in2.sm-c1in1
+        = image_tag '/assets/images/projects/mda-mentoring/rhok_3.jpg'
+      .c1in2.sm-c1in1.sm-mt4
+        = image_tag '/assets/images/projects/mda-mentoring/rhok_4.jpg'
+
+  .container.max-w600px
+    .mt12.sm-mt6
+      %h2 Style
+      %p To keep the product align with the branding of MDA, both of the typography and colour schemes are extracted directly from MDA’s website.
+      .mt0
+        %h3 Typography
+        .c1in1.card
+          .card-header Font
+          .p4.font-large.pt-sans PT Sans
+      .mt6
+        %h3 Colour Scheme
+        .flex.flex-wrap.justify-between
+          .c1in3.card
+            .card-header #009FDA
+            .p8.bg-mda-brand
+            .card-footer $brand
+          .c1in3.card
+            .card-header #19495A
+            .p8.bg-mda-brand-tint
+            .card-footer $brand-tint
+          .c1in3.card
+            .card-header #F99D1C
+            .p8.bg-mda-brand-highlight
+            .card-footer $brand-highlight
+
+
+    .mt12
+      %h2 Tech Stack
+      %p Here’s a list of technology we used to create the web application:
+      %ul
+        %li Python with Django - Back-end and framework
+        %li HTML, SASS and Javascript - Front-end
+        %li Github - Repository
+        %li Firebase and AWS - File Storage and database
+
+    .mt12
+      %h2 Result
+      %p The final product was a web application built on Python and Django framework. The decision was made to fit the skill sets of the team and to create a cross-platform product in the quickest way. For the front-end part of the application, I reused some of the stylesheets from a recent personal project with SASS.
+
+      %h3 Authentication
+      %p A mentor or a mentee can create their profile by signing up. The process will focus on getting the information on either parties' experience, language and contact details. Users can sign into the  system after they have successfully signed up.
+
+  .container.max-w900px
+    = image_tag '/assets/images/projects/mda-mentoring/result_1.png'
+
+  .container.max-w600px
+    .mt6
+      %h3 Profile
+      %p A mentee will always see his/her mentor's profile (same for the mentor). Users can also click on the "slack message" button and be directed to Slack to  communicate with each other. In a future sprint, functionalities such as direct messaging or a group forum could be built within in the system.
+
+  .container.max-w900px
+    = image_tag '/assets/images/projects/mda-mentoring/result_2.png'
+
+  .container.max-w600px
+    .mt6
+      %h3 Goal
+      %p A pair of mentor and mentee can set a series of main goals. For each main goal, users can create several sub-goals with a scale from 0 to 10. From time to time, the mentee can adjust his/her rating as a subjective measurement on how much he/she is heading toward the main goal. The rating will be visualised through a radar graph at the top of the page.
+      %p Both the mentor or the mentee can also define some objective goals by creating an action list for each sub-goal. Later, when the mentee has crossed off some actions, he/she can print out a list of achievements through accessing the "achievement" tab. The list is effectively a resume or a proof of experience with the endorsement of the mentor.
+    
+  .container.max-w900px
+    = image_tag '/assets/images/projects/mda-mentoring/result_3.png'
+
+  .container.max-w600px
+    .mt6
+      %h3 Event
+      %p The event module is another crucial part of the application as mentioned earlier in the idea section. Both a mentor and a mentee can create or explore events and invite each other to attend. An event can be a one-to-one meeting between the pair or a meetup event to expand the mentee's connection.
+      %p For a particular event, a user can view the number of participants, whether his/her mentor or mentee is going, location and date information.
+
+  .container.max-w900px
+    = image_tag '/assets/images/projects/mda-mentoring/result_4.png'
+
+  .container.max-w600px
+    .mt6
+      %h3 Other
+      %p There were a lot of functionalities we planned to cover during the event, including:
+      %ul
+        %li scheduling and calendar for event
+        %li ability for mentors and mentees to join multiple groups based on their interest
+        %li notification and alert
+        %li and more
+
+    .mt6
+      %h3 We won!
+      %p The team won the first place in the hackathon. However, Anna’s excitement when listening to our final pitch meant much more than winning.
+
+    .mt12
+      %h2 Reflection
+      %ul
+        %li Don’t be afraid to disagree with others. Be confident about what you do but also be respectful to others.
+        %li Have a plan.
+        %li Follow the design process even if the time is pressing. We need to know what we are building before actually start doing it.
+        %li Jump out of my comfort zone. I realised that I was getting too used to working in a Ruby and Rails environment with HAML and SASS by my side. It took me a while to adjust myself to the original HTML markup syntax.
+        %li It is wise to reuse parts of some previous projects if necessary to reduce the time for an event like this. I borrowed the basic layout from a personal project. It saved me tonnes of time as I had thought through the user experience of the interface and resolved the responsiveness in the code.
+        %li Further on the previous point, be aware of you and your client’s IP.
+        %li Prioritise the tasks, finish what is essential first and then polish.
+        %li Make sure everyone has fun.
+
+    .mt12
+      %h2 Publication
+      %h4 Brisbane Times
+      %p= link_to "RHOK attracts industry enthusiasts to help charities", "http://www.brisbanetimes.com.au/queensland/random-hacks-of-kindness-attracts-industry-enthusiasts-to-help-charities-20161126-gsy6pm.html", target: 'auto'
+
+    .mt12
+      .flex.justify-center
+        = link_to "Check repository", '//github.com/rhokbrisbane/mda', class: 'button', target: 'auto'
+
+    .mt12
+      = link_to "< Back to Work", '/work', class: 'text-grey light'

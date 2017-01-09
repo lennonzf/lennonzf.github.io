@@ -4,11 +4,13 @@
     %meta{ charset: "utf-8" }
     %meta{ content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
     %meta{ content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport" }
-    %title= current_page.data.title || "Lennon Cheng - UX Designer"
+
+    %title= current_page.data.title || "Lennon Cheng - UI/UX Designer, Front-end Developer"
 
     = stylesheet_link_tag 'site'
 
     = partial 'partials/favicon'
+    = partial 'partials/metadata'
 
 %body.flex.flex-column.min-h100vh.relative.sm-flex-column
   = partial 'partials/header'

@@ -89,4 +89,5 @@ helpers do
   end
 end
 
-
+require "helpers/image_helpers"
+helpers ImageHelpers
