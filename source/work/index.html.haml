@@ -102,58 +102,13 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
       .box-container
         .box-creation.font-large.manteka Creation
 
-  / NetEngine Marketing Page
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-netengine-marketing-page.o9
-      / wrapper for anchor link
-      = link_to '/work/netengine-marketing-page' do
-        .bg-image-base.z2
-
-  / Outfit
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-outfit.o9
-      / wrapper for anchor link
-      = link_to '/work/outfit' do
-        .bg-image-base.z2
-
-  / The Nick Team
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-the-nick-team.o9
-      / wrapper for anchor link
-      = link_to '/work/the-nick-team' do
-        .bg-image-base.z2
-
-  / NetEngine New Office
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-netengine-new-office.o9
-      / wrapper for anchor link
-      = link_to '/work/netengine-new-office' do
-        .bg-image-base.z2
-
-  / Ninja Robbers
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-ninja-robbers.o9
-      / wrapper for anchor link
-      = link_to '/work/ninja-robbers' do
-        .bg-image-base.z2
-
-  / TEDxUQ 2014
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-tedxuq-2014.o9
-      / wrapper for anchor link
-      = link_to '/work/tedxuq-2014' do
-        .bg-image-base.z2
+  - data.project.creations.each_with_index do |creation, i|
+    .c1in3.md-c1in2.sm-c1in1
+      .work-tile.bg-white-hover.all-transition.mb3
+        / background color hover
+        .bg-image-base.o9{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}"}
+        / wrapper for anchor link
+        = link_to "work/#{creation.slug}" do
+          .bg-image-base.z2
 
   .c1in3
