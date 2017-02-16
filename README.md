@@ -2,10 +2,12 @@
 Hey there, thank you for stopping by and taking a look at my portfolio site.
 
 ## The Site
+**Site**: [http://lennonzf.com/](http://lennonzf.com/)
+
 **GP Pages Link**: [https://lennonzf.github.io/](https://lennonzf.github.io/)
 
-##### Site in Development
-My site is still under **development** and is temporarily hosted by Github Pages.
+##### Under Development
+My site is continuously developed and maintianed by myself.
 
 ##### Motivation
 This is the second iteration for my personal portfolio site. Back in time, when I was building my first site (still hosting at [here](http://lennonzf.com/) at the moment), I haven't quite mastered all the skills required to build a site. Therefore, my first site was built based on a Bootstrap template named [Freelancer](https://startbootstrap.com/template-overviews/freelancer/).
