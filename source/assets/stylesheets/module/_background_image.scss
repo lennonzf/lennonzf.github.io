@@ -58,6 +58,12 @@
   background-image: image-url("projects/ninja-robbers/hero.jpg");
 }
 
+.bg-image-outfit{
+  @extend .bg-image-base;
+  background-position: center 50%;
+  background-image: image-url("projects/outfit/hero.jpg");
+}
+
 .bg-image-netengine-marketing-page{
   @extend .bg-image-base;
   background-position: center 0%;
