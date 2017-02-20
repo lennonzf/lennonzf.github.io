@@ -8,71 +8,54 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
       .box-container
         .box-case-study.font-large.manteka Case Study
 
-  / MDA Mentoring
-  .c1in1
-    .work-tile.bg-black-hover.all-transition.mb3
-      / project tag
-      .flex.justify-between
-        .work-tile-tag.z1.ml2.bg-black-o3
-          %span @ RHOK
-        .work-tile-tag.z1.mr2.bg-blue-o8
-          %span App Design
-          %span.text-grey-light.mx2 /
-          %span Hackathon
-      / project title & description
-      .flex.flex-wrap.flex-auto.text-white.z1
-        .flex.flex-column.flex-auto.mt6.sm-mt8
-          .work-tile-title MDA Mentoring
-          .work-tile-description Help young refugees transit into their new life in Australia
-      / background color hover
-      .bg-image-mda-mentoring.o4
-      / wrapper for anchor link
-      = link_to '/work/mda-mentoring' do
-        .bg-image-base.z2
 
-  / Smart Clinics
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-black-hover.all-transition.mb3
-      / project tag
-      .flex.justify-between
-        .work-tile-tag.z1.ml2.bg-black-o3
-          %span @ NetEngine
-        .work-tile-tag.z1.mr2.bg-blue-o8
-          %span UX
-          %span.text-grey-light.mx2 /
-          %span UI
-      / project title & description
-      .flex.flex-wrap.flex-auto.text-white.z1
-        .flex.flex-column.flex-auto.mt6.sm-mt8
-          .work-tile-title.font-large.sm-font-large Smart Clinics
-          .work-tile-description UX study on a medical online booking form
-      / background color hover
-      .bg-image-smart-clinics.o4
-      / wrapper for anchor link
-      = link_to '/work/smart-clinics' do
-        .bg-image-base.z2
-
-  / Senza Carta
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-black-hover.all-transition.mb3
-      / project tag
-      .flex.justify-between
-        .work-tile-tag.z1.ml2.bg-black-o3
-          %span @ NetEngine
-        .work-tile-tag.z1.mr2.bg-blue-o8
-          %span Web Design  
-          %span.text-grey-light.mx2 /  
-          %span Dev
-      / project title & description
-      .flex.flex-wrap.flex-auto.text-white.z1
-        .flex.flex-column.flex-auto.mt6.sm-mt8
-          .work-tile-title.font-large.sm-font-large Senza Carta
-          .work-tile-description Launching the brand new digital employee experience
-      / background color hover
-      .bg-image-senza-carta.o4
-      / wrapper for anchor link
-      = link_to '/work/senza-carta' do
-        .bg-image-base.z2
+  - data.work.studies.each_with_index do |study, i|
+    - if i == 0
+      .c1in1
+        .work-tile.bg-black-hover.all-transition.mb3
+          / project tag
+          .flex.justify-between
+            .work-tile-tag.z1.ml2.bg-black-o3
+              %span 
+                @ 
+                = study.client
+            .work-tile-tag.z1.mr2.bg-blue-o8
+              %span= study.role_1
+              %span.text-grey-light.mx2 /
+              %span= study.role_2
+          / project title & description
+          .flex.flex-wrap.flex-auto.text-white.z1
+            .flex.flex-column.flex-auto.mt6.sm-mt8
+              .work-tile-title= study.title
+              .work-tile-description= study.description
+          / background color hover
+          .bg-image-base.o4{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
+          / wrapper for anchor link
+          = link_to "work/#{study.slug}" do
+            .bg-image-base.z2
+    - else
+      .c1in3.md-c1in2.sm-c1in1
+        .work-tile.bg-black-hover.all-transition.mb3
+          / project tag
+          .flex.justify-between
+            .work-tile-tag.z1.ml2.bg-black-o3
+              %span 
+                @ 
+                = study.client
+            .work-tile-tag.z1.mr2.bg-blue-o8
+              %span= study.role_1
+              %span.text-grey-light.mx2 /
+              %span= study.role_2
+          / project title & description
+          .flex.flex-wrap.flex-auto.text-white.z1
+            .flex.flex-column.flex-auto.mt6.sm-mt8
+              .work-tile-title.font-large.sm-font-large= study.title
+              .work-tile-description= study.description
+          / background color hover
+          .bg-image-base.o4{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
+          / wrapper for anchor link
+          = link_to "work/#{study.slug}" do
+            .bg-image-base.z2
 
   .c1in3
 
@@ -102,58 +85,13 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
       .box-container
         .box-creation.font-large.manteka Creation
 
-  / NetEngine Marketing Page
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-netengine-marketing-page.o9
-      / wrapper for anchor link
-      = link_to '/work/netengine-marketing-page' do
-        .bg-image-base.z2
-
-  / Outfit
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-outfit.o9
-      / wrapper for anchor link
-      = link_to '/work/outfit' do
-        .bg-image-base.z2
-
-  / The Nick Team
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-the-nick-team.o9
-      / wrapper for anchor link
-      = link_to '/work/the-nick-team' do
-        .bg-image-base.z2
-
-  / NetEngine New Office
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-netengine-new-office.o9
-      / wrapper for anchor link
-      = link_to '/work/netengine-new-office' do
-        .bg-image-base.z2
-
-  / Ninja Robbers
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-ninja-robbers.o9
-      / wrapper for anchor link
-      = link_to '/work/ninja-robbers' do
-        .bg-image-base.z2
-
-  / TEDxUQ 2014
-  .c1in3.md-c1in2.sm-c1in1
-    .work-tile.bg-white-hover.all-transition.mb3
-      / background color hover
-      .bg-image-tedxuq-2014.o9
-      / wrapper for anchor link
-      = link_to '/work/tedxuq-2014' do
-        .bg-image-base.z2
+  - data.work.creations.each_with_index do |creation, i|
+    .c1in3.md-c1in2.sm-c1in1
+      .work-tile.bg-white-hover.all-transition.mb3
+        / background color hover
+        .bg-image-base.o9{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}" }
+        / wrapper for anchor link
+        = link_to "work/#{creation.slug}" do
+          .bg-image-base.z2
 
   .c1in3

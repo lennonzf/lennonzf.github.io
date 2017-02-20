@@ -1,0 +1,10 @@
+/header
+.c1in1
+  .work-tile.mb9
+    / project title & description
+    .flex.flex-wrap.flex-auto.text-white.z1
+      .flex.flex-column.flex-auto.justify-center
+        .work-tile-title= current_page.data.title
+        .work-tile-description= current_page.data.description
+    / background color hover
+    .bg-image-base.o4{ style: "background-image: url(/assets/images/projects/#{current_page.data.slug}/hero.#{current_page.data.image_format}); background-position: #{current_page.data.image_position}"}
