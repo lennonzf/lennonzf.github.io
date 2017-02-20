@@ -9,27 +9,3 @@
   top: 0;
   left: 0;
 }
-
-.bg-image-smart-clinics {
-  @extend .bg-image-base;
-  background-position: right 0;
-  background-image: image-url("projects/smart-clinics/hero.jpg");
-}
-
-.bg-image-design-process {
-  @extend .bg-image-base;
-  background-position: center 0;
-  background-image: image-url("projects/designprocess/hero.jpg");
-}
-
-.bg-image-senza-carta {
-  @extend .bg-image-base;
-  background-position: center bottom;
-  background-image: image-url("projects/senza-carta/hero.jpg");
-}
-
-.bg-image-mda-mentoring {
-  @extend .bg-image-base;
-  background-position: center 40%;
-  background-image: image-url("projects/mda-mentoring/hero.jpg");
-}
