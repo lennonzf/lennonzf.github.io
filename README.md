@@ -53,6 +53,7 @@ The stylesheets in this project is created collaboratively by **[Felix Lee](http
 - [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll) - better internal link scrolling experience
 - [Prism](http://prismjs.com/index.html) - code snippet and syntax highlighting
 - [Sticky-kit](https://github.com/leafo/sticky-kit) - make sticky elements
+- [Headroom.js](http://wicky.nillia.ms/headroom.js/) - better user experience on the top navigation bar when reading the articles
 - [Unsplash](https://unsplash.com/) - stock image with great quality
 
 ## Inspiration
