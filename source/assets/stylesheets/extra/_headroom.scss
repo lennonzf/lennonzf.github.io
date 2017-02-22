@@ -1,0 +1,22 @@
+/**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+  background-color: $white;
+  position: fixed;
+  width: 100%;
+  @extend .z3;
+}
+
+.headroom--not-bottom.headroom--not-top.headroom--pinned {
+  transform: translateY(0%);
+  @extend .border-bottom-solid;
+  @extend .border-grey-xxlight;
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+}

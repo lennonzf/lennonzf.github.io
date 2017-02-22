@@ -13,9 +13,10 @@
     = partial 'partials/metadata'
 
 %body.flex.flex-column.min-h100vh.relative.sm-flex-column
-  = partial 'partials/navigation'
-
-  = yield
+  = partial 'partials/header'
+  
+  .pt20
+    = yield
 
   = partial 'partials/footer'
 
