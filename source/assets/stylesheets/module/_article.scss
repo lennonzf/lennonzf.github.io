@@ -4,7 +4,7 @@
 .article-info-board,
 .article-paragraph-h2,
 .article-paragraph-h3,
-.article-paragraph-w600px {
+.article-image-w600px {
   @extend .container;
   @extend .max-w600px;
   @extend .p0;
@@ -32,7 +32,7 @@
   @extend .mb12;
 }
 
-.article-paragraph-w600px,
+.article-image-w600px,
 .article-paragraph-w900px {
   @extend .mt6;
   @extend .mb6;
