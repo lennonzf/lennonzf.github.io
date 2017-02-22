@@ -31,8 +31,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With layout
-page "/work.html", layout: "layout"
 page "/findme.html", layout: "layout"
+page "/work/*", layout: "work"
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout

@@ -5,10 +5,16 @@
 .headroom {
   will-change: transform;
   transition: transform 200ms linear;
+  background-color: $white;
+  position: fixed;
+  width: 100%;
+  @extend .z3;
 }
 
-.headroom--pinned {
+.headroom--not-bottom.headroom--not-top.headroom--pinned {
   transform: translateY(0%);
+  @extend .border-bottom-solid;
+  @extend .border-grey-xxlight;
 }
 
 .headroom--unpinned {

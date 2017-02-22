@@ -16,7 +16,7 @@ $("#side_navigation").stick_in_parent();
 
 // Initialise headroom.js
 document.addEventListener("DOMContentLoaded", function(event) {
-  var nav = document.querySelector(".container");
+  var nav = document.querySelector("header");
   var headroom  = new Headroom(nav);
   headroom.init();
 });
