@@ -39,6 +39,10 @@
 }
 
 .article-paragraph-h3 {
+  @extend .mb9;
+}
+
+.article-paragraph-h4 {
   @extend .mb6;
 }
 
