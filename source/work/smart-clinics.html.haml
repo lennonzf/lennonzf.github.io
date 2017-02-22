@@ -7,11 +7,11 @@ image_format: 'jpg'
 image_position: 'right 0'
 ---
 
-.flex-auto.mb12
+.flex-auto
   = partial 'partials/case_header'
 
-  .container.max-w600px
-    .c1in1.card.p4.flex.flex-column.text-grey-dark
+  .container.max-w900px
+    .article-info-board
       .flex.sm-flex-column.left-align.mb2
         .flex1
           .text-blue Role
@@ -30,20 +30,22 @@ image_position: 'right 0'
         .flex3.sm-flex1
           Sketchapp / InVision / Pen & Paper
 
-    .mt12
+    .article-paragraph-h2
       %h2 Intro
       %p At the beginning of 2016, I got the change to work individually on NetEngine’s first user experience project. It was also the first time for myself to see a UX project all the way from proposal to final delivery.
 
-      %h3 Client
-      %p Smart Clinics is a network of family medical centers, whose aim is to make General Practitioners (GP) appointments a more positive experience.
+      .article-paragraph-h3
+        %h3 Client
+        %p Smart Clinics is a network of family medical centers, whose aim is to make General Practitioners (GP) appointments a more positive experience.
 
-      %h3 Challenge
-      %p
-        Smart Clinics would like to improve the
-        %u conversion rate
-        of their current online booking form.
+      .article-paragraph-h3
+        %h3 Challenge
+        %p
+          Smart Clinics would like to improve the
+          %u conversion rate
+          of their current online booking form.
 
-    .mt12
+    .article-paragraph-h2
       %h2 Plan
       %p
         I created a 7-day proposal for the project:
@@ -53,10 +55,10 @@ image_position: 'right 0'
         %li Day 3: Find the Problem
         %li Day 4 - Day 7: Redesign
 
-    .mt12
+    .article-paragraph-h2
       %h2 Process
 
-      .mt0
+      .article-paragraph-h3
         %h3 Day 1: Understand the Product
         %p
           I haven’t exactly worked on a similar task before, especially with the terminology
@@ -66,7 +68,8 @@ image_position: 'right 0'
         %p
           The first thing I did was to understand the booking form by going through the process and mapping them out. The whole process includes 7 different steps (labeled as S1 to S7), along with 2 intermediate steps.
 
-        = image_tag '/assets/images/projects/smart-clinics/current_process.png'
+        .article-image-w600px
+          = image_tag '/assets/images/projects/smart-clinics/current_process.png'
 
         %p
           Along with this process, I took down some notes and created a list of obvious problems, issues and some suggestions based on my understanding of the product.
@@ -74,11 +77,13 @@ image_position: 'right 0'
         %p
           With the list bearing in my mind, I pitched an ideal version of the process. The new process mapping was treated as a combination of my arrogant assumptions, which were later challenged by the usability testing session.
 
-        = image_tag '/assets/images/projects/smart-clinics/ideal_process.png'
+        .article-image-w600px
+          = image_tag '/assets/images/projects/smart-clinics/ideal_process.png'
 
-      .mt9
+      .article-paragraph-h3
         %h3 Day 2: Usability Testing
-        .mt6
+
+        .article-paragraph-h4
           %h4 A. Design
           %p
             Before inviting the users to the office, I carefully designed the usability testing session based on what I have learnt from uni. I had never conducted a usability test in the real business world at this point. 
@@ -99,11 +104,9 @@ image_position: 'right 0'
             %li Second Round: Participants were asked to perform some more specific tasks under instructions
             %li Participants were asked to provide more feedback and suggestions in addition to the previous two rounds of testing
 
-        .mt6
+        .article-paragraph-h4
           %h4 B. Testing
-
-          %p
-            Here are some interesting statistics:
+          %p Here are some interesting statistics:
           %ul
             %li 
               %u 17 
@@ -125,86 +128,85 @@ image_position: 'right 0'
               %u 2 out of the 17 participants 
               make bookings either through an app on the mobile phone or a website
 
-      .mt9
+      .article-paragraph-h3
         %h3 Day 3: Find the Problem
-        .mt6
+        .article-paragraph-h4
           %h4 A. Aggregate and Visualise
           %p To help the client and myself understanding the findings in the testing session better, I took some liberty to create some visuals and were later used in the project report.
 
-  .container.max-w900px
-    .flex.justify-between.sm-flex-column
-      .c1in2.sm-c1in1
-        = image_tag '/assets/images/projects/smart-clinics/demographic.png'
-      .c1in2.sm-c1in1
-        = image_tag '/assets/images/projects/smart-clinics/task_time.png'
-    .flex.justify-between.sm-flex-column
-      .c1in2.sm-c1in1
-        = image_tag '/assets/images/projects/smart-clinics/emotion.png'
-      .c1in2.sm-c1in1
-        = image_tag '/assets/images/projects/smart-clinics/issue.png'
+          .article-paragraph-w900px
+            .flex.justify-between.sm-flex-column
+              .c1in2.sm-c1in1
+                = image_tag '/assets/images/projects/smart-clinics/demographic.png'
+              .c1in2.sm-c1in1
+                = image_tag '/assets/images/projects/smart-clinics/task_time.png'
+            .flex.justify-between.sm-flex-column
+              .c1in2.sm-c1in1
+                = image_tag '/assets/images/projects/smart-clinics/emotion.png'
+              .c1in2.sm-c1in1
+                = image_tag '/assets/images/projects/smart-clinics/issue.png'
 
-  .container.max-w600px
-    .mt6
-      %h4 B. Findings
-      %ul
-        %li 
-          Initial target was 
-          %u mobile user 
-          instead of desktop user
-        %li 
-          All of the participants stated that they were never asked about symptoms and reasons when making a booking over the phone or using other online products
-        %li 
-          %u 76% 
-          of the participants believe it is not necessary to have the functionality of multiple- patient booking
-        %li 
-          Confirmation is essential (during and after making a booking)
-        %li 
-          Patients have 
-          %u different priorities 
-          when making the bookings
+        .article-paragraph-h4
+          %h4 B. Findings
+          %ul
+            %li 
+              Initial target was 
+              %u mobile user 
+              instead of desktop user
+            %li 
+              All of the participants stated that they were never asked about symptoms and reasons when making a booking over the phone or using other online products
+            %li 
+              %u 76% 
+              of the participants believe it is not necessary to have the functionality of multiple- patient booking
+            %li 
+              Confirmation is essential (during and after making a booking)
+            %li 
+              Patients have 
+              %u different priorities 
+              when making the bookings
 
-    .mt9
-      %h3 Day 4 - Day 7: Redesign
-      .mt6
-        %h4 A. Tackle the Problem
-        %p I introduced the following concepts and features to the wireframe and new design:
+      .article-paragraph-h3
+        %h3 Day 4 - Day 7: Redesign
+        
+        .article-paragraph-h4
+          %h4 A. Tackle the Problem
+          %p I introduced the following concepts and features to the wireframe and new design:
 
-  .container.max-w900px
-    .flex.justify-between.items-center.sm-flex-column
-      .c1in2.sm-c1in1.lg-p8.md-p8
-        = image_tag '/assets/images/projects/smart-clinics/design.jpg'
-      .c1in2.sm-c1in1.lg-p2.md-p2.sm-mt4
-        %ul
-          %li 
-            %span.bold List Approach: 
-            the re-design uses a list approach to constantly remind users of what they have chosen and allow them to go back to any previous stages to make some changes.
-          %li 
-            %span.bold User Type and User System: 
-            user will be asked to choose whether they have already registered an account. For existing users, the form provides a unique functionality allowing them to quickly choose a practitioner or clinic from the previous bookings as a base for the current one.
-          %li 
-            %span.bold Priority: 
-            users will be asked to choose either “schedule time” or “general practitioner” as their priority before they start choosing a session.
+          .article-paragraph-w900px
+            .flex.justify-between.items-center.sm-flex-column
+              .c1in2.sm-c1in1.lg-p8.md-p8
+                = image_tag '/assets/images/projects/smart-clinics/design.jpg'
+              .c1in2.sm-c1in1.lg-p2.md-p2.sm-mt4
+                %ul
+                  %li 
+                    %span.bold List Approach: 
+                    the re-design uses a list approach to constantly remind users of what they have chosen and allow them to go back to any previous stages to make some changes.
+                  %li 
+                    %span.bold User Type and User System: 
+                    user will be asked to choose whether they have already registered an account. For existing users, the form provides a unique functionality allowing them to quickly choose a practitioner or clinic from the previous bookings as a base for the current one.
+                  %li 
+                    %span.bold Priority: 
+                    users will be asked to choose either “schedule time” or “general practitioner” as their priority before they start choosing a session.
 
+        .article-paragraph-h4
+          %h4 B. Optimised Process
+          %p Based on the findings and issues I found, the ideal process was then further tailored to an optimised one:
+          .article-image-w600px
+            = image_tag '/assets/images/projects/smart-clinics/optimised_process.png'
 
-  .container.max-w600px
-    .mt6
-      %h4 B. Optimised Process
-      %p Based on the findings and issues I found, the ideal process was then further tailored to an optimised one:
-      = image_tag '/assets/images/projects/smart-clinics/optimised_process.png'
+        .article-paragraph-h4
+          %h4 C. The Redesign
+          %p For the final stage of the project, I created an interactive prototype to demonstrate the new process.
+          %p 
+            You can find a bit more screenshots of my work in a similar 
+            = link_to "case study", 'http://netengine.com.au/projects/smartclinics', target: 'auto'
+            I wrote for NetEngine.
 
-    .mt6
-      %h4 C. The Redesign
-      %p For the final stage of the project, I created an interactive prototype to demonstrate the new process.
-      %p 
-        You can find a bit more screenshots of my work in a similar 
-        = link_to "case study", 'http://netengine.com.au/projects/smartclinics', target: 'auto'
-        I wrote for NetEngine.
-
-    .mt12
+    .article-paragraph-h2
       %h2 Result
       %p It’s a pity that due to the change of personnel in client’s company, we didn’t get to implement the design. Therefore, there is no measurement on whether my study and redesign would increase the conversion rate of the online booking form.
 
-    .mt12
+    .article-paragraph-h2
       %h2 Reflection
       %ul
         %li It helps to spot the problems right away by mapping out process of the current product, which is also a roadmap for me to come back at any time to rethink or change any intermediate step. 
@@ -212,5 +214,5 @@ image_position: 'right 0'
         %li I should record the usability testing session if I ever get to do it again. Also, with help of some usability testing tools could lead to less effort but more comprehensive results.
         %li More time should be allocated for usability testing and compiling results. The actual usage of time for this part was almost tripled.
 
-    .mt12
+    .article-paragraph-h2
       = link_to "< Back to Work", '/work', class: 'text-grey light'

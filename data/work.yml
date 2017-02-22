@@ -25,6 +25,9 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'netengine-hiring-designer'
+    image_format: 'jpg'
+    image_position: 'center 50%'
   - slug: 'netengine-marketing-page'
     image_format: 'png'
     image_position: 'center 0%'

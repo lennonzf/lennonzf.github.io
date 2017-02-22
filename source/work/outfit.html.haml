@@ -2,17 +2,27 @@
 title: Work - Outfit | Lennon Cheng - UI/UX Designer, Front-end Developer
 ---
 
-.flex-auto.mb12
+.flex-auto
   .container.max-w600px
     %h1.center-align Outfit
 
-    .mt0
+    .article-paragraph-h2
+      %h2 Intro
+      %p 
+        = link_to "Outfit", "http://outfit.io/"
+        is a marketing product developed by my company NetEngine. They have a super cool website and some awesome crew. I am occasionally asked to come up with some illustrations for the product.
+
+    .article-paragraph-h2
       %h2 Loading Screen
       = image_tag '/assets/images/projects/outfit/hero.jpg'
 
-    .mt12
+    .article-paragraph-h2
       %h2 Outfit Lab
       = image_tag '/assets/images/projects/outfit/lab.png'
 
-    .mt12
+    .article-paragraph-h2
+      %h2 Missing Screen
+      = image_tag '/assets/images/projects/outfit/missing.png'
+
+    .article-paragraph-h2
       = link_to "< Back to Work", '/work', class: 'text-grey light'

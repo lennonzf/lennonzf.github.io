@@ -2,16 +2,22 @@
 title: Work - NetEngine New Office | Lennon Cheng - UI/UX Designer, Front-end Developer
 ---
 
-.flex-auto.mb12
+.flex-auto
   .container.max-w600px
     %h1.center-align NetEngine Homepage
 
-    .mt0
-      = image_tag '/assets/images/projects/netengine-marketing-page/design.png'
+    .article-paragraph-h2
+      %h2 Intro
+      %p At the beginning of 2017, I had a chance to redesign my company NetEngine's website. I introduced a whole new element - cube to the site. This is also an experiment on shadow and perspective.
 
-    .mt12
+    .article-paragraph-h2
+      %h2 Website Design
+      .article-image-w600px
+        = image_tag '/assets/images/projects/netengine-marketing-page/design.png'
+
+    .article-paragraph-h2
       .flex.justify-center
         = link_to "Check this site", '//netengine.com.au', class: 'button', target: 'auto'
 
-    .mt12
+    .article-paragraph-h2
       = link_to "< Back to Work", '/work', class: 'text-grey light'
