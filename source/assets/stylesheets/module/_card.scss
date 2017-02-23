@@ -1,19 +1,19 @@
 /* Card
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .card {
+  text-align: center;
   @extend .mb2;
   @extend .flex;
   @extend .flex-column;
   @extend .border-full;
-  @extend .border-grey-xxlight;
-  @extend .center-align;
+  border-color: $grey-xxlight;
   @extend .h100;
 }
 
 .card-header {
   @extend .p1;
-  @extend .bg-grey-xxlight;
-  @extend .text-grey;
+  background-color: $grey-xxlight;
+  color: $grey;
   @extend .font-small;
 }
 
