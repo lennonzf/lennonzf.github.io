@@ -49,7 +49,7 @@ $color-name-collection:  ("white",
 
   // Text color
   @include color-helper("text", $color-name) {
-    color: $color-value;
+    color: $color-value !important;
   }
 
   // Text hover color
@@ -59,12 +59,12 @@ $color-name-collection:  ("white",
 
   // Background color
   @include color-helper("bg", $color-name) {
-    background-color: $color-value;
+    background-color: $color-value !important;
   }
 
   // Background hover color
   @include color-helper-hover("bg", $color-name) {
-    background-color: $color-value;
+    background-color: $color-value !important;
   }
 
   // Border color

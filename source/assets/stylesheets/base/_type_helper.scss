@@ -14,9 +14,9 @@
 .italic         { font-style: italic; }
 
 // Text Align
-.right-align    { text-align: right; }
-.left-align     { text-align: left; }
-.center-align   { text-align: center; }
+.right-align    { text-align: right !important; }
+.left-align     { text-align: left !important; }
+.center-align   { text-align: center !important; }
 
 // Text Transform
 .uppercase      { text-transform: uppercase; }
