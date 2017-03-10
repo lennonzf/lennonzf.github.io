@@ -25,6 +25,9 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'gradient-exploration'
+    image_format: 'jpg'
+    image_position: 'center 76%'
   - slug: 'netengine-hiring-designer'
     image_format: 'jpg'
     image_position: 'center 50%'
