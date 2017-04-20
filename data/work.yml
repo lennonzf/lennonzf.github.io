@@ -25,6 +25,9 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'bottle'
+    image_format: 'jpg'
+    image_position: 'center 45%'
   - slug: 'gradient-exploration'
     image_format: 'jpg'
     image_position: 'center 76%'

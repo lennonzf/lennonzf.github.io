@@ -1,6 +1,24 @@
 # Portfolio Site
 Hey there, thank you for stopping by and taking a look at my portfolio site.
 
+## Setup, Server and Deployment
+
+#### Setup
+
+    git clone git@github.com:lennonzf/lennonzf.github.io.git
+    cd lennonzf.github.io
+    bundle install
+    bower install
+
+#### Run the server
+Please note the development branch is `source-code`
+
+    middleman server
+
+#### Deploy to master
+
+    middleman deploy
+
 ## The Site
 **Site**: [http://lennonzf.com/](http://lennonzf.com/)
 
