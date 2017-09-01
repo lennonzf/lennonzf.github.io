@@ -49,32 +49,32 @@ $color-name-collection:  ("white",
 
   // Text color
   @include color-helper("text", $color-name) {
-    color: $color-value !important;
+    color: $color-value;
   }
 
   // Text hover color
   @include color-helper-hover("text", $color-name) {
-    color: $color-value !important;
+    color: $color-value;
   }
 
   // Background color
   @include color-helper("bg", $color-name) {
-    background-color: $color-value !important;
+    background-color: $color-value;
   }
 
   // Background hover color
   @include color-helper-hover("bg", $color-name) {
-    background-color: $color-value !important;
+    background-color: $color-value;
   }
 
   // Border color
   // $grey-light by default
   @include color-helper("border", $color-name) {
-    border-color: $color-value !important;
+    border-color: $color-value;
   }
 
   // Border hover color
   @include color-helper-hover("border", $color-name) {
-    border-color: $color-value !important;
+    border-color: $color-value;
   }
 }
