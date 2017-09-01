@@ -2,29 +2,40 @@
 title: Find Me | Lennon Cheng - UI/UX Designer, Front-end Developer
 ---
 
-.container.flex-auto.p2.sm-p4.max-w450px
-  .flex.justify-between.items-center
-    %h1.w100.center-align Find Me
-    / for social media icon
-    / .flex
-    /   %span i
-    /   %span l
-    /   %span g
-  %p Got a question for me or have an interesting project? Shoot me a message :)
-  %form{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
-    .mt1.flex.flex-column
-      %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
-      %label.order1{ for: 'name' } YOUR AWESOME NAME
-    .mt1.flex.flex-column
-      %input.w100.mt1.order2{ type: 'email', name: 'email', required: 'true' }
-      %label.order1{ for: 'email' } YOUR EMAIL
-    .mt1.flex.flex-column
-      %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
-      %label.order1{ for: 'message' } MESSAGE
-    .mt2
-      %button{ type: "submit", value: "Send" } send
+.container.mb6.p2.flex.flex-wrap.justify-between.flex-auto
+  .flex.flex-wrap.justify-between.items-center.w100
+    .sm-c1in1.c1in2.px5
+      .mt3.mb6.flex.flex-column.self-center.justify-center
+        .box-container
+          .box-find-me.font-large.manteka Find Me
 
-    %input{ name: "_subject", type: "hidden", value: "Email from lennonzf.com" }
-    %input{ name: "_format", type: "hidden", value: "plain" }
-    %input{ name: "_next", type: "hidden", value: "/thankyou" }
-    %input{ type: 'text', name: '_gotcha', style: 'display:none' }
+      %p.font-large.text-grey-dark Got an interesting project? Shoot me a message :)
+      %p.text-grey-dark
+        You can also find me doodling on
+        %u= link_to 'Dribbble', 'https://dribbble.com/lennonzf', target: '_blank'
+        %span , tweaking photos on
+        %u= link_to 'Instagram', 'https://www.instagram.com/lennonzf/', target: '_blank'
+        %span . If you are interested in my experience, you can pay a visit to my
+        %u= link_to 'Linkedin profile', 'https://www.linkedin.com/in/lennonzf/', target: '_blank'
+        %span . Thank you for stopping by!
+
+
+
+    .sm-c1in1.c1in2.px5
+      %form{ action: 'https://formspree.io/lennon9469@gmail.com', method: 'POST' }
+        .mt1.flex.flex-column
+          %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }
+          %label.order1{ for: 'name' } YOUR AWESOME NAME
+        .mt1.flex.flex-column
+          %input.w100.mt1.order2{ type: 'email', name: 'email', required: 'true' }
+          %label.order1{ for: 'email' } YOUR EMAIL
+        .mt1.flex.flex-column
+          %textarea.w100.mt1.order2{ name: 'message',required: 'true' }
+          %label.order1{ for: 'message' } MESSAGE
+        .mt2
+          %button{ type: "submit", value: "Send" } send
+
+        %input{ name: "_subject", type: "hidden", value: "Email from lennonzf.com" }
+        %input{ name: "_format", type: "hidden", value: "plain" }
+        %input{ name: "_next", type: "hidden", value: "/thankyou" }
+        %input{ type: 'text', name: '_gotcha', style: 'display:none' }

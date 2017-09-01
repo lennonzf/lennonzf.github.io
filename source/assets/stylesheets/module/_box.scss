@@ -100,3 +100,12 @@ a.box-base {
     content: "Creation";
   }
 }
+
+// case study
+.box-find-me {
+  @extend .box-base;
+
+  &::before {
+    content: "Find Me";
+  }
+}
