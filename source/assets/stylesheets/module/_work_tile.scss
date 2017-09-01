@@ -2,8 +2,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .work-tile {
   @extend .p3;
+  @extend .w100;
   border: 1px dotted $grey-light;
-  width: 100%;
   margin-top: 120px;
   position: relative;
 
@@ -39,15 +39,15 @@
     h3.text-black,
     p.text-grey-dark {
       @extend .all-transition;
-      color: $blue;
+      @extend .text-blue;
     }
   }
 }
 
 .work-tile.key {
+  @extend .bg-black;
+  @extend .text-white;
   border: none;
-  background-color: $black;
-  color: white;
   .image {
     height: 220px;
     margin-top: -110px;
@@ -76,14 +76,15 @@
 }
 
 .work-tile.key.header {
-  &::before { background-color: $white; }
+  &::before { @extend .bg-white; }
   &:hover {
-    .image {
-      transform: translateY(0);
-    }
+    .image { transform: translateY(0); }
   }
 }
 
+/* Article Header
+TODO: refactor this bit of code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .article-tile {
   @extend .h200px;
   @extend .flex;
