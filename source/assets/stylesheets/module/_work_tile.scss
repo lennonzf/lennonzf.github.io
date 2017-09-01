@@ -2,7 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .work-tile {
   @extend .p3;
-  border: 1px dotted $grey;
+  border: 1px dotted $grey-light;
   width: 100%;
   margin-top: 120px;
   position: relative;
@@ -10,9 +10,10 @@
   .image {
     @extend .all-transition;
     position: relative;
-    height: 120px;
+    height: 140px;
     margin-top: -100px;
     background-size: cover;
+    border-top: 3px solid $grey-xlight;
 
     &::after {
       content: '';
@@ -20,41 +21,24 @@
       width: 100%;
       height: 100%;
       background-color: $black;
-      opacity: 0.2;
+      opacity: 0.1;
       top: 0;
     }
   }
 
-  &::before {
-    @extend .all-transition;
-    content: '';
-    background-color: $blue;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    opacity: 0.1;
-    z-index: -1;
-  }
-
   &:hover {
     @extend .all-transition;
-    border: 1px dotted $grey-dark;
+    border: 1px dotted $blue;
     .image {
       @extend .all-transition;
       transform: translateY(-3px);
+      border-top: 3px solid $blue;
     }
     .image::after { opacity: 0; }
     h3.text-black,
     p.text-grey-dark {
       @extend .all-transition;
       color: $blue;
-    }
-
-    &::before {
-      left: 0;
-      top: 0;
     }
   }
 }
@@ -64,11 +48,30 @@
   background-color: $black;
   color: white;
   .image {
-    height: 200px;
+    height: 220px;
+    margin-top: -110px;
+    border-top: 3px solid $blue;
   }
   .image::after { opacity: 0; }
   u { border-bottom: 2px solid $blue; }
-  &::before { opacity: 0.5; }
+  &::before {
+    @extend .all-transition;
+    content: '';
+    background-color: $blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  &:hover {
+    &::before {
+      left: 0;
+      top: 0;
+    }
+  }
 }
 
 // .work-tile {
