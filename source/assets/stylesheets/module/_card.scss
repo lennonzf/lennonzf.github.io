@@ -8,6 +8,8 @@
   @extend .border-full;
   border-color: $grey-xxlight;
   @extend .h100;
+
+  &.border-blue { @extend .border-blue; }
 }
 
 .card-header {
@@ -15,6 +17,9 @@
   background-color: $grey-xxlight;
   color: $grey;
   @extend .font-small;
+
+  &.bg-blue { @extend .bg-blue; }
+  &.text-white { @extend .text-white; }
 }
 
 .card-footer {
