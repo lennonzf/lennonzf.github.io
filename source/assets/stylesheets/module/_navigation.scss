@@ -2,4 +2,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navigation-link {
   color: $grey-dark;
+
+  &.active {
+    color: $black;
+  }
 }

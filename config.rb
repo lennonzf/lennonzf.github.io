@@ -85,7 +85,7 @@ end
 helpers do
   def active_link_to(text, path, options)
     # Define selected style
-    active_css_class = "text-black" if current_page.url.delete('/') == path.delete('/')
+    active_css_class = "active" if current_page.url.delete('/') == path.delete('/')
     link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
   end
 end

@@ -1,97 +1,108 @@
 ---
 title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
 ---
-
-.container.mb6.p2.flex.flex-wrap.flex-auto.w100.justify-between.content-start
-  .c1in1
-    .mt3.mb6.flex.flex-column.self-center.center-align.justify-center
-      .box-container
-        .box-case-study.font-large.manteka Case Study
-
-
+/ Case Study
+.container.mb6.p2.flex.flex-wrap.justify-between.flex-auto
   - data.work.studies.each_with_index do |study, i|
     - if i == 0
-      .c1in1
-        .work-tile.bg-black-hover.all-transition.mb3
-          / project tag
-          .flex.justify-between
-            .work-tile-tag.z1.ml2.bg-black-o3
-              %span
-                @
-                = study.client
-            .work-tile-tag.z1.mr2.bg-blue-o8
-              %span= study.role_1
-              %span.text-grey-light.mx2 /
-              %span= study.role_2
-          / project title & description
-          .flex.flex-wrap.flex-auto.text-white.z1
-            .flex.flex-column.flex-auto.mt6.sm-mt8
-              .work-tile-title= study.title
-              .work-tile-description= study.description
-          / background color hover
-          .bg-image-base.o4{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
-          / wrapper for anchor link
+      .flex.flex-wrap.justify-between.items-center.w100
+        .sm-c1in1.c1in2.px5
+          .mt3.mb6.flex.flex-column.self-center.justify-center
+            .box-container
+              .box-case-study.font-large.manteka Case Study
+
+          %p.font-large.text-grey-dark Here are some pieces I stitch up to showcase my workflow.
+          %p.text-grey-dark
+            I have been working with two awesome agencies,
+            %u= link_to 'NetEngine', 'http://netengine.com.au/', target: '_blank'
+            %span and
+            %u= link_to 'Wiredcraft', 'http://wiredcraft.com/', target: '_blank'
+            %span , acrossing some amazing projects from
+            %u= link_to 'Starbucks China', 'https://www.starbucks.com.cn/', target: '_blank'
+            %span.text-grey-xlight /
+            %u= link_to 'NGR', 'https://my.ngr.com.au/', target: '_blank'
+            %span.text-grey-xlight /
+            %u= link_to 'BMT WBM', 'https://floodintel.com/', target: '_blank'
+            %span and more.
+
+
+        .sm-c1in1.c1in2.px5.mb10
           = link_to "/work/#{study.slug}" do
-            .bg-image-base.z2
+            .work-tile.key
+              .mb3.image{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
+              .mb1.text-blue= study.client
+              %h3.semi.text-white= study.title
+              %p.text-white.mb2= study.description
+              %p.mb1.mt4.text-white
+                - study.roles.each_with_index do |role, i|
+                  %u= role
+                  - if i != study.roles.count - 1
+                    %span.mx1.text-grey-light /
+
     - else
-      .c1in3.md-c1in2.sm-c1in1
-        .work-tile.bg-black-hover.all-transition.mb3
-          / project tag
-          .flex.justify-between
-            .work-tile-tag.z1.ml2.bg-black-o3
-              %span
-                @
-                = study.client
-            .work-tile-tag.z1.mr2.bg-blue-o8
-              %span= study.role_1
-              %span.text-grey-light.mx2 /
-              %span= study.role_2
-          / project title & description
-          .flex.flex-wrap.flex-auto.text-white.z1
-            .flex.flex-column.flex-auto.mt6.sm-mt8
-              .work-tile-title.font-large.sm-font-large= study.title
-              .work-tile-description= study.description
-          / background color hover
-          .bg-image-base.o4{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
-          / wrapper for anchor link
-          = link_to "/work/#{study.slug}" do
-            .bg-image-base.z2
+      .sm-c1in1.md-c1in2.c1in3.px2
+        = link_to "/work/#{study.slug}" do
+          .work-tile
+            .mb3.image{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
+            .mb1.text-blue= study.client
+            %h3.semi.text-black= study.title
+            %p.text-grey-dark.mb2= study.description
+            %p.mb1.mt4.text-grey-xdark
+              - study.roles.each_with_index do |role, i|
+                %u= role
+                - if i != study.roles.count - 1
+                  %span.mx1.text-grey-light /
 
-  .c1in3
-
-  / .c1in3.md-c1in2.sm-c1in1
-  /   .work-tile.bg-black-hover.all-transition.mb3
-  /     / project tag
-  /     .flex.justify-between
-  /       .work-tile-tag.z1.ml2.bg-black-o3
-  /         %span @ NetEngine
-  /       .work-tile-tag.z1.mr2.bg-blue-o8
-  /         %span Design Thinking
-  /     / project title & description
-  /     .flex.flex-wrap.flex-auto.text-white.z1
-  /       .flex.flex-column.flex-auto.mt6.sm-mt8
-  /         .work-tile-title.font-large.sm-font-large Design Process
-  /         .work-tile-description Rethink the current design process of NetEngine
-  /     / background color hover
-  /     .bg-image-design-process.o4
-  /     / wrapper for anchor link
-  /     = link_to '#' do
-  /       .bg-image-base.z2
+  .c1in3.px2
 
 
-.container.mb6.p2.flex.flex-wrap.flex-auto.w100.justify-between.content-start
-  .c1in1
-    .mt3.mb6.flex.flex-column.self-center.center-align.justify-center
-      .box-container
-        .box-creation.font-large.manteka Creation
-
+/ Creation
+.container.mb6.p2.flex.flex-wrap.justify-between.flex-auto.w100
   - data.work.creations.each_with_index do |creation, i|
-    .c1in3.md-c1in2.sm-c1in1
-      .work-tile.bg-white-hover.all-transition.mb3
-        / background color hover
-        .bg-image-base.o9{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}" }
-        / wrapper for anchor link
-        = link_to "/work/#{creation.slug}" do
-          .bg-image-base.z2
+    - if i == 0
+      .flex.flex-wrap.justify-between.items-center.w100
+        .sm-c1in1.c1in2.px5
+          .mt3.mb6.flex.flex-column.self-center.justify-center
+            .box-container
+              .box-creation.font-large.manteka Creation
 
-  .c1in3
+          %p.font-large.text-grey-dark
+            I sometimes throw some spice into my normal working life.
+          %p.text-grey-dark
+            I have been exploring
+            %u illustration
+            %span.text-grey-xlight /
+            %u print art
+            %span.text-grey-xlight /
+            %u 3D modelling
+            %span.text-grey-xlight /
+            %u motion graphic
+            %span.text-grey-xlight /
+            %u video production
+            %span .
+
+        .sm-c1in1.c1in2.px5.mb10
+          = link_to "/work/#{creation.slug}" do
+            .work-tile.key
+              .mb3.image{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}" }
+              %h3.semi.text-white= creation.title
+              %p.mb1.mt4.text-white
+                - creation.types.each_with_index do |type, i|
+                  %u= type
+                  - if i != creation.types.count - 1
+                    %span.mx1.text-grey-light /
+
+    - else
+      .sm-c1in1.md-c1in2.c1in3.px2
+        = link_to "/work/#{creation.slug}" do
+          .work-tile
+            .mb3.image{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}" }
+            %h3.semi.text-black= creation.title
+            %p.mb1.mt4.text-grey-xdark
+              - creation.types.each_with_index do |type, i|
+                %u= type
+                - if i != creation.types.count - 1
+                  %span.mx1.text-grey-light /
+
+
+
