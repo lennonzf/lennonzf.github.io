@@ -23,6 +23,7 @@
       background-color: $black;
       opacity: 0.1;
       top: 0;
+      left: 0;
     }
   }
 
@@ -74,35 +75,33 @@
   }
 }
 
-// .work-tile {
-//   @extend .h200px;
-//   @extend .flex;
-//   @extend .flex-column;
-//   @extend .u-relative;
-//   @extend .bg-grey-xdark;
-// }
+.work-tile.key.header {
+  &::before { background-color: $white; }
+  &:hover {
+    .image {
+      transform: translateY(0);
+    }
+  }
+}
 
-// .work-tile-tag {
-//   @extend .font-smaller;
-//   @extend .mt2;
-//   @extend .flex;
-//   @extend .flex-wrap;
-//   @extend .self-center;
-//   @extend .px2;
-//   @extend .py1;
-//   @extend .text-white;
-// }
+.article-tile {
+  @extend .h200px;
+  @extend .flex;
+  @extend .flex-column;
+  @extend .u-relative;
+  @extend .bg-grey-xdark;
+}
 
-// .work-tile-title {
-//   @extend .font-larger;
-//   @extend .mb0;
-//   @extend .center-align;
-//   @extend .text-white;
-// }
+.article-tile-title {
+  @extend .font-larger;
+  @extend .mb0;
+  @extend .center-align;
+  @extend .text-white;
+}
 
-// .work-tile-description {
-//   @extend .center-align;
-//   @extend .mb0;
-//   @extend .px2;
-//   @extend .text-grey-xlight;
-// }
+.article-tile-description {
+  @extend .center-align;
+  @extend .mb0;
+  @extend .px2;
+  @extend .text-grey-xlight;
+}
