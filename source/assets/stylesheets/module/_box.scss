@@ -1,111 +1,60 @@
 /* Box
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.box-base,
-a.box-base {
-  $box-padding: 0.6rem;
+$box-padding: 0.6rem;
+
+.box {
   @extend .no-select;
-
-  background-color: $blue;
-  border-color: $blue;
-  border-style: solid;
-  border-width: 0.3rem;
-  color: $blue;
-  display: inline-table;
-  margin-left: 1rem;
+  @extend .font-large;
+  @extend .manteka;
+  background-color: transparent;
+  border: 0.3rem solid $black;
+  color: $black;
   padding: $box-padding;
-  transition: none;
-
-  &:hover {
-    color: $blue;
-  }
-
-  &::selection {
-    color: $blue;
-  }
+  position: relative;
 
   &::before {
-    border-color: $black;
-    border-style: solid;
-    border-width: 0.4rem;
-    color: $black;
-    margin-left: -1.5rem;
-    margin-top: -1.5rem;
-    padding: $box-padding;
+    content: '';
     position: absolute;
+    height: 107%;
+    width: 103.5%;
+    background-color: $blue;
+    left: 4px;
+    top: 4px;
+    z-index: -1;
   }
 }
 
-// logo
-.box-logo {
-  @extend a.box-base;
+a.box {
+  @extend .box;
+  @extend .all-transition;
 
-  color: $grey-xlight;
-  background-color: $grey-xlight;
-  border-width: 0.2rem;
-  border-color: $grey-xlight;
+  border: 3px solid $grey-dark;
+  color: $grey-dark;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 108%;
+    width: 114%;
+    background-color: $grey-light;
+    left: 3px;
+    top: 3px;
+    z-index: -1;
+  }
 
   &:hover {
-    background-color: $blue;
-    border-color: $blue;
-    color: $blue;
+    border: 3px solid $black;
+    color: black;
 
     &::before {
-      border-color: $black;
-      color: $black;
+      background-color: $blue;
     }
   }
-
-  &::before {
-    border-color: $grey;
-    border-width: 0.3rem;
-    color: $grey;
-    content: "L";
-    margin-left: -1.2rem;
-    margin-top: -1.2rem;
-  }
 }
 
-// lennon
-.box-lennon {
-  @extend .box-base;
-
+.box-logo {
   &::before {
-    content: "Lennon";
-  }
-}
-
-// thanks
-.box-thanks {
-  @extend .box-base;
-
-  &::before {
-    content: "Thanks";
-  }
-}
-
-// case study
-.box-case-study {
-  @extend .box-base;
-
-  &::before {
-    content: "Case Study";
-  }
-}
-
-// case study
-.box-creation {
-  @extend .box-base;
-
-  &::before {
-    content: "Creation";
-  }
-}
-
-// case study
-.box-find-me {
-  @extend .box-base;
-
-  &::before {
-    content: "Find Me";
+    height: 108%;
+    width: 114%;
   }
 }
