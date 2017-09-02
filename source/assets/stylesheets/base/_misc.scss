@@ -69,7 +69,8 @@ hr {
 
 /* Underline
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-u {
+u,
+.underline {
   text-decoration: none;
   border-bottom: 2px solid $grey-light;
 }

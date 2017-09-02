@@ -7,21 +7,41 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'],
 {
+  @extend .all-transition;
   padding: 0.75rem 2rem;
-  background-color: $blue;
+  background-color: $black;
   border: none;
   color: $white;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   white-space: nowrap;
-  transition: $all-transition;
   font-weight: 400;
+  position: relative;
+
+  &::before {
+    @extend .all-transition;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: $blue;
+    opacity: 0.5;
+    left: 3px;
+    top: 3px;
+    z-index: -1;
+  }
 
   &:hover,
   &:focus {
-    background-color: $black;
+    background-color: $blue;
     outline: 0;
+
+    &::before {
+      left: 0;
+      top: 0;
+      opacity: 1;
+    }
   }
 }
 
