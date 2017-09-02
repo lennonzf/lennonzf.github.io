@@ -81,28 +81,3 @@
     .image { transform: translateY(0); }
   }
 }
-
-/* Article Header
-TODO: refactor this bit of code
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.article-tile {
-  @extend .h200px;
-  @extend .flex;
-  @extend .flex-column;
-  @extend .u-relative;
-  @extend .bg-grey-xdark;
-}
-
-.article-tile-title {
-  @extend .font-larger;
-  @extend .mb0;
-  @extend .center-align;
-  @extend .text-white;
-}
-
-.article-tile-description {
-  @extend .center-align;
-  @extend .mb0;
-  @extend .px2;
-  @extend .text-grey-xlight;
-}
