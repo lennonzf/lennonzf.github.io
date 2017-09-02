@@ -4,6 +4,7 @@
   color: $grey-dark;
 
   &.active {
+    @extend .underline;
     color: $black;
   }
 }
