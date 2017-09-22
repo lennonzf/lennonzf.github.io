@@ -21,7 +21,7 @@ body {
   font-size: $font-base;
   font-family: $font-sans;
   font-weight: 400;
-  line-height: $line-height-base;
+  line-height: $line-height-large;
   color: $black;
   box-sizing: border-box;
   // Better text rendering
@@ -37,10 +37,11 @@ body {
   box-sizing: inherit;
 }
 
-p {
-  margin-bottom: 1em;
-}
-
 img {
   width: 100%;
+}
+
+h1 {
+  padding-bottom: 3rem;
+  border-bottom: $border $grey-xlight;
 }
