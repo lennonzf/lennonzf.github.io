@@ -4,12 +4,17 @@ ol.side-nav {
   width: 150px;
   padding-left: 0;
   padding-bottom: 7em;
+  line-height: $line-height-large;
 
   li {
     position: relative;
     list-style: none;
     margin-bottom: 0.25rem;
     padding: 0.25rem 0.5rem;
+
+    &::before {
+      content: '';
+    }
 
     // secondary ol
     > ol {
