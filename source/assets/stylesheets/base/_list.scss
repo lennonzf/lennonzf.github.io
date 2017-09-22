@@ -5,6 +5,7 @@ ul {
   padding: 0;
   margin: 0;
   margin-bottom: 0.75em;
+  line-height: $line-height-base;
 
   li {
     padding-left: 2rem;
@@ -18,7 +19,6 @@ ul {
       color: $grey;
       position: absolute;
       left: 0.5rem;
-      line-height: 1.65em;
     }
   }
 
@@ -29,11 +29,27 @@ ul {
 }
 
 ol {
+  list-style: none;
+  padding: 0;
   margin: 0;
   margin-bottom: 0.75em;
+  counter-reset: item;
+  line-height: $line-height-base;
 
   li {
-    padding-left: 0.75rem;
+    padding-left: 2rem;
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+
+    &:before {
+      content: counter(item) ". ";
+      counter-increment: item;
+      font-size: $font-base;
+      color: $grey;
+      position: absolute;
+      left: 0.5rem;
+    }
   }
 
   > ol {
