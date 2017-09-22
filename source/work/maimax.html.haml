@@ -1,0 +1,57 @@
+---
+title: Work - MAIMAX | Lennon Cheng - UI/UX Designer, Front-end Developer
+---
+
+.flex-auto
+  .container.max-w600px
+    %h1.center-align MAIMAX - Wechat Bot
+
+    .article-paragraph-h2
+      %h2 Intro
+      %p
+        = link_to "Kian", "http://kianzyk.site/", target: 'auto'
+        has been working on a Wechat Bot to take care of our trip to Japan. We have decided to name it MAIMAX and I thought it would be fun to bring some character to our little assistant.
+
+    .article-paragraph-h2
+      %h2 Lettering
+      %p I started exploring some ideas with the letter M and wheat ("Mai" means wheat in Chinese).
+      = image_tag '/assets/images/projects/maimax/hero.jpg'
+
+      .flex.flex-wrap.justify-between.mt1
+        .c1in2
+          = image_tag '/assets/images/projects/maimax/lettering-1.jpg'
+
+        .c1in2
+          = image_tag '/assets/images/projects/maimax/lettering-2.jpg'
+
+    .article-paragraph-h2
+      %h2 The Bot Himself
+      %p The second day, we decided maybe a real robot will be better. So here he comes:
+
+      .flex.flex-wrap.justify-between.mt1
+        .c1in2
+          = image_tag '/assets/images/projects/maimax/robot-1.jpg'
+
+        .c1in2
+          = image_tag '/assets/images/projects/maimax/robot-2.jpg'
+
+    .article-paragraph-h2
+      %h2 About MAIMAX
+
+      %p
+        MAIMAX is currently able to do:
+        %ul
+          %li translation from Chinese to Japnese
+          %li wiki on some famous spot in Japan
+          %li chatting with the user
+          %li being a book keeper during our trip and more
+
+      .mt2
+        = image_tag '/assets/images/projects/maimax/wechat.png'
+
+    .article-paragraph-h2
+      .flex.justify-center
+        = link_to "Dribbble Project", 'https://dribbble.com/lennonzf/projects/576126-MAIMAX-Wechat-Bot', class: 'button', target: 'auto'
+
+
+    = partial 'partials/back_to_work'

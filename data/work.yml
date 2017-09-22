@@ -28,6 +28,14 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'maimax'
+    image_format: 'jpg'
+    image_position: 'center 45%'
+    title: 'MAIMAX - Wechat Bot'
+    types:
+      - 'Illustration'
+      - 'Lettering'
+      - 'Character'
   - slug: 'coffee-cup'
     image_format: 'jpg'
     image_position: 'center 45%'
@@ -89,6 +97,7 @@ creations:
       - 'Illustration'
       - 'Game Design'
       - 'Infographic'
+      - 'Character'
   - slug: 'tedxuq-2014'
     image_format: 'jpg'
     image_position: 'center 0%'
