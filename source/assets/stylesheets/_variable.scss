@@ -22,9 +22,10 @@ $mda-brand-highlight:     #F99D1C;
 
 /* Font Size
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-base:               1.8rem; // 16px
+$font-base:               1.6rem; // 16px
 $font-small:              $font-base * 0.875;   // 14px
 $font-smaller:            $font-base * 0.75;    // 12px
+$font-paragraph:          $font-base * 1.125;   // 18px
 $font-large:              $font-base * 1.5;     // 24px
 $font-larger:             $font-base * 2.25;    // 36px
 $font-title:              $font-base * 3.375;   // 54px
@@ -42,7 +43,8 @@ $line-height-base:        1.5;
 $line-height-small:       1.375;
 $line-height-smaller:     1.25;
 $line-height-smallest:    1.125;
-$line-height-large:       1.8;
+$line-height-large:        1.6;
+$line-height-larger:       1.8;
 
 /* Border Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
