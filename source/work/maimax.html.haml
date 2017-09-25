@@ -9,7 +9,7 @@ title: Work - MAIMAX | Lennon Cheng - UI/UX Designer, Front-end Developer
     .article-paragraph-h2
       %h2 Intro
       %p
-        = link_to "Kian", "http://kianzyk.site/", target: 'auto'
+        = link_to "Kian", "http://kianzyk.site/", target: '_blank'
         has been working on a Wechat (one of the largest social media apps used in China and elsewhere) Bot to take care of our trip to Japan. We have decided to name it MAIMAX (inspired by Baymax) and I thought it would be fun to bring some characters to our little assistant.
 
     .article-paragraph-h2
@@ -48,12 +48,17 @@ title: Work - MAIMAX | Lennon Cheng - UI/UX Designer, Front-end Developer
           %li check the currency exchange rate
           %li bookkeeping (input and search) for daily expenditure in JPY currency via text message
 
+      %p
+        Check out Kian's
+        =link_to 'case study', 'http://kianzyk.site/notes/maimax/', target: '_blank'
+        to learn more about the development side of MAIMAX.
+
       .mt2
-        = image_tag '/assets/images/projects/maimax/wechat.png'
+        = image_tag '/assets/images/projects/maimax/wechat.png', class: 'frame-dotted'
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Project", 'https://dribbble.com/lennonzf/projects/576126-MAIMAX-Wechat-Bot', class: 'button', target: 'auto'
+        = link_to "Dribbble Project", 'https://dribbble.com/lennonzf/projects/576126-MAIMAX-Wechat-Bot', class: 'button', target: '_blank'
 
 
     = partial 'partials/back_to_work'
