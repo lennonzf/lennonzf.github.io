@@ -91,3 +91,10 @@ u,
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .no-transition { transition: none; }
 .all-transition { transition: $all-transition; }
+
+/* frame
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.frame-dotted {
+  @extend .p2;
+  border: 1px dotted $grey-light;
+}
