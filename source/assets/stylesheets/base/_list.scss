@@ -6,6 +6,7 @@ ul {
   margin: 0;
   margin-bottom: 0.75em;
   line-height: $line-height-base;
+  font-size: $font-paragraph;
 
   li {
     padding-left: 2rem;
@@ -35,6 +36,7 @@ ol {
   margin-bottom: 0.75em;
   counter-reset: item;
   line-height: $line-height-base;
+  font-size: $font-paragraph;
 
   li {
     padding-left: 2rem;
