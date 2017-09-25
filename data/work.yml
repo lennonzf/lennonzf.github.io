@@ -3,7 +3,7 @@ studies:
     roles:
       - 'Website Redesign'
       - 'Style Guide'
-    title: 'Wiredcraft co.'
+    title: 'Wiredcraft Co.'
     description: 'Reimagining online presence for Wiredcraft'
     slug: 'wclco'
     image_format: 'jpg'
