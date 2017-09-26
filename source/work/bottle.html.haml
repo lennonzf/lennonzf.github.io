@@ -10,7 +10,9 @@ title: Work - Bottle | Lennon Cheng - UI/UX Designer, Front-end Developer
       %h2 Intro
       %p
         I have always wanted to create a series of my own. Inspired by Kevin Yang's
-        = link_to "The Beer Project", "https://dribbble.com/eatsleepvector/projects/353109-The-Beer-Project", target: 'auto'
+        = external_link_to "The Beer Project",
+          "https://dribbble.com/eatsleepvector/projects/353109-The-Beer-Project",
+          class: ''
         on dribbble, I have decided to start exploring bottles through illustration.
 
       %p This is also a study on the irregular shape, relationship between glass, light and shadow.
@@ -18,30 +20,37 @@ title: Work - Bottle | Lennon Cheng - UI/UX Designer, Front-end Developer
     .article-paragraph-h2
       %h2 Plastic
       .article-image-w600px
-        = image_tag '/assets/images/projects/bottle/plastic.jpg'
+        = image_link '/assets/images/projects/bottle/plastic.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 Beer
       .article-image-w600px
-        = image_tag '/assets/images/projects/bottle/beer.jpg'
+        = image_link '/assets/images/projects/bottle/beer.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 Wine
       .article-image-w600px
-        = image_tag '/assets/images/projects/bottle/wine.jpg'
+        = image_link '/assets/images/projects/bottle/wine.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 Spirit
       .article-image-w600px
-        = image_tag '/assets/images/projects/bottle/spirit.jpg'
+        = image_link '/assets/images/projects/bottle/spirit.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 What you get in a coffee shop
       .article-image-w600px
-        = image_tag '/assets/images/projects/bottle/ice-tea.png'
+        = image_link '/assets/images/projects/bottle/ice-tea.png',
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Project", 'https://dribbble.com/lennonzf/projects/501830-Bottles', class: 'button', target: 'auto'
+        = external_link_to "Dribbble Project",
+          'https://dribbble.com/lennonzf/projects/501830-Bottles',
+          class: 'button'
 
     = partial 'partials/back_to_work'

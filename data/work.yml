@@ -1,4 +1,13 @@
 studies:
+  - client: 'Wiredcraft'
+    roles:
+      - 'Website Redesign'
+      - 'Style Guide'
+    title: 'Wiredcraft Co.'
+    description: 'Reimagining online presence for Wiredcraft'
+    slug: 'wclco'
+    image_format: 'jpg'
+    image_position: 'center 50%'
   - client: 'RHOK'
     roles:
       - 'App Design'

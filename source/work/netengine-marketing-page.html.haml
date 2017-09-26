@@ -13,10 +13,13 @@ title: Work - NetEngine New Office | Lennon Cheng - UI/UX Designer, Front-end De
     .article-paragraph-h2
       %h2 Website Design
       .article-image-w600px
-        = image_tag '/assets/images/projects/netengine-marketing-page/design.png'
+        = image_link '/assets/images/projects/netengine-marketing-page/design.png',
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Check this site", '//netengine.com.au', class: 'button', target: 'auto'
+        = external_link_to "Check this site",
+          '//netengine.com.au',
+          class: 'button'
 
     = partial 'partials/back_to_work'

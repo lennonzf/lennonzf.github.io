@@ -9,49 +9,67 @@ title: Work - MAIMAX | Lennon Cheng - UI/UX Designer, Front-end Developer
     .article-paragraph-h2
       %h2 Intro
       %p
-        = link_to "Kian", "http://kianzyk.site/", target: 'auto'
-        has been working on a Wechat Bot to take care of our trip to Japan. We have decided to name it MAIMAX and I thought it would be fun to bring some character to our little assistant.
+        = external_link_to "Kian",
+          "http://kianzyk.site/",
+          class: ''
+        has been working on a Wechat (one of the largest social media apps used in China and elsewhere) Bot to take care of our trip to Japan. We have decided to name it MAIMAX (inspired by Baymax) and I thought it would be fun to bring some characters to our little assistant.
 
     .article-paragraph-h2
       %h2 Lettering
       %p I started exploring some ideas with the letter M and wheat ("Mai" means wheat in Chinese).
-      = image_tag '/assets/images/projects/maimax/hero.jpg'
+      = image_link '/assets/images/projects/maimax/hero.jpg',
+        class: ''
 
       .flex.flex-wrap.justify-between.mt1
         .c1in2
-          = image_tag '/assets/images/projects/maimax/lettering-1.jpg'
+          = image_link '/assets/images/projects/maimax/lettering-1.jpg',
+            class: ''
 
         .c1in2
-          = image_tag '/assets/images/projects/maimax/lettering-2.jpg'
+          = image_link '/assets/images/projects/maimax/lettering-2.jpg',
+            class: ''
 
     .article-paragraph-h2
       %h2 The Bot Himself
-      %p The second day, we decided maybe a real robot will be better. So here he comes:
+      %p Later, we thought maybe a real robot would be better. So here he comes:
 
       .flex.flex-wrap.justify-between.mt1
         .c1in2
-          = image_tag '/assets/images/projects/maimax/robot-1.jpg'
+          = image_link '/assets/images/projects/maimax/robot-1.jpg',
+            class: ''
 
         .c1in2
-          = image_tag '/assets/images/projects/maimax/robot-2.jpg'
+          = image_link '/assets/images/projects/maimax/robot-2.jpg',
+            class: ''
 
     .article-paragraph-h2
       %h2 About MAIMAX
 
       %p
-        MAIMAX is currently able to do:
+        MAIMAX is currently able to do the following things on Wechat:
         %ul
-          %li translation from Chinese to Japnese
-          %li wiki on some famous spot in Japan
-          %li chatting with the user
-          %li being a book keeper during our trip and more
+          %li receive audio in chinese and output translation in Japanese via text message
+          %li receive text in chinese with "translation" at the front and outpu translation in Japanese
+          %li Japan tourism wiki
+          %li chat with user in Chinese
+          %li check the currency exchange rate
+          %li bookkeeping (input and search) for daily expenditure in JPY currency via text message
+
+      %p
+        Check out Kian's
+        = external_link_to 'case study',
+          'http://kianzyk.site/notes/maimax/',
+          class: ''
+        to learn more about the development side of MAIMAX.
 
       .mt2
-        = image_tag '/assets/images/projects/maimax/wechat.png'
+        = image_link '/assets/images/projects/maimax/wechat.png',
+          class: 'frame-dotted'
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Project", 'https://dribbble.com/lennonzf/projects/576126-MAIMAX-Wechat-Bot', class: 'button', target: 'auto'
-
+        = external_link_to "Dribbble Project",
+          'https://dribbble.com/lennonzf/projects/576126-MAIMAX-Wechat-Bot',
+          class: 'button'
 
     = partial 'partials/back_to_work'

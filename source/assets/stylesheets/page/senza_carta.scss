@@ -1,65 +1,68 @@
-// SVG animation
-// feature-individual-1
-@keyframes circle_1 {
-  0%    { transform: translateY(30px); }
-  50%   { transform: translateY(0); }
-  100%  { transform: translateY(30px); }
+.senza-carta {
+  // SVG animation
+  // feature-individual-1
+  @keyframes circle_1 {
+    0%    { transform: translateY(30px); }
+    50%   { transform: translateY(0); }
+    100%  { transform: translateY(30px); }
+  }
+
+  @keyframes circle_2 {
+    0%    { transform: translateY(20px); }
+    50%   { transform: translateY(0); }
+    100%  { transform: translateY(20px); }
+  }
+
+  @keyframes trail_1 {
+    0% {
+      opacity: 0.5;
+      transform: translateY(8px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0.5;
+      transform: translateY(8px);
+    }
+  }
+
+  @keyframes trail_2 {
+    0% {
+      opacity: 0.5;
+      transform: translateY(10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0.5;
+      transform: translateY(10px);
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .circle-1 {
+      transform: translateY(30px);
+      animation: circle_1 5s 1s ease infinite;
+    }
+
+    .circle-2 {
+      transform: translateY(20px);
+      animation: circle_2 5s 1s ease infinite;
+    }
+
+    .trail-1 {
+      transform: translateY(10px);
+      animation: trail_1 5s 1s ease infinite;
+    }
+
+    .trail-2 {
+      transform: translateY(15px);
+      animation: trail_2 5s 1s ease infinite;
+    }
+  }
 }
 
-@keyframes circle_2 {
-  0%    { transform: translateY(20px); }
-  50%   { transform: translateY(0); }
-  100%  { transform: translateY(20px); }
-}
-
-@keyframes trail_1 {
-  0% {
-    opacity: 0.5;
-    transform: translateY(8px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0.5;
-    transform: translateY(8px);
-  }
-}
-
-@keyframes trail_2 {
-  0% {
-    opacity: 0.5;
-    transform: translateY(10px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0.5;
-    transform: translateY(10px);
-  }
-}
-
-@media screen and (min-width: $tablet) {
-  .circle-1 {
-    transform: translateY(30px);
-    animation: circle_1 5s 1s ease infinite;
-  }
-
-  .circle-2 {
-    transform: translateY(20px);
-    animation: circle_2 5s 1s ease infinite;
-  }
-
-  .trail-1 {
-    transform: translateY(10px);
-    animation: trail_1 5s 1s ease infinite;
-  }
-
-  .trail-2 {
-    transform: translateY(15px);
-    animation: trail_2 5s 1s ease infinite;
-  }
-}

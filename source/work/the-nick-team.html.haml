@@ -13,17 +13,22 @@ title: Work - The Nick Team | Lennon Cheng - UI/UX Designer, Front-end Developer
     .article-paragraph-h2
       %h2 Office Illustration
       .article-image-w600px
-        = image_tag '/assets/images/projects/the-nick-team/hero.jpg'
+        = image_link '/assets/images/projects/the-nick-team/hero.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 Website Design
       .article-image-w600px
-        = image_tag '/assets/images/projects/the-nick-team/website_1.jpg'
+        = image_link '/assets/images/projects/the-nick-team/website_1.jpg',
+          class: ''
       .article-image-w600px
-        = image_tag '/assets/images/projects/the-nick-team/website_2.jpg'
+        = image_link '/assets/images/projects/the-nick-team/website_2.jpg',
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Shot", 'https://dribbble.com/shots/3098428-Real-Estate', class: 'button', target: 'auto'
+        = external_link_to "Dribbble Shot",
+          'https://dribbble.com/shots/3098428-Real-Estate',
+          class: 'button'
 
     = partial 'partials/back_to_work'
