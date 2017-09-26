@@ -35,7 +35,7 @@ By learning and practicing more, I feel it's the right time to build a new site 
 ##### Goal
 By designing and coding up the site, I am aiming for these goals:
 
-- [ ] keep improving the website (you can find all the issues I am looking into in [here](https://github.com/lennonzf/lennonzf.github.io/issues) )
+- [ ] keep improving the website (you can find all the issues I am looking into in [here](https://github.com/lennonzf/lennonzf.github.io/issues))
 - [x] Design a portfolio site with a focus on demonstrating my UX skills
 - [x] Practice minimal design
 - [x] Refresh my visual identity (e.g. logo)
@@ -45,7 +45,7 @@ By designing and coding up the site, I am aiming for these goals:
 - [x] Learn and use Github and Github Pages
 - [x] Learn and use Flexbox
 - [x] Practice SASS with SCSS syntax and functional CSS
-- [x] Develop a style guide
+- [x] Develop a style guide (live [here](http://lennonzf.com/style-guide/))
 - [x] ~~Add an automated testing tool~~ Use hound for reviewing pull requests (mainly HAML and SCSS) and act on the comments
 - [x] Use Bower for managing the front-end plugins
 - [x] Add proper social media metadata to enhance the SEO of the site
