@@ -42,18 +42,18 @@ image_position: 'center 50%'
       %h2 Intro
       %p
         Taking a long break from my life in Brisbane, I returned to my hometown, Shanghai in summer 2017. As part of my journey, I took on an internship at
-        = link_to 'Wiredcraft', 'https://wiredcraft.com/', target: '_blank'
+        = external_link_to 'Wiredcraft', 'https://wiredcraft.com/', class:''
         , a web application and design agency at the heart of the city.
 
       .article-paragraph-h3
         %h3 Client
         %p
           My client is simply the company. Wiredcraft provides web and mobile solutions to some notable companies located in mainland China, including
-          = link_to 'Starbucks China', 'https://www.starbucks.com.cn/', target: '_blank'
+          = external_link_to 'Starbucks China', 'https://www.starbucks.com.cn/', class:''
           ,
-          = link_to 'World Bank', 'http://data.worldbank.org/', target: '_blank'
+          = external_link_to 'World Bank', 'http://data.worldbank.org/', class:''
           ,
-          = link_to 'Etam', 'http://www.etam.com/', target: '_blank'
+          = external_link_to 'Etam', 'http://www.etam.com/', class:''
           and more.
 
       .article-paragraph-h3
@@ -61,7 +61,8 @@ image_position: 'center 50%'
         %p My challenge is clear - apply a modern and tech feel to the current website. More importantly, find a balance between pragmatic (tech) and artistic (design) style to better represent the company.
 
       .article-paragraph-w900px
-        = image_tag '/assets/images/projects/wclco/wclco_old.png'
+        = image_link '/assets/images/projects/wclco/wclco_old.png',
+          class: ''
 
       .article-paragraph-h3
         %h3 Goal
@@ -80,7 +81,7 @@ image_position: 'center 50%'
         %li Day 1-2: Research and exploration of visual style (Moodboard, font style and size, illustration style)
         %li
           Day 3-4: Create early UI elements following principles of
-          = link_to 'Atom Design', 'http://bradfrost.com/blog/post/atomic-web-design/', target: '_blank'
+          = external_link_to 'Atom Design', 'http://bradfrost.com/blog/post/atomic-web-design/', class: ''
         %li Day 5-7: Mockup
         %li Day 8-9: 1st Round Iteration
 
@@ -93,12 +94,14 @@ image_position: 'center 50%'
           Following my leader's recommendation, I was advised to create a moodboard to explore and communicate my choice of style. Duality was my obsession at the time. Therefore, I went on and stitched up my very first moodboard exercise.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/wclco/dual_moodboard.png', class: 'frame-dotted'
+          = image_link '/assets/images/projects/wclco/dual_moodboard.png',
+            class: 'frame-dotted'
 
         %p Here is a simple vision of what I had for the hero section of the homepage.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/wclco/dual_hero.png', class: 'frame-dotted'
+          = image_link '/assets/images/projects/wclco/dual_hero.png',
+            class: 'frame-dotted'
 
         %p I was soon stopped by my leader from exploring the dual-color style. My boss later then pointed out that the company is after a clean and simple approach while keeping a good balance between creativity and corporate feel. The dual color exploration I had was leaning towards a pink-ish color, which may not be ideal for corporate side of users.
 
@@ -109,17 +112,20 @@ image_position: 'center 50%'
         %p With the new direction in mind, I was ready to start over. However, I was interrupted by my boss, who had a strong opinion on design, to make some font pairing for the new logo design he produced a couple of days earlier.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/wclco/font_pairing.png', class: 'frame-dotted'
+          = image_link '/assets/images/projects/wclco/font_pairing.png',
+            class: 'frame-dotted'
 
         %p The font-pairing exercise actually helped me shape a clearer concept in my mind. So I went on and painted it out.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/wclco/simplicity_exploration.png', class: 'frame-dotted'
+          = image_link '/assets/images/projects/wclco/simplicity_exploration.png',
+            class: 'frame-dotted'
 
         %p I created some custom icons for the services provided by Wiredcraft.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/wclco/icons.png'
+          = image_link '/assets/images/projects/wclco/icons.png',
+            class: ''
 
         %p At the end of the day, I got the green light from my leader with some minor changes on the button colors.
 
@@ -127,11 +133,12 @@ image_position: 'center 50%'
         %h3 Day 3: Style Guide
         %p
           This was the first time I took a deep dive into an established design approach -
-          = link_to 'Atom Design', 'http://bradfrost.com/blog/post/atomic-web-design/', target: '_blank'
+          = external_link_to 'Atom Design', 'http://bradfrost.com/blog/post/atomic-web-design/', class: ''
           and directly it to my design process.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/wclco/style_guide.png', class: 'frame-dotted'
+          = image_link '/assets/images/projects/wclco/style_guide.png',
+            class: 'frame-dotted'
 
       .article-paragraph-h3
         %h3 Day 4: Off Rails
@@ -159,7 +166,7 @@ image_position: 'center 50%'
       %p However, I was proud of my design and the style I came up with at the final stage. I re-tuned the design to fit for my own portfolio website, which is the one you are currently browsing.
 
       .article-paragraph-w900px
-        = image_link '/assets/images/projects/wclco/work.png'
+        = image_link '/assets/images/projects/wclco/work.png', class:''
 
     .article-paragraph-h2
       %h2 Reflection
@@ -181,6 +188,6 @@ image_position: 'center 50%'
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Shot", 'https://dribbble.com/shots/3698421-Wiredcraft-com-redesign-concept', class: 'button', target: '_blank'
+        = external_link_to "Dribbble Shot", 'https://dribbble.com/shots/3698421-Wiredcraft-com-redesign-concept', class: 'button'
 
     = partial 'partials/back_to_work'

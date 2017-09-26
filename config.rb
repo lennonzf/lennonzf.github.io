@@ -89,6 +89,10 @@ helpers do
     link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
   end
 
+  def external_link_to(text, path, options)
+    link_to text, path, target: "_blank", class: "#{options[:class]}"
+  end
+
   def image_link(path, options)
     link_to path do
       image_tag path, class: "#{options[:class]}"
