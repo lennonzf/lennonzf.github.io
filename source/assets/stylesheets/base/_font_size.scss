@@ -34,6 +34,14 @@ h3,
   }
 }
 
+// 18px
+p,
+ul,
+li,
+.font-paragraph {
+  font-size: $font-paragraph;
+}
+
 // 16px
 h4,
 .font-base    {
@@ -51,28 +59,31 @@ h6,
 
 // Responsive Typography
 @media screen and (max-width: $tablet) {
-  .sm-font-title   { font-size: $font-title; }
-  .sm-font-larger  { font-size: $font-larger; }
-  .sm-font-large   { font-size: $font-large; }
-  .sm-font-base    { font-size: $font-base; }
-  .sm-font-small   { font-size: $font-small; }
-  .sm-font-smaller { font-size: $font-smaller; }
+  .sm-font-title      { font-size: $font-title; }
+  .sm-font-larger     { font-size: $font-larger; }
+  .sm-font-large      { font-size: $font-large; }
+  .sm-font-paragraph  { font-size: $font-paragraph; }
+  .sm-font-base       { font-size: $font-base; }
+  .sm-font-small      { font-size: $font-small; }
+  .sm-font-smaller    { font-size: $font-smaller; }
 }
 
 @media screen and (min-width: $tablet) and (max-width: $desktop) {
-  .md-font-title   { font-size: $font-title; }
-  .md-font-larger  { font-size: $font-larger; }
-  .md-font-large   { font-size: $font-large; }
-  .md-font-base    { font-size: $font-base; }
-  .md-font-small   { font-size: $font-small; }
-  .md-font-smaller { font-size: $font-smaller; }
+  .md-font-title      { font-size: $font-title; }
+  .md-font-larger     { font-size: $font-larger; }
+  .md-font-large      { font-size: $font-large; }
+  .md-font-paragraph  { font-size: $font-paragraph; }
+  .md-font-base       { font-size: $font-base; }
+  .md-font-small      { font-size: $font-small; }
+  .md-font-smaller    { font-size: $font-smaller; }
 }
 
 @media screen and (min-width: $desktop) {
-  .lg-font-title   { font-size: $font-title; }
-  .lg-font-larger  { font-size: $font-larger; }
-  .lg-font-large   { font-size: $font-large; }
-  .lg-font-base    { font-size: $font-base; }
-  .lg-font-small   { font-size: $font-small; }
-  .lg-font-smaller { font-size: $font-smaller; }
+  .lg-font-title      { font-size: $font-title; }
+  .lg-font-larger     { font-size: $font-larger; }
+  .lg-font-large      { font-size: $font-large; }
+  .lg-font-paragraph  { font-size: $font-paragraph; }
+  .lg-font-base       { font-size: $font-base; }
+  .lg-font-small      { font-size: $font-small; }
+  .lg-font-smaller    { font-size: $font-smaller; }
 }

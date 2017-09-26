@@ -41,53 +41,82 @@
       %a.external{ target: '_blank', href: '//github.com/cferdinandi/smooth-scroll' } Smooth Scroll
       to provide a better scrolling experience when navigating within the same page.
     .flex.flex-wrap.justify-between
-      .c1in2.sm-c1in1.card
-        .card-header Same-page Link
-        %p.p2.left-align
-          Lorem ipsum,
-          = link_to 'go to the article section smoothly',
-            '#article',
-            'data-scroll': 'true'
-          adipiscing elit.
-        .card-footer = link_to 'text', 'same_page_div_id', 'data-scroll': 'true'
+      .sm-c1in1.c1in2.flex.flex-column
+        .c1in1.card
+          .card-header Same-page Link
+          %p.p2.left-align
+            Lorem ipsum,
+            = link_to 'go to the article section smoothly',
+              '#article',
+              'data-scroll': 'true'
+            adipiscing elit.
 
-      .c1in2.sm-c1in1.card
-        .card-header Interal Link
-        %p.p2.left-align
-          Lorem ipsum,
-          take a look at my
-          = link_to 'work',
-            '/work'
-          page
-        .card-footer = link_to 'text', 'internal_page_url', class: ''
+        .c1in1.mb5
+          %pre
+            %code.language-haml
+              :preserve
+                = link_to 'text', 'same_page_div_id', 'data-scroll': 'true'
 
-      .c1in2.sm-c1in1.card
-        .card-header External Link
-        %p.p2.left-align
-          Lorem ipsum dolor sit amet,
-          = external_link_to 'go to my instagram page',
-            '//www.instagram.com/lennonzf/',
-            class: ''
-          adipiscing elit.
-        .card-footer = external_link_to 'text', 'external_page_url', class: ''
+      .sm-c1in1.c1in2.flex.flex-column
+        .c1in1.card
+          .card-header Interal Link
+          %p.p2.left-align
+            Lorem ipsum,
+            take a look at my
+            = link_to 'work',
+              '/work'
+            page
+
+        .c1in1.mb5
+          %pre
+            %code.language-haml
+              :preserve
+                = link_to 'text', 'internal_page_url', class: ''
+
+      .sm-c1in1.c1in2.flex.flex-column
+        .c1in1.card
+          .card-header External Link
+          %p.p2.left-align
+            Lorem ipsum dolor sit amet,
+            = external_link_to 'go to my instagram page',
+              '//www.instagram.com/lennonzf/',
+              class: ''
+            adipiscing elit.
+
+        .c1in1.mb5
+          %pre
+            %code.language-haml
+              :preserve
+                = external_link_to 'text', 'external_page_url', class: ''
 
   // Image
   .pb3#image
   %h3 Image
   .mb3
     .flex.flex-wrap.justify-between
-      .c1in2.card
-        .card-header Image
-        .p2
-          = image_tag '/assets/images/projects/maimax/robot-2.jpg'
-        .card-footer = image_tag 'image_url'
+      .sm-c1in1.c1in2.flex.flex-column
+        .c1in1.card
+          .card-header Image
+          .p2
+            = image_tag '/assets/images/projects/maimax/robot-2.jpg'
 
-      .c1in2.card
-        .card-header Clickable Image
-        .p2
-          = image_link '/assets/images/projects/maimax/robot-2.jpg',
-            class: ''
-        .card-footer = image_tag 'image_url', class: ''
+        .c1in1.mb5
+          %pre
+            %code.language-haml
+              :preserve
+                = image_tag 'image_url', class: ''
+
+      .sm-c1in1.c1in2.flex.flex-column
+        .c1in1.card
+          .card-header Clickable Image
+          .p2
+            = image_link '/assets/images/projects/maimax/robot-2.jpg', class: ''
+
+        .c1in1.mb5
+          %pre
+            %code.language-haml
+              :preserve
+                = image_link '/assets/images/projects/maimax/robot-2.jpg', class: ''
 
     %h4 Helper
     .flex.flex-wrap.justify-between
