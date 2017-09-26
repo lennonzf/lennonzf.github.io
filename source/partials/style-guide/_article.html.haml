@@ -71,6 +71,33 @@
           adipiscing elit.
         .card-footer = external_link_to 'text', 'external_page_url', class: ''
 
+  // Image
+  .pb3#image
+  %h3 Image
+  .mb3
+    .flex.flex-wrap.justify-between
+      .c1in2.card
+        .card-header Image
+        .p2
+          = image_tag '/assets/images/projects/maimax/robot-2.jpg'
+        .card-footer = image_tag 'image_url'
+
+      .c1in2.card
+        .card-header Clickable Image
+        .p2
+          = image_link '/assets/images/projects/maimax/robot-2.jpg',
+            class: ''
+        .card-footer = image_tag 'image_url', class: ''
+
+    %h4 Helper
+    .flex.flex-wrap.justify-between
+      .c1in2.card
+        .card-header Dotted Frame
+        .p2
+          = image_link "/assets/images/projects/maimax/robot-2.jpg",
+            class: 'frame-dotted'
+        .card-footer .frame-dotted
+
   // Underline
   .pb3#underline
   %h3 Underline
