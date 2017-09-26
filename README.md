@@ -35,22 +35,25 @@ By learning and practicing more, I feel it's the right time to build a new site 
 ##### Goal
 By designing and coding up the site, I am aiming for these goals:
 
-- Design a portfolio site with a focus on demonstrating my UX skills
-- Practice minimal design
-- Refresh my visual identity (e.g. logo)
-- Build a site from scratch
-- Get familiar with website building process from desgin to deployment
-- Learn and use Middleman
-- Learn and use Github and Github Pages
-- Learn and use Flexbox
-- Practice SASS with SCSS syntax and functional CSS
-- Develop a style guide
-- ~~Add an automated testing tool~~ Use hound for reviewing pull requests (mainly HAML and SCSS) and act on the comments
-- Use Bower for managing the front-end plugins
-- Add proper social media metadata to enhance the SEO of the site
+- [x] Design a portfolio site with a focus on demonstrating my UX skills
+- [x] Practice minimal design
+- [x] Refresh my visual identity (e.g. logo)
+- [x] Build a site from scratch
+- [x] Get familiar with website building process from desgin to deployment
+- [x] Learn and use Middleman
+- [x] Learn and use Github and Github Pages
+- [x] Learn and use Flexbox
+- [x] Practice SASS with SCSS syntax and functional CSS
+- [x] Develop a style guide
+- [x] ~~Add an automated testing tool~~ Use hound for reviewing pull requests (mainly HAML and SCSS) and act on the comments
+- [x] Use Bower for managing the front-end plugins
+- [x] Add proper social media metadata to enhance the SEO of the site
+- [x] Start using Github as a project management tool
+- [x] Learn to create custom helper function in Middleman
+- [x] Learn to use partials, layout and data in Middleman
 
 ##### Special Thanks
-Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **Kian Zhu**, who provided a huge amount of feedback and patience to me.
+Special Thanks to **[Felix Lee](http://felixlee.io/)**, who inspired and encouraged me to build the site; **[Kian Zhu](http://kianzyk.site/)**, who provided a huge amount of feedback and patience to me.
 
 ## Tech Stack & Tools
 - Github & [Github Pages](https://pages.github.com/) - version control and hosting the development site
