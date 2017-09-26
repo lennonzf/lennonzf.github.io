@@ -88,6 +88,12 @@ helpers do
     active_css_class = "active" if current_page.url.delete('/') == path.delete('/')
     link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
   end
+
+  def image_link(path, options)
+    link_to path do
+      image_tag path, class: "#{options[:class]}"
+    end
+  end
 end
 
 require "helpers/image_helpers"
