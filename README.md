@@ -28,7 +28,7 @@ Please note the development branch is `source-code`
 My site is continuously developed and maintianed by myself.
 
 ##### Motivation
-This is the second iteration for my personal portfolio site. Back in time, when I was building my first site (still hosting at [here](http://lennonzf.com/) at the moment), I haven't quite mastered all the skills required to build a site. Therefore, my first site was built based on a Bootstrap template named [Freelancer](https://startbootstrap.com/template-overviews/freelancer/).
+This is the second iteration for my personal portfolio site. Back in time, when I was building my first site, I haven't quite mastered all the skills required to build a site. Therefore, my first site was built based on a Bootstrap template named [Freelancer](https://startbootstrap.com/template-overviews/freelancer/).
 
 By learning and practicing more, I feel it's the right time to build a new site from scratch with a bunch of handy techs. Also, I am aiming to make a shift from an **aesthetic focus** desginer to a proper **User Experience** oriented designer. So, here goes the new site you are seeing now.
 
