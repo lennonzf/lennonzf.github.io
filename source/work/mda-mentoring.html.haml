@@ -34,7 +34,9 @@ image_position: 'center 40%'
         .flex1
           .text-blue Repository
         .flex3.sm-flex1
-          = link_to "MDA Mentoring", '//github.com/rhokbrisbane/mda', target: "_blank"
+          = external_link_to "MDA Mentoring",
+            '//github.com/rhokbrisbane/mda',
+            class: ''
 
       .flex.sm-flex-column.left-align
         .flex1
@@ -45,14 +47,14 @@ image_position: 'center 40%'
     .article-paragraph-h2
       %h2 Intro
       %p
-        Over the last weekend of November, I had my first hackathon at the brand new NetEngine office for the 2016 RHOK (
-        = link_to 'Random Hack of Kindness', 'http://rhokbrisbane.org/', target: "_blank"
-        ). I was fortunate enough to lead a team of exceptional coders and problem solvers to work on Mentoring, a project inspired by our client Anna from MDA. Meanwhile, I had a lot of fun going through a design process at a rapid pace.
+        Over the last weekend of November, I had my first hackathon at the brand new NetEngine office for the 2016 RHOK. I was fortunate enough to lead a team of exceptional coders and problem solvers to work on Mentoring, a project inspired by our client Anna from MDA. Meanwhile, I had a lot of fun going through a design process at a rapid pace.
 
       .article-paragraph-h3
         %h3 Client
         %p
-          = link_to 'MDA', 'https://mdaltd.org.au', target: "_blank"
+          = external_link_to 'MDA',
+            'https://mdaltd.org.au',
+            class: ''
           has initiated a new program, currently named “Human Library”, which matches a young refugee with a well-trained life mentor to help the new arrival with inevitable challenges down the road. Anna, representing MDA in this year’s RHOK, works to help to match and maintain every pair of mentor and mentee.
 
       .article-paragraph-h3
@@ -60,7 +62,8 @@ image_position: 'center 40%'
         %p After a group brainstorming, we managed to define the problem using one sentence, “Connecting well-prepared mentors and mentees to establish an ongoing journey/relationship where all parties benefit in a safe environment”. Of course, the other greatest challenge was to finish the MVP product with the two-day time restriction.
 
       .article-image-w600px
-        = image_tag '/assets/images/projects/mda-mentoring/rhok_1.jpg'
+        = image_link '/assets/images/projects/mda-mentoring/rhok_1.jpg',
+          class: ''
 
       .article-paragraph-h3
         %h3 Idea
@@ -77,7 +80,8 @@ image_position: 'center 40%'
       %p Here’s the actual schedule of how we delivered the MVP:
 
       .article-image-w600px
-        = image_tag '/assets/images/projects/mda-mentoring/schedule.png'
+        = image_link '/assets/images/projects/mda-mentoring/schedule.png',
+          class: ''
 
     .article-paragraph-h2
       %h2 Design Process
@@ -88,23 +92,27 @@ image_position: 'center 40%'
         .article-paragraph-w900px
           .flex.justify-between.sm-flex-column
             .c1in2.sm-c1in1
-              = image_tag '/assets/images/projects/mda-mentoring/user_groups.png'
+              = image_link '/assets/images/projects/mda-mentoring/user_groups.png',
+                class: ''
             .c1in2.sm-c1in1.sm-mt6
               %p.sm-mb0 There were initially three user groups, including facilitator (for example, Anna), mentor and mentee. Anna told us it would be appropriate for her to connect the pair and then step away. Therefore, although the monitoring from facilitator is crucial to the program, we decided to take the facilitator out of the equation for MVP after confirming with the client.
 
       .article-paragraph-h3
         %h3 Module mapping and define user stories
         .article-image-w600px
-          = image_tag '/assets/images/projects/mda-mentoring/rhok_2.jpg'
+          = image_link '/assets/images/projects/mda-mentoring/rhok_2.jpg',
+            class: ''
 
       .article-paragraph-h3
         %h3 Workflow mapping and detailed screen mapping
         .article-paragraph-w900px
           .flex.justify-between.sm-flex-column.my6.sm-my0
             .c1in2.sm-c1in1
-              = image_tag '/assets/images/projects/mda-mentoring/rhok_3.jpg'
+              = image_link '/assets/images/projects/mda-mentoring/rhok_3.jpg',
+                class: ''
             .c1in2.sm-c1in1.sm-mt4
-              = image_tag '/assets/images/projects/mda-mentoring/rhok_4.jpg'
+              = image_link '/assets/images/projects/mda-mentoring/rhok_4.jpg',
+                class: ''
 
     .article-paragraph-h2
       %h2 Style
@@ -151,7 +159,8 @@ image_position: 'center 40%'
         %p A mentor or a mentee can create their profile by signing up. The process will focus on getting the information on either parties' experience, language and contact details. Users can sign into the  system after they have successfully signed up.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/mda-mentoring/result_1.png'
+          = image_link '/assets/images/projects/mda-mentoring/result_1.png',
+            class: ''
 
 
       .article-paragraph-h3
@@ -159,7 +168,8 @@ image_position: 'center 40%'
         %p A mentee will always see his/her mentor's profile (same for the mentor). Users can also click on the "slack message" button and be directed to Slack to  communicate with each other. In a future sprint, functionalities such as direct messaging or a group forum could be built within in the system.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/mda-mentoring/result_2.png'
+          = image_link '/assets/images/projects/mda-mentoring/result_2.png',
+            class: ''
 
       .article-paragraph-h3
         %h3 Goal
@@ -167,7 +177,8 @@ image_position: 'center 40%'
         %p Both the mentor or the mentee can also define some objective goals by creating an action list for each sub-goal. Later, when the mentee has crossed off some actions, he/she can print out a list of achievements through accessing the "achievement" tab. The list is effectively a resume or a proof of experience with the endorsement of the mentor.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/mda-mentoring/result_3.png'
+          = image_link '/assets/images/projects/mda-mentoring/result_3.png',
+            class: ''
 
       .article-paragraph-h3
         %h3 Event
@@ -175,7 +186,8 @@ image_position: 'center 40%'
         %p For a particular event, a user can view the number of participants, whether his/her mentor or mentee is going, location and date information.
 
         .article-paragraph-w900px
-          = image_tag '/assets/images/projects/mda-mentoring/result_4.png'
+          = image_link '/assets/images/projects/mda-mentoring/result_4.png',
+            class: ''
 
 
       .article-paragraph-h3
@@ -206,10 +218,15 @@ image_position: 'center 40%'
     .article-paragraph-h2
       %h2 Publication
       %h4 Brisbane Times
-      %p= link_to "RHOK attracts industry enthusiasts to help charities", "http://www.brisbanetimes.com.au/queensland/random-hacks-of-kindness-attracts-industry-enthusiasts-to-help-charities-20161126-gsy6pm.html", target: '_blank'
+      %p
+        = external_link_to "RHOK attracts industry enthusiasts to help charities",
+          "https://www.brisbanetimes.com.au/national/queensland/random-hacks-of-kindness-attracts-industry-enthusiasts-to-help-charities-20161126-gsy6pm.html",
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Check repository", '//github.com/rhokbrisbane/mda', class: 'button', target: '_blank'
+        = link_to "Check repository",
+          '//github.com/rhokbrisbane/mda',
+          class: 'button'
 
     = partial 'partials/back_to_work'

@@ -34,7 +34,9 @@ image_position: 'center bottom'
         .flex1
           .text-blue Result
         .flex3.sm-flex1
-          = link_to "Senza Carta", '//senzacarta.com.au', target: "_blank"
+          = external_link_to "Senza Carta",
+            '//senzacarta.com.au',
+            class: ''
 
     .article-paragraph-h2
       %h2 Intro
@@ -56,13 +58,18 @@ image_position: 'center bottom'
         .article-paragraph-w900px
           .flex.sm-flex-column.justify-between.items-center
             .c1in2.sm-c1in1.lg-p8.md-p8.sm-p4
-              = image_tag '/assets/images/projects/senza-carta/logo.png'
+              = image_link '/assets/images/projects/senza-carta/logo.png',
+                class: ''
             .c1in2.sm-c1in1.lg-p2.md-p2.sm-mt4
               %p
                 What the client wanted was simple at the initial stage, be on brand and be clean. The landing page of
-                = link_to 'Facebook Workplace', '//workplace.fb.com/', target: '_blank'
+                = external_link_to 'Facebook Workplace',
+                  '//workplace.fb.com/',
+                  class: ''
                 and NetEngine’s in house project
-                = link_to 'Cloudbill', '//cloudbill.io/', target: '_blank'
+                = external_link_to 'Cloudbill',
+                  '//cloudbill.io/',
+                  class: ''
                 were given as example.
 
               %p
@@ -72,7 +79,8 @@ image_position: 'center bottom'
         %p Here’s the initial design presented by my team:
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/senza-carta/design_v1.png'
+          = image_link '/assets/images/projects/senza-carta/design_v1.png',
+            class: ''
 
         %p With a tangible page to look at, the client started to realize her vision of the landing page, so we get some very constructive feedback:
         %ul
@@ -83,7 +91,9 @@ image_position: 'center bottom'
           %li Would like to see more product mockup images in the page
           %li
             New example:
-            = link_to "deputy’s feature page", "//www.deputy.com/features", target: "_blank"
+            = external_link_to "deputy’s feature page",
+              "//www.deputy.com/features",
+              class: ''
 
       .article-paragraph-h3
         %h3 Iteration 1
@@ -98,13 +108,16 @@ image_position: 'center bottom'
 
         %p
           Following the spirit of the new example picked by the client, I created some on-brand device containers for the screenshots of the actual web application and searched for some nice stock images from
-          = link_to 'unsplash', '//unsplash.com', target: '_blank'
+          = external_link_to 'unsplash',
+            '//unsplash.com',
+            class: ''
           \.
 
         %p I presented the new version of the individual page at the end of this iteration and client was pretty happy about the illustration and the usage of stock images.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/senza-carta/design_v2.png'
+          = image_link '/assets/images/projects/senza-carta/design_v2.png',
+            class: ''
 
       .article-paragraph-h3
         %h3 Iteration 2
@@ -120,15 +133,19 @@ image_position: 'center bottom'
         .article-paragraph-w900px
           .flex.justify-between
             .c1in1
-              = image_tag '/assets/images/projects/senza-carta/design_v3_2.png'
+              = image_link '/assets/images/projects/senza-carta/design_v3_2.png',
+                class: ''
             .c1in1
-              = image_tag '/assets/images/projects/senza-carta/design_v3_1.png'
+              = image_link '/assets/images/projects/senza-carta/design_v3_1.png',
+                class: ''
 
       .article-paragraph-h3
         %h3 Development
         %p
           With the client’s consent, the actual Senza Carta web app requires a relatively low level of browser support. Therefore, I also got to use
-          = link_to 'flexbox', '//caniuse.com/#search=flex', target: '_blank'
+          = external_link_to 'flexbox',
+            '//caniuse.com/#search=flex',
+            class: ''
           to implement the landing page.
 
         %p Last but not least, I decided to add some extra spice to the page by doing some SVG animation.
@@ -152,21 +169,38 @@ image_position: 'center bottom'
       .article-paragraph-h4
         %h4 SVG Optimization
         %ul.mb4
-          %li= link_to "Thoughtbot - A more efficient and organized workflow for SVGs", "//robots.thoughtbot.com/organized-workflow-for-svg", target: '_blank'
-          %li= link_to "SVGO Compressor for Sketchapp", "//github.com/BohemianCoding/svgo-compressor", target: '_blank'
+          %li
+            = external_link_to "Thoughtbot - A more efficient and organized workflow for SVGs",
+              "//robots.thoughtbot.com/organized-workflow-for-svg",
+              class: ''
+          %li
+            = external_link_to "SVGO Compressor for Sketchapp",
+              "//github.com/BohemianCoding/svgo-compressor",
+              class: ''
 
       .article-paragraph-h4
         %h4 Inline SVG Helper for Ruby on Rails
         %ul.mb4
-          %li= link_to "An inline svg gem for Ruby on Rails", "//github.com/jamesmartin/inline_svg", target: '_blank'
-          %li= link_to "An inline svg helper for Middleman", "//gist.github.com/bitmanic/0047ef8d7eaec0bf31bb", target: '_blank'
+          %li
+            = external_link_to "An inline svg gem for Ruby on Rails",
+              "//github.com/jamesmartin/inline_svg",
+              class: ''
+          %li
+            = external_link_to "An inline svg helper for Middleman",
+              "//gist.github.com/bitmanic/0047ef8d7eaec0bf31bb",
+              class: ''
 
       .article-paragraph-h4
         %h4 SVG Animation
-        %p= link_to "CSS Trick - Animating SVG with CSS", "//css-tricks.com/animating-svg-css/", target: '_blank'
+        %p
+          = external_link_to "CSS Trick - Animating SVG with CSS",
+            "//css-tricks.com/animating-svg-css/",
+            class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Check this site", '//senzacarta.com.au', class: 'button', target: '_blank'
+        = external_link_to "Check this site",
+          '//senzacarta.com.au',
+          class: 'button'
 
     = partial 'partials/back_to_work'

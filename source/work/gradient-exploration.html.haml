@@ -10,11 +10,15 @@ title: Work - Gradient Exploration | Lennon Cheng - UI/UX Designer, Front-end De
       %h2 Intro
       %p
         I have been wanting to explore and introduce some gradient elements to my design for a while. Given the chance by
-        = link_to "Wiredcraft", "https://wiredcraft.com/"
+        = external_link_to "Wiredcraft",
+          "https://wiredcraft.com/",
+          class: ''
         to work on a poster redesign challenge, I finally added a fresh style to my gallery.
       %p
         The redesign challenge is actually my interview homework to get an internship at Wiredcraft. They are a really cool company based in my hometown, Shanghai. More surprisingly, their recruiment process are visible to anyone on github. You can view my interview process via the
-        = link_to "link", "https://github.com/Wiredcraft/test-designer/issues/12"
+        = external_link_to "link",
+          "https://github.com/Wiredcraft/test-designer/issues/12",
+          class: ''
         here.
       %p
         As a result, I got the internship and will be able to contribute to the UI/UX Conference for this year in Shanghai.
@@ -23,23 +27,29 @@ title: Work - Gradient Exploration | Lennon Cheng - UI/UX Designer, Front-end De
     .article-paragraph-h2
       %h2 Final Work
       .article-image-w600px
-        = image_tag '/assets/images/projects/gradient-exploration/poster.jpg'
+        = image_link '/assets/images/projects/gradient-exploration/poster.jpg',
+          class: ''
 
     .article-paragraph-h2
       %h2 Process
       %p Here's the process of how I tackled my challenge.
       .article-image-w600px
-        = image_tag '/assets/images/projects/gradient-exploration/process.jpg'
+        = image_link '/assets/images/projects/gradient-exploration/process.jpg',
+          class: 'frame-dotted'
 
     .article-paragraph-h2
       %h2 Misc
       .article-image-w600px
-        = image_tag '/assets/images/projects/gradient-exploration/hero.jpg'
+        = image_link '/assets/images/projects/gradient-exploration/hero.jpg',
+          class: ''
       .article-image-w600px
-        = image_tag '/assets/images/projects/gradient-exploration/telescope.png'
+        = image_link '/assets/images/projects/gradient-exploration/telescope.png',
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Shot", 'https://dribbble.com/shots/3328279-Gradient-Exploration-3-Composition', class: 'button', target: '_blank'
+        = external_link_to "Dribbble Shot",
+          'https://dribbble.com/shots/3328279-Gradient-Exploration-3-Composition',
+          class: 'button'
 
     = partial 'partials/back_to_work'

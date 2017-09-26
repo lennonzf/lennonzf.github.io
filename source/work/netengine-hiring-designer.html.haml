@@ -13,10 +13,13 @@ title: Work - Designer Wanted | Lennon Cheng - UI/UX Designer, Front-end Develop
     .article-paragraph-h2
       %h2 Illustration
       .article-image-w600px
-        = image_tag '/assets/images/projects/netengine-hiring-designer/design.jpg'
+        = image_link '/assets/images/projects/netengine-hiring-designer/design.jpg',
+          class: ''
 
     .article-paragraph-h2
       .flex.justify-center
-        = link_to "Dribbble Shot", 'https://dribbble.com/shots/3307574-Designer-Wanted', class: 'button', target: '_blank'
+        = external_link_to "Dribbble Shot",
+          'https://dribbble.com/shots/3307574-Designer-Wanted',
+          class: 'button'
 
     = partial 'partials/back_to_work'

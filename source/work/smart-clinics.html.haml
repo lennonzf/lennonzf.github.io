@@ -69,7 +69,8 @@ image_position: 'right 0'
           The first thing I did was to understand the booking form by going through the process and mapping them out. The whole process includes 7 different steps (labeled as S1 to S7), along with 2 intermediate steps.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/smart-clinics/current_process.png'
+          = image_link '/assets/images/projects/smart-clinics/current_process.png',
+            class: ''
 
         %p
           Along with this process, I took down some notes and created a list of obvious problems, issues and some suggestions based on my understanding of the product.
@@ -78,7 +79,8 @@ image_position: 'right 0'
           With the list bearing in my mind, I pitched an ideal version of the process. The new process mapping was treated as a combination of my arrogant assumptions, which were later challenged by the usability testing session.
 
         .article-image-w600px
-          = image_tag '/assets/images/projects/smart-clinics/ideal_process.png'
+          = image_link '/assets/images/projects/smart-clinics/ideal_process.png',
+            class: ''
 
       .article-paragraph-h3
         %h3 Day 2: Usability Testing
@@ -90,7 +92,9 @@ image_position: 'right 0'
 
           %p
             I read a bunch of articles from
-            = link_to 'A list apart', 'http://alistapart.com/'
+            = external_link_to 'A list apart',
+              'http://alistapart.com/',
+              class: ''
             \. There was this article (sadly, I lost the track of the link) making analysis on people’s
             %u reacting time and emotion
             upon different tasks really caught my attention. I thought why not experimenting these in my first session.
@@ -137,14 +141,18 @@ image_position: 'right 0'
           .article-paragraph-w900px
             .flex.justify-between.sm-flex-column
               .c1in2.sm-c1in1
-                = image_tag '/assets/images/projects/smart-clinics/demographic.png'
+                = image_link '/assets/images/projects/smart-clinics/demographic.png',
+                  class: ''
               .c1in2.sm-c1in1
-                = image_tag '/assets/images/projects/smart-clinics/task_time.png'
+                = image_link '/assets/images/projects/smart-clinics/task_time.png',
+                  class: ''
             .flex.justify-between.sm-flex-column
               .c1in2.sm-c1in1
-                = image_tag '/assets/images/projects/smart-clinics/emotion.png'
+                = image_link '/assets/images/projects/smart-clinics/emotion.png',
+                  class: ''
               .c1in2.sm-c1in1
-                = image_tag '/assets/images/projects/smart-clinics/issue.png'
+                = image_link '/assets/images/projects/smart-clinics/issue.png',
+                  class: ''
 
         .article-paragraph-h4
           %h4 B. Findings
@@ -175,7 +183,8 @@ image_position: 'right 0'
           .article-paragraph-w900px
             .flex.justify-between.items-center.sm-flex-column
               .c1in2.sm-c1in1.lg-p8.md-p8
-                = image_tag '/assets/images/projects/smart-clinics/design.jpg'
+                = image_link '/assets/images/projects/smart-clinics/design.jpg',
+                  class: ''
               .c1in2.sm-c1in1.lg-p2.md-p2.sm-mt4
                 %ul
                   %li
@@ -192,14 +201,17 @@ image_position: 'right 0'
           %h4 B. Optimised Process
           %p Based on the findings and issues I found, the ideal process was then further tailored to an optimised one:
           .article-image-w600px
-            = image_tag '/assets/images/projects/smart-clinics/optimised_process.png'
+            = image_link '/assets/images/projects/smart-clinics/optimised_process.png',
+              class: ''
 
         .article-paragraph-h4
           %h4 C. The Redesign
           %p For the final stage of the project, I created an interactive prototype to demonstrate the new process.
           %p
             You can find a bit more screenshots of my work in a similar
-            = link_to "case study", 'http://netengine.com.au/projects/smartclinics', target: '_blank'
+            = external_link_to "case study",
+              'http://netengine.com.au/projects/smartclinics',
+              class: ''
             I wrote for NetEngine.
 
     .article-paragraph-h2
