@@ -45,6 +45,13 @@ creations:
       - 'Illustration'
       - 'Lettering'
       - 'Character'
+  - slug: 'hardware'
+    image_format: 'jpg'
+    image_position: 'center 45%'
+    title: 'Hardware'
+    types:
+      - 'Illustration'
+      - 'Diagram'
   - slug: 'coffee-cup'
     image_format: 'jpg'
     image_position: 'center 45%'

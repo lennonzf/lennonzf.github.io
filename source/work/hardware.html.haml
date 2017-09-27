@@ -1,0 +1,53 @@
+---
+title: Work - Hardware | Lennon Cheng - UI/UX Designer, Front-end Developer
+---
+
+.flex-auto
+  .container.max-w600px
+    %h1.center-align Hardware
+
+    .article-paragraph-h2
+      %h2 Intro
+      %p
+        During my internship at
+        = external_link_to 'Wiredcraft', 'http://wiredcraft.com/', class: ''
+        , I was asked to create some hardward icons and diagrams for a physical installation project. Later I explored a inversed-color style for a Linkedin header image.
+
+    .article-paragraph-h2
+      %h2 Hardware
+      .article-image-w600px
+        = image_link '/assets/images/projects/hardware/hero.jpg',
+          class: 'frame-dotted'
+
+        .flex.flex-wrap.justify-between.mt1
+          .c1in2
+            = image_link '/assets/images/projects/hardware/diagram_1.jpg',
+              class: 'frame-dotted'
+          .c1in2
+            = image_link '/assets/images/projects/hardware/diagram_2.jpg',
+              class: 'frame-dotted'
+
+    .article-paragraph-h2
+      %h2 Inversed Color Exploration
+      .article-image-w600px
+        .flex.flex-wrap.justify-between
+          .c1in2
+            = image_link '/assets/images/projects/hardware/logo.jpg',
+              class: 'frame-dotted'
+          .c1in2
+            = image_link '/assets/images/projects/hardware/inverse.jpg',
+              class: 'frame-dotted'
+
+    .article-paragraph-h2
+      %h2 Geometry
+      .article-image-w600px
+        = image_link '/assets/images/projects/hardware/geometry.png',
+          class: 'frame-dotted'
+
+    .article-paragraph-h2
+      %h2 Linkedin Header
+      .article-image-w600px
+        = image_link '/assets/images/projects/hardware/linkedin.png',
+          class: ''
+
+    = partial 'partials/back_to_work'
