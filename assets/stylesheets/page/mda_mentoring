@@ -1,0 +1,6 @@
+/* line 1, mda_mentoring.scss */
+.mda-mentoring {
+  @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700"); }
+  /* line 5, mda_mentoring.scss */
+  .mda-mentoring .pt-sans {
+    font-family: "PT Sans", "San Francisco Display", "Helvetica Neue", Helvetica, Arial, sans-serif; }

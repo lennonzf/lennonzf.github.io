@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+    <title>Style Guide | Lennon Cheng - UI/UX Designer, Front-end Developer</title>
+    <link href="/assets/stylesheets/site.css" rel="stylesheet" />
+    <!-- favicon -->
+    <link href='assets/images/favicon/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+    <link href='assets/images/favicon/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+    <link href='assets/images/favicon/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+    <link href='assets/images/favicon/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+    <link href='assets/images/favicon/apple-touch-icon-60x60.png' rel='apple-touch-icon-precomposed' sizes='60x60'>
+    <link href='assets/images/favicon/apple-touch-icon-120x120.png' rel='apple-touch-icon-precomposed' sizes='120x120'>
+    <link href='assets/images/favicon/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='76x76'>
+    <link href='assets/images/favicon/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='assets/images/favicon/favicon-196x196.png' rel='icon' sizes='196x196' type='image/png'>
+    <link href='assets/images/favicon/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+    <link href='assets/images/favicon/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+    <link href='assets/images/favicon/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+    <link href='assets/images/favicon/favicon-128.png' rel='icon' sizes='128x128' type='image/png'>
+    <meta content='lennonzf' name='application-name'>
+    <meta content='#FFFFFF' name='msapplication-TileColor'>
+    <meta content='assets/images/favicon/mstile-144x144.png' name='msapplication-TileImage'>
+    <meta content='assets/images/favicon/mstile-70x70.png' name='msapplication-square70x70logo'>
+    <meta content='assets/images/favicon/mstile-150x150.png' name='msapplication-square150x150logo'>
+    <meta content='assets/images/favicon/mstile-310x150.png' name='msapplication-wide310x150logo'>
+    <meta content='assets/images/favicon/mstile-310x310.png' name='msapplication-square310x310logo'>
+    <!-- metadata -->
+    <meta content='I help understand problems through visualisation, and seek a better user experience in web app design.' name='description'>
+    <meta content='lennon, lennon cheng, visualisation, data visualisation, web app, user interface, product design, UI/UX Designer, ui, ui designer, user experience, ux, ux designer, UI/UX Designer, front-end development, front-end developer, developer, web developer, web design, web designer, web app, web app designer, illustration, motion graphic, infographic, design, design process, brisbane, australia' name='keywords'>
+    <!-- open graph -->
+    <meta content='Lennon Cheng - UI/UX Designer &amp; Front-end Developer' property='og:title'>
+    <meta content='website' property='og:type'>
+    <meta content='http://lennonzf.github.io' property='og:url'>
+    <meta content='https://lennonzf.github.io/assets/images/metadata/metadata.jpg' property='og:image'>
+    <meta content='I help understand problems through visualisation, and seek a better user experience in web app design.' property='og:description'>
+    <!-- twitter -->
+    <!-- Twitter Card data -->
+    <meta content='summary_large_image' name='twitter:card'>
+    <meta content='@lennonzf' name='twitter:site'>
+    <meta content='Lennon Cheng - UI/UX Designer &amp; Front-end Developer' name='twitter:title'>
+    <meta content='I help understand problems through visualisation, and seek a better user experience in web app design.' name='twitter:description'>
+    <meta content='@lennonzf' name='twitter:creator'>
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta content='https://lennonzf.github.io/assets/images/metadata/metadata.jpg' name='twitter:image:src'>
+  </head>
+</html>
+<body class='flex flex-column min-h100vh relative sm-flex-column'>
+  <!-- Navigation -->
+  <div class='navigation container flex flex-wrap justify-between p2 mb3'>
+    <div class='flex flex-wrap u-clearfix pt3 sm-pt4'>
+      <a href="/" class="box box-logo">L</a>
+    </div>
+    <div class='flex flex-wrap pt4 items-center'>
+      <a href="/process" class="sm-font-small mr6 navigation-link ">PROCESS</a>
+      <a href="/work" class="sm-font-small mr6 navigation-link ">WORK</a>
+      <!-- = active_link_to 'BLOG', '/blog', -->
+      <!-- class: 'light ml6 sm-font-small' -->
+      <a href="/findme" class="button sm-font-small">FIND ME</a>
+    </div>
+  </div>
+  <div class='container max-w900px'>
+    <h1 class='center-align'>Style Guide</h1>
+    <div class='flex justify-between sm-flex-column'>
+      <div class='container max-w150px sm-hide'>
+        <div id='side_navigation'>
+          <!-- / Side Navigation -->
+          <div class='pt5'>
+            <ol class='side-nav'>
+              <li>
+                <a data-scroll='true' href='#intro'>Intro</a>
+              </li>
+              <li>
+                <a data-scroll='true' href='#screen'>Screen</a>
+                <input class='mb0' id='nav-screen' type='checkbox'>
+                  <label for='nav-screen'></label>
+                </input>
+                <ol>
+                  <li>
+                    <a data-scroll='true' href='#break-point'>Break Point</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#hide'>Hide</a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a data-scroll='true' href='#grid'>Grid</a>
+                <input class='mb0' id='nav-grid' type='checkbox'>
+                  <label for='nav-grid'></label>
+                </input>
+                <ol>
+                  <li>
+                    <a data-scroll='true' href='#one-column'>One Column</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#two-columns'>Two Columns</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#three-columns'>Three Columns</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#grid-example'>Example</a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a data-scroll='true' href='#font'>Font</a>
+                <input class='mb0' id='nav-font' type='checkbox'>
+                  <label for='nav-font'></label>
+                </input>
+                <ol>
+                  <li>
+                    <a data-scroll='true' href='#typography'>Typography</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#size'>Size</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#helper'>Helper</a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a data-scroll='true' href='#color'>Color</a>
+              </li>
+              <li>
+                <a data-scroll='true' href='#article'>Article</a>
+                <input class='mb0' id='nav-article' type='checkbox'>
+                  <label for='nav-article'></label>
+                </input>
+                <ol>
+                  <li>
+                    <a data-scroll='true' href='#heading'>Heading</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#paragraph'>Paragraph</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#link'>Link</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#image'>Image</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#underline'>Underline</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#list'>List</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#code'>Code</a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a data-scroll='true' href='#form'>Form</a>
+                <input class='mb0' id='nav-form' type='checkbox'>
+                  <label for='nav-form'></label>
+                </input>
+                <ol>
+                  <li>
+                    <a data-scroll='true' href='#button'>Button</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#input'>Input</a>
+                  </li>
+                  <li>
+                    <a data-scroll='true' href='#form-example'>Example</a>
+                  </li>
+                </ol>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class='container max-w600px'>
+        <!-- / Intro -->
+        <div class='pb5' id='intro'></div>
+        <h2>Intro</h2>
+        <div class='mb5'>
+          <p>During the development of various projects, a major problem I am facing is to keep the style and use of classes consistent.</p>
+          <p>I am developing this style guide to help manage and maintain the visual style of this website and to provide a template for any future projects I will be working on.</p>
+          <p>This site utilises HAML and SASS with the SCSS syntax, and adopts the principle from functional CSS.</p>
+        </div>
+        <!-- / Identity -->
+        <div class='pb5' id='screen'></div>
+        <h2>Identity</h2>
+        <div class='mb5'>
+          <!-- / Box -->
+          <div class='pb3' id='box'></div>
+          <h3>Box</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap'>
+              <div class='w100 card'>
+                <div class='card-header'>Logo and special heading</div>
+                <div class='flex justify-center p3'>
+                  <div class='box'>Lennon</div>
+                </div>
+                <div class='card-footer'>.box Lennon</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Screen -->
+        <div class='pb5' id='screen'></div>
+        <h2>Screen</h2>
+        <div class='mb5'>
+          <!-- / Break point -->
+          <div class='pb3' id='break-point'></div>
+          <h3>Break Point</h3>
+          <div class='mb3'>
+            <div class='c1in1 card'>
+              <div class='card-header'>> 1024px</div>
+              <div class='card-footer'>.lg-</div>
+            </div>
+            <div class='c2in3 card'>
+              <div class='card-header'>768px - 1024px</div>
+              <div class='card-footer'>.md-</div>
+            </div>
+            <div class='c1in3 card'>
+              <div class='card-header'>< 768px</div>
+              <div class='card-footer'>.sm-</div>
+            </div>
+          </div>
+          <!-- / Hide -->
+          <div class='pb3' id='hide'></div>
+          <h3>Hide</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in2 card'>
+                <div class='card-header'>No Hide</div>
+                <div class='card-footer'>none</div>
+              </div>
+              <div class='c1in2 card'>
+                <div class='lg-hide'>
+                  <div class='card-header'>Hide Desktop</div>
+                  <div class='card-footer'>.lg-hide</div>
+                </div>
+                <div class='md-hide sm-hide'>
+                  <div class='p3 font-small text-grey-light'>.lg-hide disappeared</div>
+                </div>
+              </div>
+              <div class='c1in2 card'>
+                <div class='md-hide'>
+                  <div class='card-header'>Hide Tablet</div>
+                  <div class='card-footer'>.md-hide</div>
+                </div>
+                <div class='lg-hide sm-hide'>
+                  <div class='p3 font-small text-grey-light'>.md-hide disappeared</div>
+                </div>
+              </div>
+              <div class='c1in2 card'>
+                <div class='sm-hide'>
+                  <div class='card-header'>Hide Mobile</div>
+                  <div class='card-footer'>.sm-hide</div>
+                </div>
+                <div class='lg-hide md-hide'>
+                  <div class='p3 font-small text-grey-light'>.sm-hide disappeared</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Grid -->
+        <div class='pb5' id='grid'></div>
+        <h2>Grid</h2>
+        <div class='mb5'>
+          <p>Flexbox is the base of the grid layout. This site only goes as far as 3 columns.</p>
+          <!-- / 1 -->
+          <div class='pb3' id='one-column'></div>
+          <h3>One Column</h3>
+          <div class='mb3'>
+            <div class='c1in1 card'>
+              <div class='card-header'>100%</div>
+              <div class='card-footer'>.c1in1</div>
+            </div>
+          </div>
+          <!-- / 2 -->
+          <div class='pb3' id='two-columns'></div>
+          <h3>Two Columns</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in2 card'>
+                <div class='card-header'>48%</div>
+                <div class='card-footer'>.c1in2</div>
+              </div>
+              <div class='c1in2 card'>
+                <div class='card-header'>48%</div>
+                <div class='card-footer'>.c1in2</div>
+              </div>
+            </div>
+          </div>
+          <!-- / 3 -->
+          <div class='pb3' id='three-columns'></div>
+          <h3>Three Columns</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in3 card'>
+                <div class='card-header'>32%</div>
+                <div class='card-footer'>.c1in3</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>32%</div>
+                <div class='card-footer'>.c1in3</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>32%</div>
+                <div class='card-footer'>.c1in3</div>
+              </div>
+            </div>
+          </div>
+          <!-- / example -->
+          <div class='pb3' id='grid-example'></div>
+          <h3>Example</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in1 card'>
+                <div class='card-header'>100%</div>
+                <div class='card-footer'>.c1in1</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>32%</div>
+                <div class='card-footer'>.c1in3</div>
+              </div>
+              <div class='c2in3 card'>
+                <div class='card-header'>66%</div>
+                <div class='card-footer'>.c2in3</div>
+              </div>
+              <div class='sm-c1in3 md-c1in2 lg-c1in1 card'>
+                <div class='sm-hide md-hide card-header'>100%</div>
+                <div class='sm-hide lg-hide card-header'>48%</div>
+                <div class='md-hide lg-hide card-header'>32%</div>
+                <div class='p4'>Try to resize the browser</div>
+                <div class='card-footer'>.sm-c1in3.md-c1in2.lg-c1in1</div>
+              </div>
+            </div>
+            <pre class='line-numbers'><code class='language-haml'>.flex.flex-wrap.justify-between&#x000A;  .c1in1.card&#x000A;    .card-header 100%&#x000A;    .card-footer .c1in1&#x000A;&#x000A;  .c1in3.card&#x000A;    .card-header 32%&#x000A;    .card-footer .c1in3&#x000A;&#x000A;  .c2in3.card&#x000A;    .card-header 66%&#x000A;    .card-footer .c2in3&#x000A;&#x000A;  .sm-c1in3.md-c1in2.lg-c1in1.card&#x000A;    .sm-hide.md-hide.card-header 100%&#x000A;    .sm-hide.lg-hide.card-header 48%&#x000A;    .md-hide.lg-hide.card-header 32%&#x000A;    .p4 Try to resize the browser&#x000A;    .card-footer .sm-c1in3.md-c1in2.lg-c1in1</code></pre>
+          </div>
+        </div>
+        <!-- / Font -->
+        <div class='pb5' id='font'></div>
+        <h2>Font</h2>
+        <div class='mb5'>
+          <!-- / Typography -->
+          <div class='pb3' id='typography'></div>
+          <h3>Typography</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in2 card'>
+                <div class='card-header'>Logo</div>
+                <div class='p4 font-large manteka'>Mentenka</div>
+                <div class='card-footer'>.menteka</div>
+              </div>
+              <div class='c1in2 card'>
+                <div class='card-header'>Content</div>
+                <div class='p4 font-large'>Roboto</div>
+                <div class='card-footer'>.roboto</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Size -->
+          <div class='pb3' id='size'></div>
+          <h3>Size</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>12px</div>
+                <div class='p4 font-smaller light'>Smaller</div>
+                <div class='card-footer'>.font-smaller</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>14px</div>
+                <div class='p4 font-small light'>Small</div>
+                <div class='card-footer'>.font-small</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>16px</div>
+                <div class='p4 font-base light'>Base</div>
+                <div class='card-footer'>.font-base</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>18px</div>
+                <div class='p4 font-paragraph light'>Paragraph</div>
+                <div class='card-footer'>.font-paragraph</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>24px/20px</div>
+                <div class='p4 font-large light'>Large</div>
+                <div class='card-footer'>.font-large</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>36px/24px</div>
+                <div class='p4 font-larger light'>Larger</div>
+                <div class='card-footer'>.font-larger</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='card-header'>54px/36px</div>
+                <div class='p4 font-title light'>Title</div>
+                <div class='card-footer'>.font-title</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Helper -->
+          <div class='pb3' id='helper'></div>
+          <h3>Helper</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large light'>Light</div>
+                <div class='card-footer'>.light</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large regular'>Regular</div>
+                <div class='card-footer'>.regular</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large semi'>Semi</div>
+                <div class='card-footer'>.semi</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large bold'>Bold</div>
+                <div class='card-footer'>.bold</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large italic'>Italic</div>
+                <div class='card-footer'>.italic</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large center-align'>Center</div>
+                <div class='card-footer'>.center-align</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large left-align'>Left</div>
+                <div class='card-footer'>.left-align</div>
+              </div>
+              <div class='c1in3 sm-c1in2 card'>
+                <div class='p4 font-large right-align'>Right</div>
+                <div class='card-footer'>.right-align</div>
+              </div>
+              <div class='c1in3 sm-c1in2'></div>
+            </div>
+          </div>
+        </div>
+        <!-- / Color -->
+        <div class='pb5' id='color'></div>
+        <h2>Color</h2>
+        <div class='mb5'>
+          <div class='mb6'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in3 card'>
+                <div class='card-header'>#FFFFFF</div>
+                <div class='p8 bg-white'></div>
+                <div class='card-footer'>$white</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#4DBDFF</div>
+                <div class='p8 bg-blue'></div>
+                <div class='card-footer'>$blue</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#1A1A1A</div>
+                <div class='p8 bg-black'></div>
+                <div class='card-footer'>$black</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#F2F2F2</div>
+                <div class='p8 bg-grey-xxlight'></div>
+                <div class='card-footer'>$grey-xxlight</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#EAEAEA</div>
+                <div class='p8 bg-grey-xlight'></div>
+                <div class='card-footer'>$grey-xlight</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#DEDEDE</div>
+                <div class='p8 bg-grey-light'></div>
+                <div class='card-footer'>$grey-light</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#BEBEBE</div>
+                <div class='p8 bg-grey'></div>
+                <div class='card-footer'>$grey</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#9B9B9B</div>
+                <div class='p8 bg-grey-dark'></div>
+                <div class='card-footer'>$grey-dark</div>
+              </div>
+              <div class='c1in3 card'>
+                <div class='card-header'>#444444</div>
+                <div class='p8 bg-grey-xdark'></div>
+                <div class='card-footer'>$grey-xdark</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Article -->
+        <div class='pb5' id='article'></div>
+        <h2>Article</h2>
+        <div class='mb5'>
+          <!-- / Heading -->
+          <div class='pb3' id='heading'></div>
+          <h3>Heading</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap'>
+              <div class='w100 card'>
+                <h1 class='p4'>Main heading</h1>
+                <div class='card-footer'>h1</div>
+              </div>
+              <div class='w100 card'>
+                <h2 class='p4'>Section heading</h2>
+                <div class='card-footer'>h2</div>
+              </div>
+              <div class='w100 card'>
+                <h3 class='p4'>Sub-section Heading</h3>
+                <div class='card-footer'>h3</div>
+              </div>
+              <div class='w100 card'>
+                <h4 class='p4'>Smallest Heading</h4>
+                <div class='card-footer'>h4</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Paragraph -->
+          <div class='pb3' id='paragraph'></div>
+          <h3>Paragraph</h3>
+          <div class='mb3'>
+            <div class='c1in1 card'>
+              <p class='p2 left-align'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices vehicula finibus. Phasellus ligula sapien, pulvinar nec molestie vitae, hendrerit nec turpis. Donec sit amet ultricies enim. Ut vitae enim nulla. Mauris sem quam, viverra at dui tempus, porta luctus lacus.
+              </p>
+              <div class='card-footer'>p</div>
+            </div>
+          </div>
+          <!-- / Link -->
+          <div class='pb3' id='link'></div>
+          <h3>Link</h3>
+          <div class='mb3'>
+            <p>
+              Same-page link uses
+              <a class='external' href='//github.com/cferdinandi/smooth-scroll' target='_blank'>Smooth Scroll</a>
+              to provide a better scrolling experience when navigating within the same page.
+            </p>
+            <div class='flex flex-wrap justify-between'>
+              <div class='sm-c1in1 c1in2 flex flex-column'>
+                <div class='c1in1 card'>
+                  <div class='card-header'>Same-page Link</div>
+                  <p class='p2 left-align'>
+                    Lorem ipsum,
+                    <a href="#article" data-scroll="true">go to the article section smoothly</a>
+                    adipiscing elit.
+                  </p>
+                </div>
+                <div class='c1in1 mb5'>
+                  <pre><code class='language-haml'>= link_to 'text', 'same_page_div_id', 'data-scroll': 'true'&#x000A;</code></pre>
+                </div>
+              </div>
+              <div class='sm-c1in1 c1in2 flex flex-column'>
+                <div class='c1in1 card'>
+                  <div class='card-header'>Interal Link</div>
+                  <p class='p2 left-align'>
+                    Lorem ipsum,
+                    take a look at my
+                    <a href="/work">work</a>
+                    page
+                  </p>
+                </div>
+                <div class='c1in1 mb5'>
+                  <pre><code class='language-haml'>= link_to 'text', 'internal_page_url', class: ''&#x000A;</code></pre>
+                </div>
+              </div>
+              <div class='sm-c1in1 c1in2 flex flex-column'>
+                <div class='c1in1 card'>
+                  <div class='card-header'>External Link</div>
+                  <p class='p2 left-align'>
+                    Lorem ipsum dolor sit amet,
+                    <a href="//www.instagram.com/lennonzf/" target="_blank" class="">go to my instagram page</a>
+                    adipiscing elit.
+                  </p>
+                </div>
+                <div class='c1in1 mb5'>
+                  <pre><code class='language-haml'>= external_link_to 'text', 'external_page_url', class: ''&#x000A;</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / Image -->
+          <div class='pb3' id='image'></div>
+          <h3>Image</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='sm-c1in1 c1in2 flex flex-column'>
+                <div class='c1in1 card'>
+                  <div class='card-header'>Image</div>
+                  <div class='p2'>
+                    <img src="/assets/images/projects/maimax/robot-2.jpg" alt="Robot 2" />
+                  </div>
+                </div>
+                <div class='c1in1 mb5'>
+                  <pre><code class='language-haml'>= image_tag 'image_url', class: ''&#x000A;</code></pre>
+                </div>
+              </div>
+              <div class='sm-c1in1 c1in2 flex flex-column'>
+                <div class='c1in1 card'>
+                  <div class='card-header'>Clickable Image</div>
+                  <div class='p2'>
+                    <a href="/assets/images/projects/maimax/robot-2.jpg"><img src="/assets/images/projects/maimax/robot-2.jpg" class="" alt="Robot 2" /></a>
+                  </div>
+                </div>
+                <div class='c1in1 mb5'>
+                  <pre><code class='language-haml'>= image_link '/assets/images/projects/maimax/robot-2.jpg', class: ''&#x000A;</code></pre>
+                </div>
+              </div>
+            </div>
+            <h4>Helper</h4>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in2 card'>
+                <div class='card-header'>Dotted Frame</div>
+                <div class='p2'>
+                  <a href="/assets/images/projects/maimax/robot-2.jpg"><img src="/assets/images/projects/maimax/robot-2.jpg" class="frame-dotted" alt="Robot 2" /></a>
+                </div>
+                <div class='card-footer'>.frame-dotted</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Underline -->
+          <div class='pb3' id='underline'></div>
+          <h3>Underline</h3>
+          <div class='mb3'>
+            <div class='c1in1 card'>
+              <p class='p2 left-align'>
+                Lorem ipsum dolor sit amet,
+                <u>this is important</u>
+                adipiscing elit.
+              </p>
+              <div class='card-footer'>u</div>
+            </div>
+          </div>
+          <!-- / List -->
+          <div class='pb3' id='list'></div>
+          <h3>List</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap justify-between'>
+              <div class='c1in2 sm-c1in1 card'>
+                <div class='card-header'>Un-ordered List</div>
+                <div class='p2 left-align'>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <ul>
+                      <li>Item 2.1</li>
+                      <li>Item 2.2</li>
+                    </ul>
+                    <li>Item 3</li>
+                  </ul>
+                </div>
+                <div class='card-footer'>ul</div>
+              </div>
+              <div class='c1in2 sm-c1in1 card'>
+                <div class='card-header'>Ordered List</div>
+                <div class='p2 left-align'>
+                  <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <ol>
+                      <li>Item 2.1</li>
+                      <li>Item 2.2</li>
+                    </ol>
+                    <li>Item 3</li>
+                  </ol>
+                </div>
+                <div class='card-footer'>ol</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Code -->
+          <div class='pb3' id='code'></div>
+          <h3>Code</h3>
+          <div class='mb3'>
+            <p>
+              Code snippet uses
+              <a class='external' href='//prismjs.com/index.html' target='_blank'>Prism</a>
+              , a lightweight and extensible syntax highlighter,
+              and its
+              <a class='external' href='//prismjs.com/plugins/line-numbers/' target='_blank'>line numbers</a>
+              plugin.
+            </p>
+            <div class='c1in1 card'>
+              <div class='p4 left-align'>
+                <pre class='line-numbers'><code class='language-haml'>%pre.line-numbers&#x000A;  %code.language-haml&#x000A;    :preserve&#x000A;      // Here goes the code in the code snippet&#x000A;</code></pre>
+              </div>
+              <div class='card-footer'>
+                pre.line-numbers / code.language-haml
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Form -->
+        <div class='pb5' id='form'></div>
+        <h2>Form</h2>
+        <div class='mb5'>
+          <!-- / Heading -->
+          <div class='pb3' id='button'></div>
+          <h3>Button</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap'>
+              <div class='w100 card'>
+                <div class='p4'>
+                  <button>Button</button>
+                </div>
+                <div class='card-footer'>button</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Input -->
+          <div class='pb3' id='input'></div>
+          <h3>Input</h3>
+          <div class='mb3'>
+            <div class='flex flex-wrap'>
+              <div class='w100 card'>
+                <div class='py4 px10 left-align'>
+                  <div class='flex flex-column'>
+                    <input class='w100 mt1 order2' name='name' required='true' type='text'>
+                    <label class='order1' for='name'>This is a label</label>
+                  </div>
+                </div>
+                <div class='card-footer'>label / input</div>
+              </div>
+            </div>
+          </div>
+          <!-- / Example -->
+          <div class='pb3' id='form-example'></div>
+          <h3>Example</h3>
+          <div class='mb3'>
+            <h4>Form Group</h4>
+            <div class='c1in1 card'>
+              <div class='py4 px10 left-align'>
+                <form>
+                  <div class='mt1 flex flex-column'>
+                    <input class='w100 mt1 order2' name='name' required='true' type='text'>
+                    <label class='order1' for='name'>Label 1</label>
+                  </div>
+                  <div class='mt1 flex flex-column'>
+                    <textarea class='w100 mt1 order2' name='message' required='true'></textarea>
+                    <label class='order1' for='message'>Label 2</label>
+                  </div>
+                  <div class='mt2'>
+                    <button type='submit' value='Send'>button</button>
+                  </div>
+                </form>
+              </div>
+              <div class='card-footer'>form</div>
+            </div>
+            <div class='c1in1'>
+              <pre class='line-numbers'><code class='language-haml'>%form&#x000A;  .mt1.flex.flex-column&#x000A;    %input.w100.mt1.order2{ type: 'text', name: 'name', required: 'true' }&#x000A;    %label.order1{ for: 'name' } Label 1&#x000A;  .mt1.flex.flex-column&#x000A;    %textarea.w100.mt1.order2{ name: 'message',required: 'true' }&#x000A;    %label.order1{ for: 'message' } Label 2&#x000A;  .mt2&#x000A;    %button{ type: "submit", value: "Send" } button</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class='container flex flex-wrap justify-between content-center p2 pt3 pb3 w100'>
+    <div class='flex flex-wrap'>
+      <a href="//www.instagram.com/lennonzf/" target="_blank" class="nav mr1 sm-font-small no-external">INSTAGRAM</a>
+      <div class='light mr1 text-grey-light'>/</div>
+      <a href="//au.linkedin.com/in/lennonzf" target="_blank" class="nav mr1 sm-font-small no-external">LINKEDIN</a>
+      <div class='light mr1 text-grey-light'>/</div>
+      <a href="//dribbble.com/lennonzf" target="_blank" class="nav mr1 sm-font-small no-external">DRIBBBLE</a>
+      <div class='light mr1 text-grey-light md-hide lg-hide'>/</div>
+      <div class='sm-font-small text-grey md-hide lg-hide'>2016 &copy; LENNON CHENG</div>
+    </div>
+    <div class='flex flex-wrap text-grey sm-mt1 sm-hide'>
+      <a href="//github.com/lennonzf/lennonzf.github.io" target="_blank" class="nav mr1 sm-font-small no-external">SOURCE CODE</a>
+      <div class='light mr1 text-grey-light sm-font-small'>/</div>
+      <a href="/style-guide" target="_blank" class="nav mr1 sm-font-small">STYLE GUIDE</a>
+      <div class='light mr1 text-grey-light sm-font-small'>/</div>
+      <div class='sm-font-small'>2017 &copy; LENNON CHENG</div>
+    </div>
+  </div>
+</body>
+<script src="/assets/javascripts/all.js"></script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-57868205-1', 'auto');
+  ga('send', 'pageview');
+</script>
