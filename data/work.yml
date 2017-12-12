@@ -37,6 +37,14 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'xmas-2017'
+    image_format: 'jpg'
+    image_position: 'center 74%'
+    title: 'Christmas 2017'
+    types:
+      - 'Illustration'
+      - 'Christmas Card'
+      - 'Print'
   - slug: 'maimax'
     image_format: 'jpg'
     image_position: 'center 45%'
