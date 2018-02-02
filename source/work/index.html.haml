@@ -45,7 +45,7 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
           .work-tile
             .mb3.image{ style: "background-image: url(/assets/images/projects/#{study.slug}/hero.#{study.image_format}); background-position: #{study.image_position}" }
             .mb1.text-blue= study.client
-            %h3.semi.text-black= study.title
+            %h3.regular.text-black= study.title
             %p.text-grey-dark.mb2= study.description
             %p.mb1.mt4.text-grey-xdark
               - study.roles.each_with_index do |role, i|
@@ -67,7 +67,7 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
               .box Creation
 
           %p.font-large.text-grey-dark
-            I sometimes throw some spice into my normal day life
+            I occasionally throw some spice into my normal day life
           %p.text-grey-dark
             I have been exploring
             %u illustration
@@ -97,7 +97,7 @@ title: Work | Lennon Cheng - UI/UX Designer, Front-end Developer
         = link_to "/work/#{creation.slug}" do
           .work-tile
             .mb3.image{ style: "background-image: url(/assets/images/projects/#{creation.slug}/hero.#{creation.image_format}); background-position: #{creation.image_position}" }
-            %h3.semi.text-black= creation.title
+            %h3.regular.text-black= creation.title
             %p.mb1.mt4.text-grey-xdark
               - creation.types.each_with_index do |type, i|
                 %u= type

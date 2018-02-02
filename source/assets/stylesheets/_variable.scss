@@ -1,3 +1,7 @@
+/* Roboto
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700);
+
 /* Color Variable
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $white:                   #FFFFFF;
@@ -32,7 +36,7 @@ $font-title:              $font-base * 3.375;   // 54px
 
 /* Line height
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-sans:               "Roboto", "San Francisco Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-sans:               Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-serif:              Georgia, "Times New Roman", Times, serif;
 $font-mono:               Monaco, Courier, monospace;
 $font-manteka:            "Manteka", Helvetica, sans-serif;
