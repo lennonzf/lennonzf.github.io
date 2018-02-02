@@ -6,7 +6,7 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -368,6 +368,8 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+/* Roboto
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Color Variable
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Other Variable
@@ -819,10 +821,8 @@ textarea {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1; } }
-/* Roboto
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .roboto {
-  font-family: "Roboto", "San Francisco Display", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 /* Manteka
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -966,7 +966,7 @@ body {
   width: 100%;
   margin: 0 auto;
   font-size: 1.6rem;
-  font-family: "Roboto", "San Francisco Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   color: #1A1A1A;
