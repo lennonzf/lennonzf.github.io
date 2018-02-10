@@ -5477,20 +5477,6 @@ input[type='submit'] {
   input[type='submit']:focus {
     background-color: #4DBDFF;
     outline: 0; }
-    .button:hover::before, .button:focus::before,
-    a.button:hover::before,
-    a.button:focus::before,
-    button:hover::before,
-    button:focus::before,
-    input[type='button']:hover::before,
-    input[type='button']:focus::before,
-    input[type='reset']:hover::before,
-    input[type='reset']:focus::before,
-    input[type='submit']:hover::before,
-    input[type='submit']:focus::before {
-      left: 0;
-      top: 0;
-      opacity: 1; }
 
 .button,
 a.button,
@@ -5670,9 +5656,6 @@ ol.side-nav {
     top: 5px;
     opacity: 0.5;
     z-index: -1; }
-  .work-tile.key:hover::before {
-    left: 0;
-    top: 0; }
 
 .work-tile.key.header:hover .image {
   -webkit-transform: translateY(0);
