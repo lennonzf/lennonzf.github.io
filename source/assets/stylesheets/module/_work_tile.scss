@@ -67,12 +67,6 @@
     opacity: 0.5;
     z-index: -1;
   }
-  &:hover {
-    &::before {
-      left: 0;
-      top: 0;
-    }
-  }
 }
 
 .work-tile.key.header {
