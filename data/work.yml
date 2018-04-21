@@ -37,6 +37,15 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'quarter-theme'
+    image_format: 'jpg'
+    image_position: 'center 0%'
+    title: 'Quarterly @ NE'
+    types:
+      - 'Illustration'
+      - 'Poster'
+      - 'Character'
+      - 'Abstract'
   - slug: 'aime'
     image_format: 'jpg'
     image_position: 'center 20%'
