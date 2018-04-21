@@ -37,6 +37,20 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'aime'
+    image_format: 'jpg'
+    image_position: 'center 20%'
+    title: 'AIME'
+    types:
+      - 'Illustration'
+      - 'Web Design'
+      - 'Character'
+  - slug: 'avatar-line'
+    image_format: 'jpg'
+    image_position: 'center 50%'
+    title: 'Avatar'
+    types:
+      - 'Illustration'
   - slug: 'xmas-2017'
     image_format: 'jpg'
     image_position: 'center 74%'

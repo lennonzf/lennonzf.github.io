@@ -37,12 +37,6 @@ input[type='submit'],
   &:focus {
     background-color: $blue;
     outline: 0;
-
-    &::before {
-      left: 0;
-      top: 0;
-      opacity: 1;
-    }
   }
 }
 
