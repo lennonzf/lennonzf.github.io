@@ -388,6 +388,28 @@ textarea {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Base
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 20px, 0); }
+  to {
+    -webkit-transform: none;
+            transform: none; } }
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 20px, 0); }
+  to {
+    -webkit-transform: none;
+            transform: none; } }
+.animation-slide-up {
+  -webkit-animation: slideInUp .8s, fadeIn 1.2s;
+          animation: slideInUp .8s, fadeIn 1.2s; }
+
+.animation-slide-up-long {
+  -webkit-animation: slideInUp 1.5s, fadeIn 1.5s;
+          animation: slideInUp 1.5s, fadeIn 1.5s; }
+
 /* Color Collection
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Color Helper Mixin
