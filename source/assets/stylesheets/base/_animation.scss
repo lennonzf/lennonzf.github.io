@@ -1,0 +1,17 @@
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.animation-slide-up {
+  animation: slideInUp .8s, fadeIn 1.2s;
+}
+
+.animation-slide-up-long {
+  animation: slideInUp 1.5s, fadeIn 1.5s;
+}
