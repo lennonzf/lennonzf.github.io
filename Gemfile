@@ -16,7 +16,7 @@ gem 'middleman-autoprefixer'
 gem 'middleman-blog'
 gem "middleman-sprockets", github: "middleman/middleman-sprockets", branch: "master"
 gem 'middleman-syntax'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.8.2'
 
 # Deploy
 gem 'middleman-gh-pages'
