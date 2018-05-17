@@ -1,17 +1,16 @@
 /*
 Error: Undefined variable: "$desktop".
-        on line 2 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss
+        on line 1 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss
 
-1: 
-2: @media screen and (min-width: $desktop) {
-3:   .content:after {
-4:     content: image-url("asset.jpg");
-5:     position: absolute;
-6:     top: 50%;
-7:     transform: translateY(-50%);
+1: @media screen and (min-width: $desktop) {
+2:   .content:after {
+3:     content: image-url("asset.jpg");
+4:     position: absolute;
+5:     top: 50%;
+6:     transform: translateY(-50%);
 
 Backtrace:
-/Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss:2
+/Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss:1
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:542:in `block in run_interp_no_strip'
@@ -131,4 +130,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$desktop\".\A         on line 2 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss\A \A 1: \A 2: @media screen and (min-width: $desktop) {\A 3:   .content:after {\A 4:     content: image-url(\"asset.jpg\");\A 5:     position: absolute;\A 6:     top: 50%;\A 7:     transform: translateY(-50%);"; }
+  content: "Error: Undefined variable: \"$desktop\".\A         on line 1 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss\A \A 1: @media screen and (min-width: $desktop) {\A 2:   .content:after {\A 3:     content: image-url(\"asset.jpg\");\A 4:     position: absolute;\A 5:     top: 50%;\A 6:     transform: translateY(-50%);"; }
