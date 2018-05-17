@@ -1,0 +1,73 @@
+---
+title: Work - REX Blog | Lennon Cheng - UI/UX Designer, Front-end Developer
+---
+.flex-auto
+  .container.max-w600px
+    %h1.center-align REX Blog
+
+    .article-paragraph-h2
+      %h2 Intro
+      %p
+        This April (2018), I decided to lift my illustration game a little by stepping outside my comfort zone and doing some freelance. Luckily, I got REX as my first client via a friend I met at a meetup.
+
+      %p
+        = external_link_to 'REX',
+        'https://www.rexsoftware.com/',
+        class: ''
+        is a product house who develops Real estate CRM software. I was asked to create some featured illustration for their
+        = external_link_to 'blog',
+        'https://www.rexsoftware.com/blog',
+        class: ''
+        %span .
+
+    .article-paragraph-h2
+      %h2 Colors
+      %p I came across this color palette and decided to adopt it for (most of) the illustrations .
+
+      .flex.flex-wrap.justify-between
+        .c1in2.card
+          .card-header #e76b60
+          .p8.bg-rex-white
+        .c1in2.card
+          .card-header #19495A
+          .p8.bg-rex-orange
+        .c1in2.card
+          .card-header #F99D1C
+          .p8.bg-rex-blue-light
+        .c1in2.card
+          .card-header #F99D1C
+          .p8.bg-rex-blue-dark
+
+    .article-paragraph-h2
+      %h2 Work
+
+      .article-paragraph-h3
+        %h3 Office in London
+        = image_link '/assets/images/projects/rex/REX-moves-in-to-the-UK.png',
+          class: 'frame-dotted'
+
+      .article-paragraph-h3
+        %h3 Conference
+        = image_link '/assets/images/projects/rex/REX-tech-conference-calendar.png',
+          class: 'frame-dotted'
+
+      .article-paragraph-h3
+        %h3 VR & AR
+        = image_link '/assets/images/projects/rex/Rex-get-on-board-with-virtual-tours.png',
+          class: 'frame-dotted'
+
+        = image_link '/assets/images/projects/rex/Rex-get-on-board-with-virtual-tours-v2.png',
+          class: 'frame-dotted'
+
+      .article-paragraph-h3
+        %h3 Bitcoin
+        = image_link '/assets/images/projects/rex/REX-buying-with-Bitcoin.png',
+          class: 'frame-dotted'
+
+    .article-paragraph-h2
+      .flex.justify-center
+        = external_link_to "Dribbble Project",
+          'https://dribbble.com/lennonzf/projects/703560-REX-Blog',
+          class: 'button'
+
+    = partial 'partials/back_to_work'

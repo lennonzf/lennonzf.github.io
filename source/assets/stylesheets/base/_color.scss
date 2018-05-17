@@ -13,7 +13,11 @@ $color-collection:       ($white,
                           $blue-o8,
                           $mda-brand,
                           $mda-brand-tint,
-                          $mda-brand-highlight);
+                          $mda-brand-highlight,
+                          $rex-orange,
+                          $rex-white,
+                          $rex-blue-light,
+                          $rex-blue-dark);
 
 $color-name-collection:  ("white",
                           "black",
@@ -28,7 +32,11 @@ $color-name-collection:  ("white",
                           "blue-o8",
                           "mda-brand",
                           "mda-brand-tint",
-                          "mda-brand-highlight");
+                          "mda-brand-highlight",
+                          "rex-orange",
+                          "rex-white",
+                          "rex-blue-light",
+                          "rex-blue-dark");
 
 /* Color Helper Mixin
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

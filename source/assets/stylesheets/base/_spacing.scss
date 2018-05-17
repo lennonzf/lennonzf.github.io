@@ -24,7 +24,7 @@ small {
 
 /* Spacings Helper
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@for $i from 0 through 20 {
+@for $i from 0 through 35 {
   // Padding
   @include r(p#{$i})  { padding: #{$i / 2}rem; }
   @include r(py#{$i}) { padding-top: #{$i / 2}rem; padding-bottom: #{$i / 2}rem; }
