@@ -37,6 +37,12 @@ studies:
     image_position: 'center bottom'
 
 creations:
+  - slug: 'rex'
+    image_format: 'png'
+    image_position: 'center 50%'
+    title: 'REX Blog'
+    types:
+      - 'Illustration'
   - slug: 'quarter-theme'
     image_format: 'jpg'
     image_position: 'center 0%'
