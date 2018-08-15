@@ -6,7 +6,8 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -368,7 +369,9 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* Roboto
+/* Lato
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Playfair Display
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Color Variable
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -565,22 +568,22 @@ textarea {
 .work-tile:hover p.article-info-board, .wclco .wclco-work-tile:hover h3.text-black,
 .wclco .wclco-work-tile:hover p.text-grey-dark,
 .wclco .wclco-work-tile:hover p.article-info-board {
-  color: #4DBDFF; }
+  color: #4769AC; }
 
 .text-blue-hover:hover {
-  color: #4DBDFF; }
+  color: #4769AC; }
 
 .bg-blue, .card-header.bg-blue {
-  background-color: #4DBDFF; }
+  background-color: #4769AC; }
 
 .bg-blue-hover:hover {
-  background-color: #4DBDFF; }
+  background-color: #4769AC; }
 
 .border-blue, .card.border-blue, .border-blue.article-info-board {
-  border-color: #4DBDFF; }
+  border-color: #4769AC; }
 
 .border-blue-hover:hover {
-  border-color: #4DBDFF; }
+  border-color: #4769AC; }
 
 .text-black-o3 {
   color: rgba(26, 26, 26, 0.3); }
@@ -915,9 +918,6 @@ textarea {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1; } }
-.roboto {
-  font-family: Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif; }
-
 /* Manteka
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
@@ -926,11 +926,17 @@ textarea {
 .manteka, .box, a.box {
   font-family: "Manteka", Helvetica, sans-serif; }
 
+.serif {
+  font-family: 'Playfair Display', serif; }
+
+.sans {
+  font-family: 'Lato', sans-serif; }
+
 /* Font Size
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1,
 .font-title {
-  font-size: 3.6rem; }
+  font-size: 5.4rem; }
   @media screen and (max-width: 768px) {
     h1,
     .font-title {
@@ -1060,11 +1066,12 @@ body {
   width: 100%;
   margin: 0 auto;
   font-size: 1.6rem;
-  font-family: Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #1A1A1A;
+  color: #223149;
   box-sizing: border-box;
+  background-color: #FFF8F2;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1156,7 +1163,7 @@ h6 {
   line-height: 1.25; }
 
 h2 {
-  color: #4DBDFF; }
+  color: #4769AC; }
 
 h3 {
   color: #9B9B9B; }
@@ -1203,7 +1210,7 @@ input[type="date"] {
   input[type="email"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus {
-    border-color: #4DBDFF;
+    border-color: #4769AC;
     -webkit-transition: border-color 0.2s;
     transition: border-color 0.2s; }
     input[type="text"]:focus ~ label,
@@ -1250,7 +1257,7 @@ textarea {
   outline: none; }
   select:focus,
   textarea:focus {
-    border-color: #4DBDFF;
+    border-color: #4769AC;
     -webkit-transition: border-color 0.2s;
     transition: border-color 0.2s; }
     select:focus ~ label,
@@ -1264,7 +1271,7 @@ textarea {
 /* Hyperlink
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #4DBDFF;
+  color: #E76B60;
   text-decoration: none;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
@@ -1274,20 +1281,8 @@ a {
   a:link, a:hover, a:visited, a:active {
     text-decoration: none; }
   a:hover {
-    color: #1A1A1A;
+    color: #223149;
     outline: 0; }
-
-[href*="//"] {
-  padding-right: 12px; }
-  [href*="//"]::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: url(/assets/images/anchor.svg) no-repeat;
-    background-size: contain;
-    margin-left: 3px;
-    margin-top: 6px; }
 
 .no-external {
   padding-right: 0; }
@@ -1419,10 +1414,10 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ::-moz-selection {
   color: #FFFFFF;
-  background-color: #4DBDFF; }
+  background-color: #4769AC; }
 ::selection {
   color: #FFFFFF;
-  background-color: #4DBDFF; }
+  background-color: #4769AC; }
 
 .no-select, .box, a.box {
   -webkit-touch-callout: none;
@@ -1545,6 +1540,9 @@ input[type='submit']::before, a.box, .work-tile .image, .work-tile:hover, .work-
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .min-h100vh {
   min-height: 100vh; }
+
+.min-h100px {
+  min-height: 100px; }
 
 /* Width
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -8287,6 +8285,9 @@ small {
 .capitalize {
   text-transform: capitalize; }
 
+.letter-spacing {
+  letter-spacing: 0.3rem; }
+
 /* Button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
@@ -8316,7 +8317,7 @@ input[type='submit'] {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #4DBDFF;
+    background-color: #4769AC;
     opacity: 0.5;
     left: 3px;
     top: 3px;
@@ -8332,7 +8333,7 @@ input[type='submit'] {
   input[type='reset']:focus,
   input[type='submit']:hover,
   input[type='submit']:focus {
-    background-color: #4DBDFF;
+    background-color: #4769AC;
     outline: 0; }
 
 .button,
@@ -8381,7 +8382,7 @@ button {
     position: absolute;
     height: 107%;
     width: 103.5%;
-    background-color: #4DBDFF;
+    background-color: #4769AC;
     left: 4px;
     top: 4px;
     z-index: -1; }
@@ -8402,7 +8403,7 @@ a.box {
     border: 3px solid #1A1A1A;
     color: black; }
     a.box:hover::before {
-      background-color: #4DBDFF; }
+      background-color: #4769AC; }
 
 .box-logo::before {
   height: 108%;
@@ -8458,7 +8459,7 @@ ol.side-nav {
     ol.side-nav li input:checked ~ ol {
       display: none; }
     ol.side-nav li input:checked ~ label:before {
-      background-color: #4DBDFF;
+      background-color: #4769AC;
       content: "+";
       margin-left: 0.5rem;
       padding: 0 0.45rem; }
@@ -8485,11 +8486,11 @@ ol.side-nav {
       top: 0;
       left: 0; }
   .work-tile:hover {
-    border: 1px dotted #4DBDFF; }
+    border: 1px dotted #4769AC; }
     .work-tile:hover .image {
       -webkit-transform: translateY(-3px);
               transform: translateY(-3px);
-      border-top: 3px solid #4DBDFF; }
+      border-top: 3px solid #4769AC; }
     .work-tile:hover .image::after {
       opacity: 0; }
 
@@ -8498,14 +8499,14 @@ ol.side-nav {
   .work-tile.key .image {
     height: 220px;
     margin-top: -110px;
-    border-top: 3px solid #4DBDFF; }
+    border-top: 3px solid #4769AC; }
   .work-tile.key .image::after {
     opacity: 0; }
   .work-tile.key u {
-    border-bottom: 2px solid #4DBDFF; }
+    border-bottom: 2px solid #4769AC; }
   .work-tile.key::before {
     content: '';
-    background-color: #4DBDFF;
+    background-color: #4769AC;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -8520,16 +8521,15 @@ ol.side-nav {
 
 /* Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (min-width: 1024px) {
-  .content:after {
-    content: url(/assets/images/asset.jpg);
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    right: 2rem;
-    opacity: 0.2;
-    z-index: -1; } }
+.content {
+  background-image: url(/assets/images/pattern.png);
+  background-size: cover; }
+
+.divide {
+  width: 20px;
+  height: 2px;
+  background-color: #4769AC; }
+
 @-webkit-keyframes circle_1 {
   0% {
     -webkit-transform: translateY(30px);
@@ -8540,6 +8540,7 @@ ol.side-nav {
   100% {
     -webkit-transform: translateY(30px);
             transform: translateY(30px); } }
+
 @keyframes circle_1 {
   0% {
     -webkit-transform: translateY(30px);
@@ -8669,11 +8670,11 @@ ol.side-nav {
       top: 0;
       left: 0; }
   .wclco .wclco-work-tile:hover {
-    border: 1px dotted #4DBDFF; }
+    border: 1px dotted #4769AC; }
     .wclco .wclco-work-tile:hover .image {
       -webkit-transform: translateY(-3px);
               transform: translateY(-3px);
-      border-top: 3px solid #4DBDFF; }
+      border-top: 3px solid #4769AC; }
     .wclco .wclco-work-tile:hover .image::after {
       opacity: 0; }
 .wclco .wclco-work-tile.key {
@@ -8681,14 +8682,14 @@ ol.side-nav {
   .wclco .wclco-work-tile.key .image {
     height: 220px;
     margin-top: -110px;
-    border-top: 3px solid #4DBDFF; }
+    border-top: 3px solid #4769AC; }
   .wclco .wclco-work-tile.key .image::after {
     opacity: 0; }
   .wclco .wclco-work-tile.key u {
-    border-bottom: 2px solid #4DBDFF; }
+    border-bottom: 2px solid #4769AC; }
   .wclco .wclco-work-tile.key::before {
     content: '';
-    background-color: #4DBDFF;
+    background-color: #4769AC;
     height: 100%;
     width: 100%;
     position: absolute;

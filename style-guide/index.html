@@ -48,19 +48,7 @@
   </head>
 </html>
 <body class='flex flex-column min-h100vh relative sm-flex-column'>
-  <!-- Navigation -->
-  <div class='navigation container flex flex-wrap justify-between p2 mb3'>
-    <div class='flex flex-wrap u-clearfix pt3 sm-pt4'>
-      <a href="/" class="box box-logo">L</a>
-    </div>
-    <div class='flex flex-wrap pt4 items-center'>
-      <a href="/process" class="sm-font-small mr6 navigation-link ">PROCESS</a>
-      <a href="/work" class="sm-font-small mr6 navigation-link ">WORK</a>
-      <!-- = active_link_to 'BLOG', '/blog', -->
-      <!-- class: 'light ml6 sm-font-small' -->
-      <a href="/findme" class="button sm-font-small">FIND ME</a>
-    </div>
-  </div>
+  <!-- = partial 'partials/navigation' -->
   <div class='container max-w900px animation-slide-up'>
     <h1 class='center-align'>Style Guide</h1>
     <div class='flex justify-between sm-flex-column'>
@@ -763,25 +751,7 @@
       </div>
     </div>
   </div>
-  <!-- Footer -->
-  <div class='container flex flex-wrap justify-between content-center p2 pt3 pb3 w100 animation-slide-up-long'>
-    <div class='flex flex-wrap'>
-      <a href="//www.instagram.com/lennonzf/" target="_blank" class="nav mr1 sm-font-small no-external">INSTAGRAM</a>
-      <div class='light mr1 text-grey-light'>/</div>
-      <a href="//au.linkedin.com/in/lennonzf" target="_blank" class="nav mr1 sm-font-small no-external">LINKEDIN</a>
-      <div class='light mr1 text-grey-light'>/</div>
-      <a href="//dribbble.com/lennonzf" target="_blank" class="nav mr1 sm-font-small no-external">DRIBBBLE</a>
-      <div class='light mr1 text-grey-light md-hide lg-hide'>/</div>
-      <div class='sm-font-small text-grey md-hide lg-hide'>2016 &copy; LENNON CHENG</div>
-    </div>
-    <div class='flex flex-wrap text-grey sm-mt1 sm-hide'>
-      <a href="//github.com/lennonzf/lennonzf.github.io" target="_blank" class="nav mr1 sm-font-small no-external">SOURCE CODE</a>
-      <div class='light mr1 text-grey-light sm-font-small'>/</div>
-      <a href="/style-guide" target="_blank" class="nav mr1 sm-font-small">STYLE GUIDE</a>
-      <div class='light mr1 text-grey-light sm-font-small'>/</div>
-      <div class='sm-font-small'>2018 &copy; LENNON CHENG</div>
-    </div>
-  </div>
+  <!-- = partial 'partials/footer' -->
 </body>
 <script src="/assets/javascripts/all.js"></script>
 <!-- Google Analytics -->

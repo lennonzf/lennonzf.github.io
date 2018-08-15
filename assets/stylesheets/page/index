@@ -1,23 +1,31 @@
 /*
-Error: Undefined variable: "$desktop".
-        on line 1 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss
+Error: Undefined variable: "$blue".
+        on line 9 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss
 
-1: @media screen and (min-width: $desktop) {
-2:   .content:after {
-3:     content: image-url("asset.jpg");
-4:     position: absolute;
-5:     top: 50%;
-6:     transform: translateY(-50%);
+4: }
+5: 
+6: .divide {
+7:   width: 20px;
+8:   height: 2px;
+9:   background-color: $blue;
+10: }
 
 Backtrace:
-/Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss:1
+/Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss:9
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:542:in `block in run_interp_no_strip'
-/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:540:in `map'
-/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:540:in `run_interp_no_strip'
-/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:547:in `run_interp'
-/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:512:in `visit_media'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Users/lennoncheng/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -130,4 +138,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$desktop\".\A         on line 1 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss\A \A 1: @media screen and (min-width: $desktop) {\A 2:   .content:after {\A 3:     content: image-url(\"asset.jpg\");\A 4:     position: absolute;\A 5:     top: 50%;\A 6:     transform: translateY(-50%);"; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 9 of /Users/lennoncheng/Documents/git/lennonzf.github.io/source/assets/stylesheets/page/index.scss\A \A 4: }\A 5: \A 6: .divide {\A 7:   width: 20px;\A 8:   height: 2px;\A 9:   background-color: $blue;\A 10: }"; }
