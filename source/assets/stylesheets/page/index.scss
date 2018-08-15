@@ -1,11 +1,10 @@
-@media screen and (min-width: $desktop) {
-  .content:after {
-    content: image-url("asset.jpg");
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 2rem;
-    opacity: 0.2;
-    z-index: -1;
-  }
+.content {
+  background-image: image-url("pattern.png");
+  background-size: cover;
+}
+
+.divide {
+  width: 20px;
+  height: 2px;
+  background-color: $blue;
 }
