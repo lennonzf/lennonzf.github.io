@@ -22,8 +22,9 @@ body {
   font-family: $font-sans;
   font-weight: 400;
   line-height: $line-height-large;
-  color: $black;
+  color: $navy;
   box-sizing: border-box;
+  background-color: $light;
   // Better text rendering
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

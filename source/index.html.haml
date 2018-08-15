@@ -1,26 +1,37 @@
 / Content
-.container.flex.flex-wrap.flex-auto.p2.u-relative.animation-slide-up
-  .content.flex.flex-auto.flex-column.max-w750px.self-center.px3.items-start
-    / .flex.flex-wrap.box Lennon
-    .box Lennon
-    .font-base.light.text-grey-dark.mt4.lg-mr6
-      UI/UX Designer & Project Manager at
-      = external_link_to 'NetEngine',
-        'http://netengine.com.au/',
-        class: ''
-    .font-larger.light.sm-mt2
-      I am a web app
-      %u designer
-      ,
-      %br
-      who
-      %u illustrate
-      ,
-      %u code
-      ,
-      %u tweak
-      %br.sm-hide
-      photos and
-      %u run
-      projects
-      %span .
+.flex.flex-wrap.flex-auto.u-relative.animation-slide-up
+  .c1in2.flex.flex-auto.flex-column.max-w750px.self-center.px3.items-center.sm-c1in1.py10
+    .flex.flex-column
+      .font-larger.uppercase.serif Lennon Cheng
+      .font-paragraph.mt5
+        Lead Designer and Project Manager
+        %br
+        @
+        %span
+          = external_link_to 'NetEngine',
+          'http://netengine.com.au/',
+          class: ''
+        %span.text-blue -
+        Brisbane, Australia
+      .mt7.divide
+      .font-larger.mt5
+        I design experience,
+        %br
+        = external_link_to 'illustrate',
+          'https://dribbble.com/lennonzf',
+          class: ''
+        thoughts,
+        %br
+        = external_link_to 'capture',
+          'https://www.instagram.com/lennonzf/',
+          class: ''
+        buildings and
+        %br
+        = external_link_to 'develop',
+          'https://github.com/lennonzf/lennonzf.github.io',
+          class: ''
+        interfaces.
+      .font-smaller.uppercase.mt5.letter-spacing
+        = link_to "Find me",
+          'mailto: lennonzf.cheng@gmail.com'
+  .c1in2.content.sm-c1in1.min-h100px

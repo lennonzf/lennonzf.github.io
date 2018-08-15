@@ -1,6 +1,10 @@
-/* Roboto
+/* Lato
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Playfair Display
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
 /* Color Variable
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -16,6 +20,13 @@ $blue:                    #4DBDFF;
 
 $black-o3:                rgba($black, 0.3);
 $blue-o8:                 rgba($blue, 0.8);
+
+
+
+$orange:                  #E76B60;
+$light:                   #FFF8F2;
+$navy:                    #223149;
+$blue:                    #4769AC;
 
 
 /* Other Variable
@@ -41,9 +52,8 @@ $font-title:              $font-base * 3.375;   // 54px
 
 /* Line height
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-sans:               Roboto, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;
-$font-serif:              Georgia, "Times New Roman", Times, serif;
-$font-mono:               Monaco, Courier, monospace;
+$font-sans:               'Lato', sans-serif;
+$font-serif:              'Playfair Display', serif;
 $font-manteka:            "Manteka", Helvetica, sans-serif;
 
 /* Line height
