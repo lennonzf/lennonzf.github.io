@@ -12,16 +12,16 @@ $box-padding: 0.6rem;
   padding: $box-padding;
   position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    height: 107%;
-    width: 103.5%;
-    background-color: $blue;
-    left: 4px;
-    top: 4px;
-    z-index: -1;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   height: 107%;
+  //   width: 103.5%;
+  //   background-color: $blue;
+  //   left: 4px;
+  //   top: 4px;
+  //   z-index: -1;
+  // }
 }
 
 a.box {
@@ -31,16 +31,16 @@ a.box {
   border: 3px solid $grey-dark;
   color: $grey-dark;
 
-  &::before {
-    content: '';
-    position: absolute;
-    height: 108%;
-    width: 114%;
-    background-color: $grey-light;
-    left: 3px;
-    top: 3px;
-    z-index: -1;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   height: 108%;
+  //   width: 114%;
+  //   background-color: $grey-light;
+  //   left: 3px;
+  //   top: 3px;
+  //   z-index: -1;
+  // }
 
   &:hover {
     border: 3px solid $black;

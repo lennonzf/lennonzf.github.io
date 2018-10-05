@@ -34,6 +34,7 @@ page '/*.txt', layout: false
 page "/findme.html", layout: "layout"
 page "/work/*", layout: "scroll"
 page "/process.html", layout: "scroll"
+page "/style-guide.html", layout: "scroll"
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
