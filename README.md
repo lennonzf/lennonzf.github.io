@@ -20,7 +20,7 @@ Please note the development branch is `source-code`
     middleman deploy
 
 ## The Site
-**Site**: [http://lennonzf.com/](http://lennonzf.com/)
+**Site**: [http://lennonzf.me/](http://lennonzf.me/)
 
 **GP Pages Link**: [https://lennonzf.github.io/](https://lennonzf.github.io/)
 
